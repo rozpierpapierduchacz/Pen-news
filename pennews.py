@@ -99,11 +99,22 @@ def build_matchers(cfg):
     brands = []
     for b in cfg["brands"]:
         brands.append((b, re.compile(r"(?<![\w-])" + re.escape(b) + r"(?![\w]|-\w)", re.I), b.lower() in ambiguous))
-    return kw, brands, ctx
+    ex_title = re.compile(r"\b(?:" + "|".join(cfg.get("exclude_title_keywords", ["$^"])) + r")\b", re.I)
+    ex_text = re.compile(r"\b(?:" + "|".join(cfg.get("exclude_text_keywords", ["$^"])) + r")\b", re.I)
+    return kw, brands, ctx, ex_title, ex_text
+
+
+def evaluate(title: str, summary: str, matchers, only_releases: bool):
+    """Zwraca (zachowaj, is_release, marki). W trybie only_releases: tylko premiery, bez wykluczonych."""
+    kw, brands, ctx, ex_title, ex_text = matchers
+    is_release, found = classify(f"{title} {summary}", matchers)
+    excluded = bool(ex_title.search(title) or ex_text.search(f"{title} {summary}"))
+    keep = (is_release and not excluded) if only_releases else True
+    return keep, is_release and not excluded, found
 
 
 def classify(text: str, matchers):
-    kw, brands, ctx = matchers
+    kw, brands, ctx = matchers[:3]
     is_release = bool(kw.search(text))
     has_ctx = bool(ctx.search(text))
     found = []
@@ -139,7 +150,13 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
 
     entries_path = data_dir / "entries.json"
     first_run = not entries_path.exists()
-    stored = {e["uid"]: e for e in load_json(entries_path, [])}
+    only = bool(s.get("only_releases", False))
+    stored = {}
+    for e in load_json(entries_path, []):
+        keep, rel, brands = evaluate(e["title"], e.get("summary", ""), matchers, only)
+        if keep:  # zmiana słów kluczowych działa wstecz na całe archiwum
+            e["release"], e["brands"] = rel, brands
+            stored[e["uid"]] = e
     status = []
     added = 0
     cutoff = now - timedelta(days=s["retention_days"])
@@ -167,7 +184,9 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
                 published = entry_date(e, now)
                 if published < cutoff:
                     continue
-                is_release, brands = classify(f"{title} {summary}", matchers)
+                keep, is_release, brands = evaluate(title, summary, matchers, only)
+                if not keep:
+                    continue
                 stored[u] = {
                     "uid": u,
                     "source": name,
@@ -249,7 +268,7 @@ footer .bad{color:#c0392b}
 <h1>__TITLE__</h1>
 <p class="sub">Ostatnia aktualizacja: <span id="upd"></span> · <a href="feed.xml" style="color:var(--accent)">własny feed RSS (premiery)</a></p>
 <div class="bar">
-  <button id="f-all" aria-pressed="true">Wszystko</button>
+  <button id="f-all" aria-pressed="true">Wszystkie premiery</button>
   <button id="f-rel" aria-pressed="false">Premiery i edycje</button>
   <button id="f-new" aria-pressed="false">Nowe (__NEWH__ h)</button>
   <select id="brand"><option value="">Wszystkie marki</option></select>
@@ -263,6 +282,7 @@ footer .bad{color:#c0392b}
 const DATA = __DATA__;
 const STATUS = __STATUS__;
 const NEW_HOURS = __NEWH__;
+const ONLY_REL = __ONLYREL__;
 const now = Date.now();
 const $ = id => document.getElementById(id);
 let relOnly = false, newOnly = false;
@@ -272,6 +292,7 @@ function isNew(e){ return (now - Date.parse(e.first_seen)) < NEW_HOURS*3600*1000
 function el(tag, cls, text){ const n=document.createElement(tag); if(cls) n.className=cls; if(text!==undefined) n.textContent=text; return n; }
 
 $('upd').textContent = new Date(STATUS.last_run).toLocaleString('pl-PL');
+if(ONLY_REL){ $('f-rel').style.display='none'; }
 const brands = [...new Set(DATA.flatMap(e=>e.brands))].sort((a,b)=>a.localeCompare(b));
 const srcs = [...new Set(DATA.map(e=>e.source))].sort();
 brands.forEach(b=>{ const o=el('option',null,b); o.value=b; $('brand').append(o); });
@@ -325,6 +346,7 @@ def render_html(entries, status, now, cfg, path: Path) -> None:
     s = cfg["settings"]
     out = (PAGE.replace("__TITLE__", htmllib.escape(s["site_title"]))
                .replace("__NEWH__", str(int(s["new_hours"])))
+               .replace("__ONLYREL__", "true" if s.get("only_releases") else "false")
                .replace("__DATA__", _js_json(entries))
                .replace("__STATUS__", _js_json({"last_run": now.isoformat(), "sources": status})))
     path.write_text(out, encoding="utf-8")
