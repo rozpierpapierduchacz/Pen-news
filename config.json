@@ -155,7 +155,7 @@
     "coming soon",
     "pen of the year",
     "launch(es|ed|ing)?",
-    "announc(es|ed|ing|ement)",
+    "announc(es|ed|ing)",
     "unveil(s|ed|ing)?",
     "introduc(es|ed|ing)",
     "collab(oration)?s?",
@@ -308,6 +308,13 @@
   "exclude_text_keywords": [
     "giveaway",
     "sponsored by",
-    "affiliate"
+    "affiliate",
+    "restocks?",
+    "restocked",
+    "restocking",
+    "back in stock",
+    "back-in-stock",
+    "sold out",
+    "in stock again"
   ]
 }
