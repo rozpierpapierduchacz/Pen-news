@@ -92,39 +92,122 @@ def entry_date(e, now: datetime) -> datetime:
     return min(d, now)  # nie ufaj datom z przyszłości
 
 
+def _rx(words, default="$^"):
+    return re.compile(r"\b(?:" + "|".join(words or [default]) + r")\b", re.I)
+
+
 def build_matchers(cfg):
-    kw = re.compile(r"\b(?:" + "|".join(cfg["release_keywords"]) + r")\b", re.I)
     ambiguous = {b.lower() for b in cfg.get("ambiguous_brands", [])}
-    ctx = re.compile(r"\b(?:" + "|".join(map(re.escape, cfg.get("ambiguous_context_words", []))) + r")\b", re.I)
     brands = []
-    for b in cfg["brands"]:
-        brands.append((b, re.compile(r"(?<![\w-])" + re.escape(b) + r"(?![\w]|-\w)", re.I), b.lower() in ambiguous))
-    ex_title = re.compile(r"\b(?:" + "|".join(cfg.get("exclude_title_keywords", ["$^"])) + r")\b", re.I)
-    ex_text = re.compile(r"\b(?:" + "|".join(cfg.get("exclude_text_keywords", ["$^"])) + r")\b", re.I)
-    return kw, brands, ctx, ex_title, ex_text
+    for name in cfg["brands"]:
+        rx = re.compile(r"(?<![\w-])" + re.escape(name) + r"(?![\w]|-\w)", re.I)
+        brands.append((name, rx, name.lower() in ambiguous))
+    return {
+        # mocny sygnał nowości produktu (special/limited edition, new colorway, announces...)
+        "strong": _rx(cfg.get("strong_keywords") or cfg.get("release_keywords")),
+        # słaby sygnał: "new arrivals", "drops" (u sklepów oznacza często tylko dostawę do sklepu)
+        "weak": _rx(cfg.get("weak_keywords")),
+        # w tytule u sklepu: to raczej dosyłka, nawet jeśli jest mocne słowo
+        "demote": _rx(cfg.get("stock_demoters")),
+        "brands": brands,
+        "ctx": _rx([re.escape(w) for w in cfg.get("ambiguous_context_words", [])]),
+        "ex_title": _rx(cfg.get("exclude_title_keywords")),
+        "ex_text": _rx(cfg.get("exclude_text_keywords")),
+    }
 
 
-def evaluate(title: str, summary: str, matchers, only_releases: bool):
-    """Zwraca (zachowaj, is_release, marki). W trybie only_releases: tylko premiery, bez wykluczonych."""
-    kw, brands, ctx, ex_title, ex_text = matchers
-    is_release, found = classify(f"{title} {summary}", matchers)
-    excluded = bool(ex_title.search(title) or ex_text.search(f"{title} {summary}"))
-    keep = (is_release and not excluded) if only_releases else True
-    return keep, is_release and not excluded, found
-
-
-def classify(text: str, matchers):
-    kw, brands, ctx = matchers[:3]
-    is_release = bool(kw.search(text))
-    has_ctx = bool(ctx.search(text))
+def find_brands(text: str, m):
+    has_ctx = bool(m["ctx"].search(text))
     found = []
-    for name, rx, amb in brands:
+    for name, rx, amb in m["brands"]:
         if rx.search(text) and (not amb or has_ctx):
             canon = "Nahvalur" if name == "Narwhal" else "HongDian" if name == "Hong Dian" else \
                     "YSTUDIO" if name == "Ystudio" else name
             if canon not in found:
                 found.append(canon)
-    return is_release, found
+    return found
+
+
+def evaluate(title: str, summary: str, m, only_releases: bool, retailer: bool = False):
+    """Zwraca (zachowaj, tier, marki). tier: "release" | "stock" | None.
+
+    Blogi i producenci: mocne lub słabe słowo => premiera.
+    Sklepy (retailer): mocne słowo w tytule => premiera (chyba że tytuł brzmi jak dosyłka);
+    samo "new arrivals/drops" albo mocne słowo tylko w opisie => "stock" (dostawa sklepowa).
+    Wykluczenia (review, vs, best, restock...) mają zawsze pierwszeństwo.
+    """
+    text = f"{title} {summary}"
+    found = find_brands(text, m)
+    if m["ex_title"].search(title) or m["ex_text"].search(text):
+        tier = None
+    else:
+        s_title, s_text = bool(m["strong"].search(title)), bool(m["strong"].search(text))
+        w_title, w_text = bool(m["weak"].search(title)), bool(m["weak"].search(text))
+        if retailer:
+            if s_title and not m["demote"].search(title):
+                tier = "release"
+            elif s_title or s_text or w_title:
+                tier = "stock"
+            else:
+                tier = None
+        else:
+            tier = "release" if (s_text or w_text) else None
+    if not only_releases:
+        return True, tier or "release", found
+    return tier is not None, tier, found
+
+
+A_RE = re.compile(r"<a\s[^>]*?href=[\"']([^\"'#][^\"']*)[\"'][^>]*>(.*?)</a>", re.I | re.S)
+ALT_RE = re.compile(r"alt=[\"']([^\"']+)[\"']", re.I)
+GENERIC_TITLES = {"read more", "more", "learn more", "shop now", "view", "details", "buy now",
+                  "czytaj więcej", "więcej", "zobacz więcej", "kup teraz"}
+
+
+def _host(u: str) -> str:
+    h = urlparse(u).netloc.lower()
+    return h[4:] if h.startswith("www.") else h
+
+
+def page_candidates(feed, timeout: int, now: datetime):
+    """Strona bez RSS: wyciąga linki do wpisów. Nowe linki wykrywa potem stan (entries.json)."""
+    url = feed["url"]
+    base = feed.get("base_url") or url          # base_url głównie do testów lokalnych
+    page = fetch(url, timeout).decode("utf-8", errors="replace")
+    pat = re.compile(feed["link_pattern"]) if feed.get("link_pattern") else None
+    min_words = int(feed.get("min_title_words", 4))  # krótkie linki to zwykle menu ("New Arrivals")
+    seen, out = set(), []
+    for href, inner in A_RE.findall(page):
+        link = urljoin(base, htmllib.unescape(href.strip())).split("#")[0]
+        if urlparse(link).scheme not in ("http", "https") or _host(link) != _host(base):
+            continue
+        if link.rstrip("/") == base.rstrip("/") or link in seen or (pat and not pat.search(link)):
+            continue
+        title = clean_text(inner, 200)
+        if not title:
+            m = ALT_RE.search(inner)
+            title = clean_text(m.group(1), 200) if m else ""
+        if title.lower() in GENERIC_TITLES or len(title.split()) < min_words:
+            continue
+        img = IMG_RE.search(inner)
+        seen.add(link)
+        out.append({"id": link, "link": link, "title": title, "body": "",
+                    "image": urljoin(base, img.group(1)) if img else "", "published": now})
+    return out
+
+
+def feed_candidates(feed, timeout: int, now: datetime):
+    if feed.get("type") == "page":
+        return page_candidates(feed, timeout, now)
+    parsed = feedparser.parse(fetch(feed["url"], timeout))
+    if parsed.bozo and not parsed.entries:
+        raise ValueError(f"nie wygląda na poprawny feed ({parsed.bozo_exception})")
+    out = []
+    for e in parsed.entries:
+        link = e.get("link", "")
+        body = e.get("summary", "") or " ".join(c.get("value", "") for c in e.get("content", []) or [])
+        out.append({"id": e.get("id") or link, "link": link, "title": e.get("title", ""), "body": body,
+                    "image": entry_image(e), "published": entry_date(e, now)})
+    return out
 
 
 def uid(source: str, raw_id: str) -> str:
@@ -151,11 +234,13 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
     entries_path = data_dir / "entries.json"
     first_run = not entries_path.exists()
     only = bool(s.get("only_releases", False))
+    retailer_by_source = {f["name"]: bool(f.get("retailer", False)) for f in cfg["feeds"]}
     stored = {}
     for e in load_json(entries_path, []):
-        keep, rel, brands = evaluate(e["title"], e.get("summary", ""), matchers, only)
+        keep, tier, brands = evaluate(e["title"], e.get("summary", ""), matchers, only,
+                                      retailer_by_source.get(e.get("source"), False))
         if keep:  # zmiana słów kluczowych działa wstecz na całe archiwum
-            e["release"], e["brands"] = rel, brands
+            e["tier"], e["release"], e["brands"] = tier, tier == "release", brands
             stored[e["uid"]] = e
     status = []
     added = 0
@@ -166,25 +251,21 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
             continue
         name, url = feed["name"], feed["url"]
         try:
-            parsed = feedparser.parse(fetch(url, s["request_timeout"]))
-            if parsed.bozo and not parsed.entries:
-                raise ValueError(f"nie wygląda na poprawny feed ({parsed.bozo_exception})")
             count = 0
-            for e in parsed.entries:
-                link = e.get("link", "")
+            for c in feed_candidates(feed, s["request_timeout"], now):
+                link = c["link"]
                 if urlparse(link).scheme not in ("http", "https"):
                     continue
-                u = uid(name, e.get("id") or link)
+                u = uid(name, c["id"])
                 count += 1
                 if u in stored:
                     continue
-                title = clean_text(e.get("title", ""), 200) or "(bez tytułu)"
-                body = e.get("summary", "") or " ".join(c.get("value", "") for c in e.get("content", []) or [])
-                summary = clean_text(body, s["max_summary_chars"])
-                published = entry_date(e, now)
+                title = clean_text(c["title"], 200) or "(bez tytułu)"
+                summary = clean_text(c["body"], s["max_summary_chars"])
+                published = c["published"]
                 if published < cutoff:
                     continue
-                keep, is_release, brands = evaluate(title, summary, matchers, only)
+                keep, tier, brands = evaluate(title, summary, matchers, only, bool(feed.get("retailer", False)))
                 if not keep:
                     continue
                 stored[u] = {
@@ -193,11 +274,12 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
                     "title": title,
                     "link": link,
                     "summary": summary,
-                    "image": entry_image(e),
+                    "image": c["image"],
                     "published": published.isoformat(),
                     # przy pierwszym uruchomieniu nic nie świeci się jako "nowe"
                     "first_seen": (published if first_run else now).isoformat(),
-                    "release": is_release,
+                    "tier": tier,
+                    "release": tier == "release",
                     "brands": brands,
                 }
                 added += 1
@@ -268,8 +350,8 @@ footer .bad{color:#c0392b}
 <h1>__TITLE__</h1>
 <p class="sub">Ostatnia aktualizacja: <span id="upd"></span> · <a href="feed.xml" style="color:var(--accent)">własny feed RSS (premiery)</a></p>
 <div class="bar">
-  <button id="f-all" aria-pressed="true">Wszystkie premiery</button>
-  <button id="f-rel" aria-pressed="false">Premiery i edycje</button>
+  <button id="f-all" aria-pressed="true">Premiery</button>
+  <button id="f-rel" aria-pressed="false">+ dostawy sklepowe</button>
   <button id="f-new" aria-pressed="false">Nowe (__NEWH__ h)</button>
   <select id="brand"><option value="">Wszystkie marki</option></select>
   <select id="src"><option value="">Wszystkie źródła</option></select>
@@ -285,14 +367,15 @@ const NEW_HOURS = __NEWH__;
 const ONLY_REL = __ONLYREL__;
 const now = Date.now();
 const $ = id => document.getElementById(id);
-let relOnly = false, newOnly = false;
+let showStock = false, newOnly = false;
 
 function safeUrl(u){ try{ const x = new URL(u); return (x.protocol==='http:'||x.protocol==='https:') ? x.href : '#'; }catch(e){ return '#'; } }
 function isNew(e){ return (now - Date.parse(e.first_seen)) < NEW_HOURS*3600*1000; }
 function el(tag, cls, text){ const n=document.createElement(tag); if(cls) n.className=cls; if(text!==undefined) n.textContent=text; return n; }
 
 $('upd').textContent = new Date(STATUS.last_run).toLocaleString('pl-PL');
-if(ONLY_REL){ $('f-rel').style.display='none'; }
+const stockN = DATA.filter(e=>e.tier==='stock').length;
+$('f-rel').textContent = '+ dostawy sklepowe ('+stockN+')';
 const brands = [...new Set(DATA.flatMap(e=>e.brands))].sort((a,b)=>a.localeCompare(b));
 const srcs = [...new Set(DATA.map(e=>e.source))].sort();
 brands.forEach(b=>{ const o=el('option',null,b); o.value=b; $('brand').append(o); });
@@ -301,7 +384,7 @@ srcs.forEach(s=>{ const o=el('option',null,s); o.value=s; $('src').append(o); })
 function render(){
   const q = $('q').value.trim().toLowerCase(), b = $('brand').value, s = $('src').value;
   const rows = DATA.filter(e =>
-    (!relOnly || e.release) && (!newOnly || isNew(e)) && (!b || e.brands.includes(b)) && (!s || e.source===s) &&
+    (showStock || e.tier!=='stock') && (!newOnly || isNew(e)) && (!b || e.brands.includes(b)) && (!s || e.source===s) &&
     (!q || (e.title+' '+e.summary).toLowerCase().includes(q)));
   const box = $('list'); box.replaceChildren();
   if(!rows.length){ box.append(el('div','empty','Brak wpisów dla tych filtrów.')); return; }
@@ -315,14 +398,14 @@ function render(){
     if(e.summary) body.append(el('p','p',e.summary));
     const chips = el('div','chips');
     if(isNew(e)) chips.append(el('span','chip new','nowe'));
-    if(e.release) chips.append(el('span','chip rel','premiera / edycja'));
+    if(e.tier==='stock') chips.append(el('span','chip','dostawa sklepowa')); else chips.append(el('span','chip rel','premiera / edycja'));
     e.brands.forEach(x=>chips.append(el('span','chip',x)));
     body.append(chips); card.append(body); box.append(card);
   });
 }
-function setBtn(){ $('f-all').setAttribute('aria-pressed', !relOnly&&!newOnly); $('f-rel').setAttribute('aria-pressed', relOnly); $('f-new').setAttribute('aria-pressed', newOnly); }
-$('f-all').onclick=()=>{relOnly=false;newOnly=false;setBtn();render();};
-$('f-rel').onclick=()=>{relOnly=!relOnly;setBtn();render();};
+function setBtn(){ $('f-all').setAttribute('aria-pressed', !showStock&&!newOnly); $('f-rel').setAttribute('aria-pressed', showStock); $('f-new').setAttribute('aria-pressed', newOnly); }
+$('f-all').onclick=()=>{showStock=false;newOnly=false;setBtn();render();};
+$('f-rel').onclick=()=>{showStock=!showStock;setBtn();render();};
 $('f-new').onclick=()=>{newOnly=!newOnly;setBtn();render();};
 ['brand','src'].forEach(i=>$(i).onchange=render); $('q').oninput=render;
 
@@ -354,7 +437,7 @@ def render_html(entries, status, now, cfg, path: Path) -> None:
 
 def render_rss(entries, now, cfg, path: Path) -> None:
     items = []
-    for e in [x for x in entries if x["release"]][:50]:
+    for e in [x for x in entries if x.get("tier", "release") == "release"][:50]:
         d = datetime.fromisoformat(e["published"])
         cats = "".join(f"<category>{xml_escape(b)}</category>" for b in e["brands"])
         items.append(

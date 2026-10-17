@@ -12,162 +12,165 @@
       "name": "The Pelikan's Perch (Pelikan)",
       "url": "https://thepelikansperch.com/feed/",
       "enabled": true,
-      "origin": "feedspot"
+      "origin": "feedspot",
+      "retailer": false
     },
     {
       "name": "The Pen Addict",
       "url": "https://www.penaddict.com/blog?format=RSS",
       "enabled": true,
-      "origin": "feedspot"
+      "origin": "feedspot",
+      "retailer": false
     },
     {
       "name": "The Well-Appointed Desk",
       "url": "https://www.wellappointeddesk.com/feed/",
       "enabled": true,
-      "origin": "feedspot"
+      "origin": "feedspot",
+      "retailer": false
     },
     {
       "name": "Edjelley",
       "url": "https://edjelley.com/feed/",
       "enabled": true,
-      "origin": "feedspot"
+      "origin": "feedspot",
+      "retailer": false
     },
     {
       "name": "Fountain Pen Blog (Rupert Arzeian)",
       "url": "https://rupertarzeian.com/feed/",
       "enabled": true,
-      "origin": "feedspot"
+      "origin": "feedspot",
+      "retailer": false
     },
     {
       "name": "Follow My Pen",
       "url": "https://www.followmypenblog.com/feed/",
       "enabled": true,
-      "origin": "feedspot"
+      "origin": "feedspot",
+      "retailer": false
     },
     {
       "name": "Dappr",
       "url": "https://dappr.net/feed/",
       "enabled": true,
-      "origin": "zgadnięty"
+      "origin": "zgadnięty",
+      "retailer": false
     },
     {
       "name": "The Gentleman Stationer",
       "url": "https://www.gentlemanstationer.com/blog?format=rss",
       "enabled": true,
-      "origin": "zgadnięty"
+      "origin": "zgadnięty",
+      "retailer": true
     },
     {
       "name": "Goulet Pens (blog)",
       "url": "https://www.gouletpens.com/blogs/fountain-pen-blog.atom",
       "enabled": true,
-      "origin": "struktura"
+      "origin": "struktura",
+      "retailer": true
     },
     {
       "name": "Pen Boutique",
       "url": "https://www.penboutique.com/blogs/blog.atom",
       "enabled": true,
-      "origin": "struktura"
+      "origin": "struktura",
+      "retailer": true
     },
     {
       "name": "JetPens",
       "url": "https://www.jetpens.com/blog/feed",
       "enabled": true,
-      "origin": "feedspot"
+      "origin": "feedspot",
+      "retailer": true
     },
     {
       "name": "Pen Chalet",
       "url": "https://www.penchalet.com/blog/feed/",
       "enabled": true,
-      "origin": "feedspot"
+      "origin": "feedspot",
+      "retailer": true
     },
     {
       "name": "EndlessPens (Sunday Scribble)",
       "url": "https://endlesspens.com/blogs/the-sunday-scribble.atom",
       "enabled": true,
-      "origin": "feedspot"
+      "origin": "feedspot",
+      "retailer": true
     },
     {
       "name": "EndlessPens (Endless Journal)",
       "url": "https://endlesspens.com/blogs/endless-journal.atom",
       "enabled": true,
-      "origin": "struktura"
+      "origin": "struktura",
+      "retailer": true
     },
     {
       "name": "Truphae (Visconti, Montegrappa, Montblanc, Esterbrook)",
       "url": "https://www.truphaeinc.com/blogs/news.atom",
       "enabled": true,
-      "origin": "feedspot"
+      "origin": "feedspot",
+      "retailer": true
     },
     {
       "name": "Goldspot Pens",
       "url": "https://goldspot.com/blogs/magazine.atom",
       "enabled": true,
-      "origin": "struktura"
+      "origin": "struktura",
+      "retailer": true
     },
     {
       "name": "Pure Pens (UK)",
       "url": "https://www.purepens.co.uk/blogs/news.atom",
       "enabled": true,
-      "origin": "struktura"
+      "origin": "struktura",
+      "retailer": true
     },
     {
       "name": "Fontoplumo (NL)",
       "url": "https://fontoplumo.nl/blogs/news.atom",
       "enabled": true,
-      "origin": "struktura"
+      "origin": "struktura",
+      "retailer": true
     },
     {
       "name": "Anderson Pens",
       "url": "https://blog.andersonpens.com/feed/",
       "enabled": true,
-      "origin": "feedspot"
+      "origin": "feedspot",
+      "retailer": true
     },
     {
       "name": "Pen Place",
       "url": "https://www.penplace.com/blogs/pen-place-blog.atom",
       "enabled": true,
-      "origin": "feedspot"
+      "origin": "feedspot",
+      "retailer": true
     },
     {
       "name": "Nahvalur",
       "url": "https://nahvalur.com/blogs/news.atom",
       "enabled": true,
-      "origin": "struktura"
+      "origin": "struktura",
+      "retailer": false
+    },
+    {
+      "name": "Inkstable",
+      "url": "https://inkstable.com/feed/",
+      "enabled": true,
+      "origin": "zgadnięty",
+      "retailer": false
+    },
+    {
+      "name": "Pelikan Passion (strona marki)",
+      "type": "page",
+      "url": "https://pelikan-passion.com/",
+      "min_title_words": 3,
+      "enabled": true,
+      "retailer": false,
+      "origin": "strona istnieje (widziałem jej treść), nie wiem czy kafelki z nowościami są w surowym HTML"
     }
-  ],
-  "release_keywords": [
-    "limited editions?",
-    "special editions?",
-    "limited run",
-    "new colou?rs?",
-    "new colou?rways?",
-    "colou?rways?",
-    "new ink",
-    "new inks",
-    "new releases?",
-    "new arrivals?",
-    "new arrival",
-    "just released",
-    "just dropped",
-    "now available",
-    "now in stock",
-    "pre-?orders?",
-    "coming soon",
-    "pen of the year",
-    "launch(es|ed|ing)?",
-    "announc(es|ed|ing)",
-    "unveil(s|ed|ing)?",
-    "introduc(es|ed|ing)",
-    "collab(oration)?s?",
-    "drops?",
-    "edycja limitowana",
-    "edycje limitowane",
-    "wydanie specjalne",
-    "nowy kolor",
-    "nowe kolory",
-    "nowość",
-    "nowości",
-    "premiera"
   ],
   "brands": [
     "Asvine",
@@ -316,5 +319,53 @@
     "back-in-stock",
     "sold out",
     "in stock again"
+  ],
+  "strong_keywords": [
+    "limited editions?",
+    "special editions?",
+    "limited run",
+    "new colou?rs?",
+    "new colou?rways?",
+    "colou?rways?",
+    "new inks?",
+    "new releases?",
+    "just released",
+    "pen of the year",
+    "pre-?orders?",
+    "launch(es|ed|ing)?",
+    "announc(es|ed|ing)",
+    "unveil(s|ed|ing)?",
+    "introduc(es|ed|ing)",
+    "collab(oration)?s?",
+    "debut(s|ed)?",
+    "brand new",
+    "all-new",
+    "new for 20\\d\\d",
+    "20\\d\\d (edition|collection|release)",
+    "edycja limitowana",
+    "edycje limitowane",
+    "wydanie specjalne",
+    "nowy kolor",
+    "nowe kolory",
+    "premiera"
+  ],
+  "weak_keywords": [
+    "new arrivals?",
+    "drops?",
+    "just dropped",
+    "now available",
+    "now in stock",
+    "coming soon",
+    "nowość",
+    "nowości"
+  ],
+  "stock_demoters": [
+    "remaining",
+    "back in",
+    "now carrying",
+    "we now carry",
+    "in all colou?rs",
+    "in both colou?rs",
+    "still available"
   ]
 }
