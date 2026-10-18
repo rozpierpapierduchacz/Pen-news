@@ -1,5 +1,46 @@
 [
  {
+  "uid": "9dda579973f5d157",
+  "source": "Pelikan Passion (strona marki)",
+  "title": "Special Editions Writing",
+  "link": "https://pelikan-passion.com/int/writing/special-editions.html",
+  "summary": "",
+  "image": "",
+  "published": "2026-10-18T05:37:54.493380+00:00",
+  "first_seen": "2026-10-18T05:37:54.493380+00:00",
+  "tier": "release",
+  "release": true,
+  "brands": []
+ },
+ {
+  "uid": "cab2c15be4b35070",
+  "source": "Pelikan Passion (strona marki)",
+  "title": "Limited Edition 40 Years of Souverän®",
+  "link": "https://pelikan-passion.com/int/writing/limited-editions/40-years-of-souveran.html",
+  "summary": "",
+  "image": "",
+  "published": "2026-10-18T05:37:54.493380+00:00",
+  "first_seen": "2026-10-18T05:37:54.493380+00:00",
+  "tier": "release",
+  "release": true,
+  "brands": []
+ },
+ {
+  "uid": "71de3d85c3c54c8f",
+  "source": "Inkstable",
+  "title": "Montegrappa Steps Into The Ring With The New Lucha Libre",
+  "link": "https://inkstable.com/montegrappa-steps-into-the-ring-with-the-new-lucha-libre/",
+  "summary": "What do luxury pens and wrestling have in common? Little to nothing, most would say, including myself, unless you’re Montegrappa and decide to create a highly intricate limited edition of 96 inspired by a sport genre that has become something of a religion in Mexico over the…",
+  "image": "https://i0.wp.com/inkstable.com/wp-content/uploads/2026/10/luchaaaa-1024x774-1.png?fit=1024%2C774&amp;ssl=1",
+  "published": "2026-10-14T19:58:06+00:00",
+  "first_seen": "2026-10-18T05:37:54.493380+00:00",
+  "tier": "release",
+  "release": true,
+  "brands": [
+   "Montegrappa"
+  ]
+ },
+ {
   "uid": "0f40203d0d127869",
   "source": "The Gentleman Stationer",
   "title": "New Arrivals: Tono & Lims Friendship Inks, Including Shimmer and Chromashaders",
@@ -8,8 +49,24 @@
   "image": "https://images.squarespace-cdn.com/content/v1/5349ba13e4b095a3fb0ba65c/29cdc17a-6953-4889-9e52-623b0e916a58/Tono-Limis-Moanalua.jpg?format=1000w",
   "published": "2026-10-06T15:07:12+00:00",
   "first_seen": "2026-10-06T15:07:12+00:00",
+  "release": false,
+  "brands": [],
+  "tier": "stock"
+ },
+ {
+  "uid": "382fdae60f168fde",
+  "source": "Inkstable",
+  "title": "Pelikan Souverän M815 Metal Striped Green: Time to Finally Get One?",
+  "link": "https://inkstable.com/pelikan-souveran-m815-metal-striped-green-time-to-finally-get-one/",
+  "summary": "Pelikan is closing out Q3 with a new addition to its Metal Striped series, following the success of the Maki-e Four Seasons Lucky Charm, launched in August. As some of you probably already know, this is the third edition in the series and, if I’m being honest, the coolest one so…",
+  "image": "https://i0.wp.com/inkstable.com/wp-content/uploads/2026/10/2.png?fit=1024%2C682&amp;ssl=1",
+  "published": "2026-10-02T18:04:38+00:00",
+  "first_seen": "2026-10-18T05:37:54.493380+00:00",
+  "tier": "release",
   "release": true,
-  "brands": []
+  "brands": [
+   "Pelikan"
+  ]
  },
  {
   "uid": "562d08e0145ac107",
@@ -20,8 +77,9 @@
   "image": "https://images.squarespace-cdn.com/content/v1/5349ba13e4b095a3fb0ba65c/1363a203-c110-4cac-8c23-bf7f6a78f1b0/Roterfaden-Taschenbegleiter-BS20-Multiple-Sizes.jpg?format=1000w",
   "published": "2026-09-29T17:14:05+00:00",
   "first_seen": "2026-09-29T17:14:05+00:00",
-  "release": true,
-  "brands": []
+  "release": false,
+  "brands": [],
+  "tier": "stock"
  },
  {
   "uid": "73aff84aeb1eed41",
@@ -32,8 +90,9 @@
   "image": "https://images.squarespace-cdn.com/content/v1/5349ba13e4b095a3fb0ba65c/244ef8c3-77bc-4e6e-8090-a85f074c7f28/Red-Ink-Glass-Pen-on-Desk.jpeg?format=1000w",
   "published": "2026-09-25T01:25:56+00:00",
   "first_seen": "2026-09-25T01:25:56+00:00",
-  "release": true,
-  "brands": []
+  "release": false,
+  "brands": [],
+  "tier": "stock"
  },
  {
   "uid": "bc8f04c6cbc131a4",
@@ -48,7 +107,8 @@
   "brands": [
    "Opus 88",
    "Pilot"
-  ]
+  ],
+  "tier": "release"
  },
  {
   "uid": "9ba77dc67e36cf8c",
@@ -59,8 +119,9 @@
   "image": "https://images.squarespace-cdn.com/content/v1/5349ba13e4b095a3fb0ba65c/a34eb1f9-7860-4588-8d28-c6342a64ca4b/Gentlemanstationer-online-storefront.jpeg?format=1000w",
   "published": "2026-09-20T22:22:04+00:00",
   "first_seen": "2026-09-20T22:22:04+00:00",
-  "release": true,
-  "brands": []
+  "release": false,
+  "brands": [],
+  "tier": "stock"
  },
  {
   "uid": "2e74f038828ea70f",
@@ -71,6 +132,63 @@
   "image": "",
   "published": "2026-09-20T11:44:04+00:00",
   "first_seen": "2026-09-20T11:44:04+00:00",
+  "release": false,
+  "brands": [],
+  "tier": "stock"
+ },
+ {
+  "uid": "2ff1aed91b417c68",
+  "source": "Inkstable",
+  "title": "The Montblanc Meisterstück Goes Pastel",
+  "link": "https://inkstable.com/the-montblanc-meisterstuck-goes-pastel/",
+  "summary": "The Montblanc Meisterstück has gone pastel, as the Hamburg-based manufacturer unveiled its latest collection, the Meisterstück Bloom. After seeing the iconic Meisterstück mostly in black with gold or platinum trim for so long, I genuinely had to look twice when this new release…",
+  "image": "https://i0.wp.com/inkstable.com/wp-content/uploads/2026/09/2.png?fit=1024%2C682&amp;ssl=1",
+  "published": "2026-09-05T13:13:02+00:00",
+  "first_seen": "2026-10-18T05:37:54.493380+00:00",
+  "tier": "release",
+  "release": true,
+  "brands": [
+   "Montblanc"
+  ]
+ },
+ {
+  "uid": "133b556834bda6b7",
+  "source": "Inkstable",
+  "title": "The Elephant Inspires Sailor’s 2026 ‘Animals in the Moonlight’ Series",
+  "link": "https://inkstable.com/the-elephant-inspires-sailors-2026-animals-in-the-moonlight-series/",
+  "summary": "The Animals in the Moonlight series opens a new chapter. Five years after the first edition was introduced, Sailor brings the elephant into focus, placing it under the same idyllic moonlight that has guided the deer, Japanese wolf, tiger, horse, and cobra over the years. Artist…",
+  "image": "https://i0.wp.com/inkstable.com/wp-content/uploads/2026/08/2-1.png?fit=1024%2C682&amp;ssl=1",
+  "published": "2026-08-25T12:10:40+00:00",
+  "first_seen": "2026-10-18T05:37:54.493380+00:00",
+  "tier": "release",
+  "release": true,
+  "brands": []
+ },
+ {
+  "uid": "654a5e78d94b37e5",
+  "source": "Inkstable",
+  "title": "A Closer Look at the First-Ever Montblanc Patron of Art, More Than 30 Years Later",
+  "link": "https://inkstable.com/a-closer-look-at-the-first-ever-montblanc-patron-of-art-more-than-30-years-later/",
+  "summary": "It’s 1992. Smartphones are still science fiction, CDs are playing in car stereos, paper maps live in glove compartments, and the Porsche 911 is still air-cooled. For analog purists, it’s hard to imagine a better time. Rolex introduces the Yacht-Master in solid 18k yellow gold,…",
+  "image": "https://i0.wp.com/inkstable.com/wp-content/uploads/2026/08/2.png?fit=1024%2C682&amp;ssl=1",
+  "published": "2026-08-20T12:26:54+00:00",
+  "first_seen": "2026-10-18T05:37:54.493380+00:00",
+  "tier": "release",
+  "release": true,
+  "brands": [
+   "Montblanc"
+  ]
+ },
+ {
+  "uid": "3aa6e5a87ad3ce0a",
+  "source": "Inkstable",
+  "title": "Hidden for Decades: Two Delta Classics Return From the Archives",
+  "link": "https://inkstable.com/hidden-for-decades-two-delta-classics-return-from-the-archives/",
+  "summary": "More than 20 years after their original release, two of Delta’s most sought-after limited editions have resurfaced in the most unexpected place: the brand’s own archives. During a visit to the archives, Delta founder Nino Marino discovered a handful of brand-new pieces that had…",
+  "image": "https://i0.wp.com/inkstable.com/wp-content/uploads/2026/08/delta_LF-1.jpg?fit=1024%2C683&amp;ssl=1",
+  "published": "2026-08-09T08:52:25+00:00",
+  "first_seen": "2026-10-18T05:37:54.493380+00:00",
+  "tier": "release",
   "release": true,
   "brands": []
  },
@@ -83,9 +201,10 @@
   "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/IMG_2628.jpg?v=1692842223",
   "published": "2026-07-12T02:22:40+00:00",
   "first_seen": "2026-07-12T02:22:40+00:00",
-  "release": true,
+  "release": false,
   "brands": [
    "Leonardo"
-  ]
+  ],
+  "tier": "stock"
  }
 ]
