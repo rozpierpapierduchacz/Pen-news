@@ -5,7 +5,21 @@
     "max_summary_chars": 280,
     "site_title": "Pióra wieczne: newsy",
     "request_timeout": 20,
-    "only_releases": true
+    "only_releases": true,
+    "dedupe_window_days": 21,
+    "dedupe_jaccard": 0.5,
+    "allowed_languages": [
+      "en",
+      "pl"
+    ],
+    "translate": {
+      "enabled": false,
+      "provider": "deepl",
+      "target": "en",
+      "api_key_env": "TRANSLATE_API_KEY",
+      "model": "claude-haiku-5-5",
+      "max_chars_per_run": 20000
+    }
   },
   "feeds": [
     {
@@ -170,6 +184,202 @@
       "enabled": true,
       "retailer": false,
       "origin": "strona istnieje (widziałem jej treść), nie wiem czy kafelki z nowościami są w surowym HTML"
+    },
+    {
+      "name": "Stilo e Stile (limited edition)",
+      "type": "page",
+      "url": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition",
+      "link_pattern": "/special-limited-edition/",
+      "min_title_words": 3,
+      "assume_release": true,
+      "retailer": true,
+      "enabled": true,
+      "origin": "adres kategorii wywnioskowany z adresu produktu (/en/fountain-pens/special-limited-edition/...), nie sprawdzony"
+    },
+    {
+      "name": "JetPens: Kaweco Collection Sport",
+      "type": "page",
+      "url": "https://www.jetpens.com/Kaweco-Collection-Sport-Fountain-Pens/ct/6067",
+      "link_pattern": "/pd/",
+      "min_title_words": 3,
+      "assume_release": true,
+      "retailer": true,
+      "enabled": true,
+      "origin": "strona istnieje (widziałem jej treść), schemat linków produktów /pd/ z pamięci, nie sprawdzony"
+    },
+    {
+      "name": "China Pen Monthly Digest (Blogspot)",
+      "url": "https://shanghaiknifedude.blogspot.com/feeds/posts/default",
+      "extra_strong": [
+        "digest"
+      ],
+      "must_match": [
+        "pen",
+        "fountain",
+        "nib",
+        "hongdian",
+        "majohn",
+        "asvine",
+        "penbbs",
+        "wing sung",
+        "jinhao"
+      ],
+      "retailer": false,
+      "enabled": true,
+      "origin": "blog istnieje i pisze o premierach chińskich piór (widziałem treść); adres feedu to standard Blogspot, niesprawdzony"
+    },
+    {
+      "name": "TTPen: Hongdian",
+      "url": "https://www.ttpen.com/collections/hongdian.atom",
+      "retailer": true,
+      "assume_release": true,
+      "enabled": true,
+      "origin": "kolekcja sklepu istnieje (widziałem jej adres); .atom to konwencja Shopify, niesprawdzona",
+      "must_match_title": [
+        "fountain",
+        "piston",
+        "eyedropper"
+      ]
+    },
+    {
+      "name": "TTPen: Kaco",
+      "url": "https://www.ttpen.com/collections/kaco.atom",
+      "retailer": true,
+      "assume_release": true,
+      "enabled": true,
+      "origin": "kolekcja sklepu istnieje (widziałem jej adres); .atom to konwencja Shopify, niesprawdzona",
+      "must_match_title": [
+        "fountain",
+        "piston",
+        "eyedropper"
+      ]
+    },
+    {
+      "name": "Makoba: Hongdian",
+      "url": "https://makoba.com/collections/hongdian.atom",
+      "retailer": true,
+      "assume_release": true,
+      "enabled": true,
+      "origin": "kolekcja sklepu istnieje (widziałem jej adres); .atom to konwencja Shopify, niesprawdzona",
+      "must_match_title": [
+        "fountain",
+        "piston",
+        "eyedropper"
+      ]
+    },
+    {
+      "name": "TY Lee: Hong Dian",
+      "url": "https://tyleepens.com/en-us/collections/hong-dian.atom",
+      "retailer": true,
+      "assume_release": true,
+      "enabled": true,
+      "origin": "kolekcja sklepu istnieje (widziałem jej adres); .atom to konwencja Shopify, niesprawdzona",
+      "must_match_title": [
+        "fountain",
+        "piston",
+        "eyedropper"
+      ]
+    },
+    {
+      "name": "Swastik Penn: Hongdian",
+      "url": "https://www.swastikpenn.com/collections/hongdian.atom",
+      "retailer": true,
+      "assume_release": true,
+      "enabled": true,
+      "origin": "kolekcja sklepu istnieje (widziałem jej adres); .atom to konwencja Shopify, niesprawdzona",
+      "must_match_title": [
+        "fountain",
+        "piston",
+        "eyedropper"
+      ]
+    },
+    {
+      "name": "Google News: chińskie marki",
+      "retailer": false,
+      "enabled": true,
+      "must_match": [
+        "fountain",
+        "nib"
+      ],
+      "url": "https://news.google.com/rss/search?q=%28Hongdian+OR+Majohn+OR+Asvine+OR+PenBBS+OR+Jinhao+OR+%22Wing+Sung%22+OR+Moonman%29+%22fountain+pen%22+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+      "origin": "wzorzec URL opisany przez społeczność, nie przez Google; niesprawdzony z serwerów GitHuba"
+    },
+    {
+      "name": "Google News: limited/special edition",
+      "retailer": false,
+      "enabled": true,
+      "must_match": [
+        "fountain",
+        "nib"
+      ],
+      "url": "https://news.google.com/rss/search?q=%22fountain+pen%22+%28%22limited+edition%22+OR+%22special+edition%22+OR+%22new+colorway%22+OR+%22new+colors%22%29+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+      "origin": "j.w."
+    },
+    {
+      "name": "YouTube: Asvine Pen",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWSPXdu1xE88rAC1zcBhBNg",
+      "retailer": false,
+      "enabled": true,
+      "origin": "kanał istnieje (opis: strona do dzielenia się zdjęciami piór Asvine); nie widziałem żadnych filmów, nie wiem czy oficjalny ani czy aktywny"
+    },
+    {
+      "name": "YouTube: Moonman Pens India (dystrybutor)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCL45zQSo1b8PGkl9KxyXosw",
+      "retailer": true,
+      "enabled": true,
+      "origin": "kanał oficjalny dystrybutora Moonman/Majohn w Indiach (nie samej marki); aktywności nie sprawdzałem"
+    },
+    {
+      "name": "Scooboo (IN): Moonman/Majohn",
+      "url": "https://scooboo.in/collections/moonman.atom",
+      "retailer": true,
+      "assume_release": true,
+      "must_match_title": [
+        "fountain",
+        "piston",
+        "eyedropper"
+      ],
+      "enabled": true,
+      "origin": "kolekcja istnieje (widziałem jej treść), .atom niesprawdzony"
+    },
+    {
+      "name": "Everything Calligraphy (PH): Moonman/Majohn",
+      "url": "https://www.everythingcalligraphy.com/collections/moonman.atom",
+      "retailer": true,
+      "assume_release": true,
+      "must_match_title": [
+        "fountain",
+        "piston",
+        "eyedropper"
+      ],
+      "enabled": true,
+      "origin": "j.w."
+    },
+    {
+      "name": "Goulet Pens: Jinhao",
+      "url": "https://www.gouletpens.com/collections/jinhao.atom",
+      "retailer": true,
+      "assume_release": true,
+      "must_match_title": [
+        "fountain",
+        "piston",
+        "eyedropper"
+      ],
+      "enabled": true,
+      "origin": "j.w."
+    },
+    {
+      "name": "Asvine Official Store",
+      "url": "https://www.asvineessentials.com/?post_type=product&feed=rss2",
+      "retailer": true,
+      "assume_release": true,
+      "must_match_title": [
+        "fountain",
+        "piston",
+        "eyedropper"
+      ],
+      "enabled": true,
+      "origin": "sklep istnieje (widziałem treść; wyciekła nazwa shortcode WooCommerce), adres feedu to domyślny wzorzec WooCommerce, niesprawdzony"
     }
   ],
   "brands": [
@@ -306,7 +516,60 @@
     "diy",
     "repair",
     "restoration",
-    "vintage"
+    "vintage",
+    "overview",
+    "bottom shelf",
+    "pre-?owned",
+    "used",
+    "second[- ]?hand",
+    "clearance",
+    "open box",
+    "recensione",
+    "guida",
+    "confronto",
+    "bewertung",
+    "testbericht",
+    "anleitung",
+    "vergleich",
+    "comparatif",
+    "beoordeling",
+    "vergelijking",
+    "handleiding",
+    "new pen day",
+    "npd",
+    "new ink day",
+    "my new",
+    "just got",
+    "finally got",
+    "my first",
+    "mail ?day",
+    "mail call",
+    "which (?:one )?(?:should|to)",
+    "should i (?:buy|get)",
+    "help me (?:choose|pick|decide)",
+    "recommendations?",
+    "worth it",
+    "worth buying",
+    "wish ?list",
+    "pen of the day",
+    "inked up",
+    "currently inked",
+    "collection update",
+    "my collection",
+    "price (?:increase|drop)",
+    "ebay",
+    "coupon",
+    "refills?",
+    "converters?",
+    "cartridges?",
+    "cases?",
+    "sleeves?",
+    "pouch(?:es)?",
+    "nib units?",
+    "spare",
+    "replacement",
+    "stands?",
+    "holders?"
   ],
   "exclude_text_keywords": [
     "giveaway",
@@ -328,7 +591,6 @@
     "new colou?rways?",
     "colou?rways?",
     "new inks?",
-    "new releases?",
     "just released",
     "pen of the year",
     "pre-?orders?",
@@ -347,7 +609,51 @@
     "wydanie specjalne",
     "nowy kolor",
     "nowe kolory",
-    "premiera"
+    "premiera",
+    "new (?:[\\w'&-]+ ){0,3}releases?",
+    "new (?:[\\w'&-]+ ){0,2}(?:editions?|models?)",
+    "collector['’]?s? editions?",
+    "(?:spring|summer|autumn|fall|winter) 20\\d\\d",
+    "20\\d\\d collection",
+    "(?:sport|liliput|perkeo|skyline|supra) collection",
+    "edizione (?:limitata|speciale)",
+    "nuov[ie] colori",
+    "nuov[ao] (?:edizione|colore|collezione|modello)",
+    "novit[àa]",
+    "sonderedition",
+    "limitierte[rn]? (?:edition|auflage)",
+    "neue[rn]? farben?",
+    "neuheit(?:en)?",
+    "édition (?:limitée|spéciale)",
+    "nouvelles? couleurs?",
+    "nouveauté(?:s)?",
+    "speciale editie",
+    "beperkte oplage",
+    "nieuwe kleur(?:en)?",
+    "pre-?sales?",
+    "now shipping",
+    "kickstarter",
+    "crowdfunding",
+    "group buy",
+    "limited to \\d+",
+    "re-?releases?",
+    "re-?issues?",
+    "revival",
+    "sneak peeks?",
+    "teasers?",
+    "reveal(?:s|ed)?",
+    "first look",
+    "sudden release",
+    "pen show (?:edition|exclusive|special)",
+    "show exclusive",
+    "exclusive (?:edition|colou?rs?)",
+    "anniversary",
+    "commemorative",
+    "ink of the year",
+    "new (?:filling|nib|material|finish|size|series|line|range|version|generation)",
+    "v2",
+    "mk ?ii",
+    "2nd (?:gen|generation|edition)"
   ],
   "weak_keywords": [
     "new arrivals?",
@@ -367,5 +673,27 @@
     "in all colou?rs",
     "in both colou?rs",
     "still available"
+  ],
+  "strong_keywords_cjk": [
+    "新品",
+    "新款",
+    "新色",
+    "限量",
+    "限定",
+    "发布",
+    "發佈",
+    "预售",
+    "預售",
+    "众筹",
+    "眾籌",
+    "联名",
+    "聯名",
+    "新製品",
+    "新発売",
+    "発売",
+    "数量限定",
+    "予約",
+    "한정판",
+    "신제품"
   ]
 }
