@@ -1,5 +1,5 @@
 {
- "last_run": "2026-10-18T05:37:54.493380+00:00",
+ "last_run": "2026-10-18T19:42:54.325783+00:00",
  "sources": [
   {
    "source": "The Pelikan's Perch (Pelikan)",
@@ -138,6 +138,102 @@
    "url": "https://pelikan-passion.com/",
    "ok": true,
    "entries_in_feed": 19
+  },
+  {
+   "source": "Stilo e Stile (limited edition)",
+   "url": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition",
+   "ok": true,
+   "entries_in_feed": 17
+  },
+  {
+   "source": "JetPens: Kaweco Collection Sport",
+   "url": "https://www.jetpens.com/Kaweco-Collection-Sport-Fountain-Pens/ct/6067",
+   "ok": false,
+   "error": "403 Client Error: Forbidden for url: https://www.jetpens.com/Kaweco-Collection-Sport-Fountain-Pens/ct/6067"
+  },
+  {
+   "source": "China Pen Monthly Digest (Blogspot)",
+   "url": "https://shanghaiknifedude.blogspot.com/feeds/posts/default",
+   "ok": true,
+   "entries_in_feed": 25
+  },
+  {
+   "source": "TTPen: Hongdian",
+   "url": "https://www.ttpen.com/collections/hongdian.atom",
+   "ok": true,
+   "entries_in_feed": 25
+  },
+  {
+   "source": "TTPen: Kaco",
+   "url": "https://www.ttpen.com/collections/kaco.atom",
+   "ok": true,
+   "entries_in_feed": 25
+  },
+  {
+   "source": "Makoba: Hongdian",
+   "url": "https://makoba.com/collections/hongdian.atom",
+   "ok": true,
+   "entries_in_feed": 25
+  },
+  {
+   "source": "TY Lee: Hong Dian",
+   "url": "https://tyleepens.com/en-us/collections/hong-dian.atom",
+   "ok": true,
+   "entries_in_feed": 3
+  },
+  {
+   "source": "Swastik Penn: Hongdian",
+   "url": "https://www.swastikpenn.com/collections/hongdian.atom",
+   "ok": true,
+   "entries_in_feed": 25
+  },
+  {
+   "source": "Google News: chińskie marki",
+   "url": "https://news.google.com/rss/search?q=%28Hongdian+OR+Majohn+OR+Asvine+OR+PenBBS+OR+Jinhao+OR+%22Wing+Sung%22+OR+Moonman%29+%22fountain+pen%22+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+   "ok": true,
+   "entries_in_feed": 1
+  },
+  {
+   "source": "Google News: limited/special edition",
+   "url": "https://news.google.com/rss/search?q=%22fountain+pen%22+%28%22limited+edition%22+OR+%22special+edition%22+OR+%22new+colorway%22+OR+%22new+colors%22%29+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+   "ok": true,
+   "entries_in_feed": 9
+  },
+  {
+   "source": "YouTube: Asvine Pen",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWSPXdu1xE88rAC1zcBhBNg",
+   "ok": true,
+   "entries_in_feed": 15
+  },
+  {
+   "source": "YouTube: Moonman Pens India (dystrybutor)",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCL45zQSo1b8PGkl9KxyXosw",
+   "ok": true,
+   "entries_in_feed": 15
+  },
+  {
+   "source": "Scooboo (IN): Moonman/Majohn",
+   "url": "https://scooboo.in/collections/moonman.atom",
+   "ok": true,
+   "entries_in_feed": 3
+  },
+  {
+   "source": "Everything Calligraphy (PH): Moonman/Majohn",
+   "url": "https://www.everythingcalligraphy.com/collections/moonman.atom",
+   "ok": true,
+   "entries_in_feed": 25
+  },
+  {
+   "source": "Goulet Pens: Jinhao",
+   "url": "https://www.gouletpens.com/collections/jinhao.atom",
+   "ok": true,
+   "entries_in_feed": 9
+  },
+  {
+   "source": "Asvine Official Store",
+   "url": "https://www.asvineessentials.com/?post_type=product&feed=rss2",
+   "ok": false,
+   "error": "HTTPSConnectionPool(host='www.asvineessentials.com', port=443): Max retries exceeded with url: /?post_type=product&feed=rss2 (Caused by NameResolutionError(\"HTTPSConnection(host='www.asvineessentials."
   }
  ]
 }
