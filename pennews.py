@@ -16,9 +16,10 @@ import os
 import re
 import sys
 from datetime import datetime, timedelta, timezone
-from email.utils import format_datetime
+from email.utils import format_datetime, parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
+from urllib.robotparser import RobotFileParser
 from xml.sax.saxutils import escape as xml_escape
 
 import feedparser
@@ -29,6 +30,33 @@ UA = "pennews/1.0 (+personal feed reader)"
 TAG_RE = re.compile(r"<[^>]+>")
 IMG_RE = re.compile(r"""<img[^>]+src=["']([^"']+)["']""", re.I)
 WS_RE = re.compile(r"\s+")
+
+
+class Robots:
+    """Sprawdza robots.txt przed pobraniem strony (jedno żądanie na domenę na uruchomienie). Brak pliku = wolno."""
+
+    def __init__(self, respect: bool = True):
+        self.respect, self.cache = respect, {}
+
+    def allowed(self, url: str) -> bool:
+        p = urlparse(url)
+        if not self.respect or p.scheme not in ("http", "https"):
+            return True
+        if p.netloc not in self.cache:
+            rp = None
+            try:
+                r = requests.get(f"{p.scheme}://{p.netloc}/robots.txt", headers={"User-Agent": UA}, timeout=10)
+                if r.status_code == 200:
+                    rp = RobotFileParser()
+                    rp.parse(r.text.splitlines())
+            except Exception:
+                rp = None
+            self.cache[p.netloc] = rp
+        rp = self.cache[p.netloc]
+        return True if rp is None else rp.can_fetch(UA, url)
+
+
+ROBOTS = Robots()
 
 
 # ---------- pobieranie ----------
@@ -79,18 +107,22 @@ def entry_image(e) -> str:
             return enc["href"]
     blobs = [e.get("summary", "")] + [c.get("value", "") for c in e.get("content", []) or []]
     for b in blobs:
-        m = IMG_RE.search(b or "")
-        if m and m.group(1).startswith("http"):
-            return m.group(1)
+        for m in IMG_RE.finditer(b or ""):     # adresy względne i "//cdn..." zamienia na pełne run()
+            src = htmllib.unescape(m.group(1)).strip()
+            if src and not src.startswith("data:") and not re.search(r"(?:pixel|spacer|1x1|tracking)", src, re.I):
+                return src
     return ""
 
 
-def entry_date(e, now: datetime) -> datetime:
-    t = e.get("published_parsed") or e.get("updated_parsed")
+def entry_date(e, now: datetime):
+    """Zwraca (data, rodzaj): "published" (data publikacji z feedu), "updated" (tylko data aktualizacji)
+    albo "detected" (feed nie podał żadnej daty: używamy dnia wykrycia)."""
+    t, kind = e.get("published_parsed"), "published"
     if not t:
-        return now
-    d = datetime(*t[:6], tzinfo=timezone.utc)
-    return min(d, now)  # nie ufaj datom z przyszłości
+        t, kind = e.get("updated_parsed"), "updated"
+    if not t:
+        return now, "detected"
+    return min(datetime(*t[:6], tzinfo=timezone.utc), now), kind  # nie ufaj datom z przyszłości
 
 
 # Prosty filtr języka (bez zewnętrznych bibliotek): rozpoznaje pismo niełacińskie oraz typowe słowa kilku języków
@@ -342,6 +374,8 @@ def _host(u: str) -> str:
 def page_candidates(feed, timeout: int, now: datetime):
     """Strona bez RSS: wyciąga linki do wpisów. Nowe linki wykrywa potem stan (entries.json)."""
     url = feed["url"]
+    if not ROBOTS.allowed(url):
+        raise PermissionError("robots.txt tej strony zabrania pobierania")
     base = feed.get("base_url") or url          # base_url głównie do testów lokalnych
     page = fetch(url, timeout).decode("utf-8", errors="replace")
     pat = re.compile(feed["link_pattern"]) if feed.get("link_pattern") else None
@@ -362,7 +396,7 @@ def page_candidates(feed, timeout: int, now: datetime):
         img = IMG_RE.search(inner)
         seen.add(link)
         out.append({"id": link, "link": link, "title": title, "body": "",
-                    "image": urljoin(base, img.group(1)) if img else "", "published": now})
+                    "image": urljoin(base, img.group(1)) if img else "", "published": now, "date_kind": "detected"})
     return out
 
 
@@ -376,8 +410,9 @@ def feed_candidates(feed, timeout: int, now: datetime):
     for e in parsed.entries:
         link = e.get("link", "")
         body = e.get("summary", "") or " ".join(c.get("value", "") for c in e.get("content", []) or [])
+        d, kind = entry_date(e, now)
         out.append({"id": e.get("id") or link, "link": link, "title": e.get("title", ""), "body": body,
-                    "image": entry_image(e), "published": entry_date(e, now)})
+                    "image": entry_image(e), "published": d, "date_kind": kind})
     return out
 
 
@@ -456,6 +491,215 @@ def dedupe(entries, window_days: int = 21, jac: float = 0.5) -> int:
     return hidden
 
 
+BLOCK_RE = re.compile(r"</?(?:p|div|br|li|ul|ol|h[1-6]|tr|table|blockquote|section|article)\b[^>]*>", re.I)
+SENT_RE = re.compile(r"(?<=[.!?。！？])\s+")
+META_TAG_RE = re.compile(r"<meta\b[^>]*>", re.I)
+ATTR_RE = re.compile(r"""([\w:-]+)\s*=\s*(?:"([^"]*)"|'([^']*)')""", re.S)
+JSONLD_RE = re.compile(r"""<script[^>]+type=["']application/ld\+json["'][^>]*>(.*?)</script>""", re.I | re.S)
+TIME_RE = re.compile(r"""<time\b[^>]*\bdatetime=["']([^"']+)["']""", re.I)
+STRIP_RE = re.compile(r"<(script|style|noscript|nav|header|footer|aside|form|svg)\b.*?</\1>", re.I | re.S)
+P_RE = re.compile(r"<p\b[^>]*>(.*?)</p>", re.I | re.S)
+SCRIPT_RE = re.compile(r"<(script|style|noscript)\b.*?</\1>", re.I | re.S)
+
+
+def html_to_paragraphs(raw: str, max_paragraphs: int = 60):
+    out = []
+    for part in BLOCK_RE.split(SCRIPT_RE.sub(" ", (raw or "")[:120000])):
+        t = clean_text(part, 5000)
+        if t:
+            out.append(t)
+            if len(out) >= max_paragraphs:
+                break
+    return out
+
+
+def _count(rx, text: str) -> int:
+    return sum(1 for _ in rx.finditer(text))
+
+
+def _regexes(m, opts=None):
+    rxs = [m["strong"], m["strong_cjk"], m["weak"]]
+    if opts and opts.get("extra"):
+        rxs.append(opts["extra"])
+    return rxs
+
+
+def phrases_in(text: str, m, opts=None):
+    found = []
+    for rx in _regexes(m, opts):
+        for mt in rx.finditer(text):
+            g = mt.group(0)
+            if g and g.lower() not in {f.lower() for f in found}:
+                found.append(g)
+    return found
+
+
+def make_snippet(paragraphs, m, opts=None, limit: int = 320):
+    """Fragment tekstu źródła, który zdecydował o wyborze: zdanie z największą liczbą fraz premiery
+    (mocne liczą się potrójnie). Zwraca (fragment, frazy_do_podświetlenia). Bez trafienia: początek tekstu, bez fraz."""
+    sents = [(pi, x.strip()) for pi, p in enumerate(paragraphs) for x in SENT_RE.split(p) if len(x.strip()) >= 3]
+    if not any(len(x) >= 20 for _, x in sents):
+        return "", []
+    strong_rxs = [m["strong"], m["strong_cjk"]] + ([opts["extra"]] if opts and opts.get("extra") else [])
+    best_i, best = -1, 0
+    for i, (_, sent) in enumerate(sents):
+        if len(sent) < 20:
+            continue
+        score = 3 * sum(_count(rx, sent) for rx in strong_rxs) + _count(m["weak"], sent)
+        if score > best:
+            best_i, best = i, score
+    idx = best_i if best_i >= 0 else next(i for i, (_, x) in enumerate(sents) if len(x) >= 20)
+    text = sents[idx][1]
+    if len(text) < 120 and idx + 1 < len(sents) and sents[idx + 1][0] == sents[idx][0]:
+        text += " " + sents[idx + 1][1]
+    if len(text) > limit:
+        pos = 0
+        for rx in _regexes(m, opts):
+            mt = rx.search(text)
+            if mt:
+                pos = mt.start()
+                break
+        start = max(0, pos - limit // 3)
+        text = ("…" if start else "") + text[start:start + limit].strip() + "…"
+    return text, (phrases_in(text, m, opts) if best_i >= 0 else [])
+
+
+def parse_date(raw):
+    if not raw:
+        return None
+    raw = raw.strip()
+    try:
+        d = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except ValueError:
+        try:
+            d = parsedate_to_datetime(raw)
+        except (TypeError, ValueError):
+            return None
+    if d.tzinfo is None:
+        d = d.replace(tzinfo=timezone.utc)
+    d = d.astimezone(timezone.utc)
+    now = datetime.now(timezone.utc)
+    return min(d, now) if d.year >= 2000 else None
+
+
+def _walk(obj):
+    if isinstance(obj, dict):
+        yield obj
+        for v in obj.values():
+            yield from _walk(v)
+    elif isinstance(obj, list):
+        for v in obj:
+            yield from _walk(v)
+
+
+def parse_page(page: str, base: str):
+    """Z HTML strony wpisu: data publikacji, zdjęcie, opis i akapity tekstu (bez zależności zewnętrznych)."""
+    meta = {}
+    for tag in META_TAG_RE.findall(page[:300000]):
+        attrs = {k.lower(): (a or b) for k, a, b in ATTR_RE.findall(tag)}
+        key = (attrs.get("property") or attrs.get("name") or attrs.get("itemprop") or "").lower()
+        if key and "content" in attrs:
+            meta.setdefault(key, htmllib.unescape(attrs["content"]).strip())
+    ld_date = ld_img = ld_desc = None
+    for blob in JSONLD_RE.findall(page):
+        try:
+            data = json.loads(blob.strip())
+        except ValueError:
+            continue
+        for node in _walk(data):
+            ld_date = ld_date or node.get("datePublished")
+            ld_desc = ld_desc or (node.get("description") if isinstance(node.get("description"), str) else None)
+            img = node.get("image")
+            if isinstance(img, list) and img:
+                img = img[0]
+            if isinstance(img, dict):
+                img = img.get("url")
+            ld_img = ld_img or (img if isinstance(img, str) else None)
+    tm = TIME_RE.search(page)
+    published = None
+    for cand in (meta.get("article:published_time"), meta.get("og:published_time"), meta.get("datepublished"),
+                 ld_date, meta.get("date"), meta.get("dc.date"), meta.get("dcterms.created"), tm.group(1) if tm else None):
+        published = parse_date(cand)
+        if published:
+            break
+    image = ""
+    for cand in (meta.get("og:image"), meta.get("og:image:secure_url"), meta.get("twitter:image"),
+                 meta.get("twitter:image:src"), ld_img):
+        if cand:
+            url = urljoin(base, htmllib.unescape(cand))
+            if urlparse(url).scheme in ("http", "https"):
+                image = url
+                break
+    desc = clean_text(meta.get("og:description") or meta.get("description") or ld_desc or "", 600)
+    body = STRIP_RE.sub(" ", page)
+    paras = [clean_text(p, 2000) for p in P_RE.findall(body)]
+    paras = [p for p in paras if len(p) >= 50][:40]
+    return {"published": published, "image": image, "description": desc, "paragraphs": paras}
+
+
+def fetch_html(url: str, timeout: int, max_bytes: int = 400000) -> str:
+    r = requests.get(url, headers={"User-Agent": UA, "Accept": "text/html,application/xhtml+xml"},
+                     timeout=timeout, stream=True)
+    try:
+        r.raise_for_status()
+        ctype = r.headers.get("Content-Type", "")
+        if ctype and "html" not in ctype.lower():
+            raise ValueError(f"to nie HTML ({ctype})")
+        buf = b""
+        for chunk in r.iter_content(65536):
+            buf += chunk
+            if len(buf) >= max_bytes:
+                break
+        return buf.decode(r.encoding or "utf-8", errors="replace")
+    finally:
+        r.close()
+
+
+def needs_enrich(e, skip_hosts) -> bool:
+    if e.get("enrich_tries", 0) >= 2:
+        return False
+    p = urlparse(e["link"])
+    if p.scheme not in ("http", "https") or p.netloc.lower() in skip_hosts:
+        return False
+    return (not e.get("image") or not e.get("snippet") or not e.get("hl")
+            or e.get("date_kind", "published") not in ("published", "page"))
+
+
+def enrich_pass(stored, m, s, opts_by_source, cutoff) -> int:
+    """Dla wpisów bez zdjęcia, daty wydawcy albo fragmentu pobiera stronę wpisu (z limitem na uruchomienie)."""
+    cfg = s.get("enrich", {})
+    if not cfg.get("enabled", True):
+        return 0
+    skip = {h.lower() for h in cfg.get("skip_hosts", ["news.google.com", "www.youtube.com", "youtube.com"])}
+    cap, timeout = int(cfg.get("max_per_run", 60)), int(cfg.get("timeout", 10))
+    todo = sorted((e for e in stored.values() if needs_enrich(e, skip)), key=lambda e: e["published"], reverse=True)[:cap]
+    done = 0
+    for e in todo:
+        e["enrich_tries"] = e.get("enrich_tries", 0) + 1
+        try:
+            if not ROBOTS.allowed(e["link"]):
+                e["enrich_tries"] = 9
+                continue
+            info = parse_page(fetch_html(e["link"], timeout), e["link"])
+        except Exception as ex:
+            print(f"[strona wpisu] {e['source']}: {str(ex)[:120]}", file=sys.stderr)
+            continue
+        e["enrich_tries"] = 9
+        done += 1
+        if info["published"] and e.get("date_kind", "published") not in ("published", "page"):
+            e["published"], e["date_kind"] = info["published"].isoformat(), "page"
+        if not e.get("image") and info["image"]:
+            e["image"] = info["image"]
+        if not e.get("translated"):   # tekst obcojęzycznej strony nie trafia do fragmentu
+            paras = ([info["description"]] if info["description"] else []) + info["paragraphs"]
+            snippet, hl = make_snippet(paras, m, opts_by_source.get(e["source"]))
+            if snippet and (not e.get("snippet") or (hl and not e.get("hl"))):
+                e["snippet"], e["hl"] = snippet, hl
+        if datetime.fromisoformat(e["published"]) < cutoff:
+            stored.pop(e["uid"], None)
+    return done
+
+
 def uid(source: str, raw_id: str) -> str:
     return hashlib.sha1(f"{source}|{raw_id}".encode("utf-8")).hexdigest()[:16]
 
@@ -472,8 +716,10 @@ def load_json(path: Path, default):
 
 
 def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
+    global ROBOTS
     cfg = json.loads(cfg_path.read_text(encoding="utf-8"))
     s = cfg["settings"]
+    ROBOTS = Robots(bool(s.get("enrich", {}).get("respect_robots", True)))
     now = datetime.now(timezone.utc)
     matchers = build_matchers(cfg)
 
@@ -513,7 +759,10 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
                 count += 1
                 if u in stored or c["published"] < cutoff:
                     continue
-                rows.append({"u": u, "link": link, "image": c["image"], "published": c["published"],
+                image = urljoin(link, c["image"]) if c["image"] else ""
+                rows.append({"u": u, "link": link, "image": image if urlparse(image).scheme in ("http", "https") else "",
+                             "published": c["published"], "date_kind": c.get("date_kind", "detected"),
+                             "raw": (c["body"] or "")[:60000],
                              "title": clean_text(c["title"], 200) or "(bez tytułu)",
                              "summary": clean_text(c["body"], s["max_summary_chars"])})
             translate_rows(rows, matchers, translator)
@@ -525,6 +774,8 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
                                               r.get("translated", False))
                 if not keep:
                     continue
+                paras = [r["summary"]] if r.get("translated") else html_to_paragraphs(r["raw"])
+                snippet, hl = make_snippet(paras, matchers, opts_by_source[name])
                 entry = {
                     "uid": r["u"],
                     "source": name,
@@ -533,6 +784,9 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
                     "summary": r["summary"],
                     "image": r["image"],
                     "published": r["published"].isoformat(),
+                    "date_kind": r["date_kind"],
+                    "snippet": snippet,
+                    "hl": hl,
                     # przy pierwszym uruchomieniu nic nie świeci się jako "nowe"
                     "first_seen": (r["published"] if first_run else now).isoformat(),
                     "tier": tier,
@@ -550,6 +804,9 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
             status.append({"source": name, "url": url, "ok": False, "error": str(ex)[:200]})
             print(f"[BŁĄD] {name}: {ex}", file=sys.stderr)
 
+    enriched = enrich_pass(stored, matchers, s, opts_by_source, cutoff)
+    if enriched:
+        print(f"Pobrano stron wpisów (data, zdjęcie, fragment): {enriched}")
     kept = [e for e in stored.values() if datetime.fromisoformat(e["published"]) >= cutoff]
     kept.sort(key=lambda e: e["published"], reverse=True)
     hidden = dedupe(kept, int(s.get("dedupe_window_days", 21)), float(s.get("dedupe_jaccard", 0.5)))
@@ -601,6 +858,9 @@ h1{font-size:1.6rem;margin:0 0 4px}
 .item a:hover h2{color:var(--accent);text-decoration:underline}
 .meta{font-size:.8rem;color:var(--muted);margin-bottom:6px}
 .p{margin:0 0 8px;font-size:.92rem}
+.snip{margin:6px 0 8px;padding-left:10px;border-left:3px solid var(--accent);font-size:.9rem}
+mark{background:rgba(224,138,111,.35);color:inherit;border-radius:3px;padding:0 2px}
+.ph{width:96px;height:96px;border-radius:8px;flex:none;background:var(--chip);color:var(--muted);display:flex;align-items:center;justify-content:center;font-size:1.6rem}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
 .chip{font-size:.75rem;background:var(--chip);border-radius:999px;padding:2px 10px}
 .chip.new{background:var(--new);color:#fff}
@@ -608,13 +868,13 @@ h1{font-size:1.6rem;margin:0 0 4px}
 .empty{color:var(--muted);text-align:center;padding:40px 0}
 footer{margin-top:32px;font-size:.8rem;color:var(--muted)}
 footer .bad{color:#c0392b}
-@media (max-width:520px){.item img{width:64px;height:64px}}
+@media (max-width:520px){.item img,.item .ph{width:64px;height:64px}}
 </style>
 </head>
 <body>
 <div class="wrap">
 <h1>__TITLE__</h1>
-<p class="sub">Ostatnia aktualizacja: <span id="upd"></span> · <a href="feed.xml" style="color:var(--accent)">własny feed RSS (premiery)</a></p>
+<p class="sub">Tylko premiery, nowe edycje i kolorystyki. Pod tytułem fragment tekstu źródła, który zdecydował o wyborze wpisu (frazy są wyróżnione).<br>Ostatnia aktualizacja: <span id="upd"></span> · <a href="feed.xml" style="color:var(--accent)">własny feed RSS (premiery)</a></p>
 <div class="bar">
   <button id="f-all" aria-pressed="true">Premiery</button>
   <button id="f-rel" aria-pressed="false">+ dostawy sklepowe</button>
@@ -647,22 +907,39 @@ const srcs = [...new Set(DATA.map(e=>e.source))].sort();
 brands.forEach(b=>{ const o=el('option',null,b); o.value=b; $('brand').append(o); });
 srcs.forEach(s=>{ const o=el('option',null,s); o.value=s; $('src').append(o); });
 
+function dateLabel(e){
+  const d = new Date(e.published).toLocaleDateString('pl-PL');
+  if(e.date_kind==='detected') return 'wykryto '+d+' (brak daty wydawcy)';
+  if(e.date_kind==='updated') return d+' (data aktualizacji)';
+  return d;
+}
+function highlight(node, text, phrases){
+  const low = text.toLowerCase(), spans = [];
+  phrases.forEach(p=>{ if(!p) return; const lp = p.toLowerCase(); let i = low.indexOf(lp); while(i>=0){ spans.push([i,i+lp.length]); i = low.indexOf(lp, i+lp.length); } });
+  spans.sort((a,b)=>a[0]-b[0]);
+  let last = 0;
+  spans.forEach(([s0,e0])=>{ if(s0<last) return; if(s0>last) node.append(text.slice(last,s0)); const mk=document.createElement('mark'); mk.textContent=text.slice(s0,e0); node.append(mk); last=e0; });
+  if(last<text.length) node.append(text.slice(last));
+  if(!spans.length) node.textContent = text;
+}
 function render(){
   const q = $('q').value.trim().toLowerCase(), b = $('brand').value, s = $('src').value;
   const rows = DATA.filter(e =>
     (showStock || e.tier!=='stock') && (!newOnly || isNew(e)) && (!b || e.brands.includes(b)) && (!s || e.source===s) &&
-    (!q || (e.title+' '+e.summary).toLowerCase().includes(q)));
+    (!q || (e.title+' '+e.summary+' '+(e.snippet||'')).toLowerCase().includes(q)));
   const box = $('list'); box.replaceChildren();
   if(!rows.length){ box.append(el('div','empty','Brak wpisów dla tych filtrów.')); return; }
   rows.forEach(e=>{
     const card = el('article','item');
-    if(e.image){ const im=el('img'); im.src=safeUrl(e.image); im.alt=''; im.loading='lazy'; im.referrerPolicy='no-referrer'; card.append(im); }
+    const ph = ()=>el('div','ph',(e.source||'?').trim().charAt(0).toUpperCase());
+    if(e.image){ const im=el('img'); im.src=safeUrl(e.image); im.alt=''; im.loading='lazy'; im.referrerPolicy='no-referrer'; im.onerror=()=>im.replaceWith(ph()); card.append(im); } else { card.append(ph()); }
     const body = el('div');
     const a = el('a'); a.href = safeUrl(e.link); a.target='_blank'; a.rel='noopener noreferrer'; a.append(el('h2',null,e.title));
     body.append(a);
-    body.append(el('div','meta', e.source+' · '+new Date(e.published).toLocaleDateString('pl-PL')));
+    body.append(el('div','meta', e.source+' · '+dateLabel(e)));
     if(e.orig_title) body.append(el('div','meta','Oryginał ('+e.lang+'): '+e.orig_title));
-    if(e.summary) body.append(el('p','p',e.summary));
+    if(e.snippet){ const sp = el('p','snip'); highlight(sp, e.snippet, e.hl||[]); body.append(sp); }
+    else if(e.summary) body.append(el('p','p',e.summary));
     const chips = el('div','chips');
     if(isNew(e)) chips.append(el('span','chip new','nowe'));
     if(e.translated) chips.append(el('span','chip','tłumaczenie maszynowe'));
@@ -686,6 +963,8 @@ $('f-new').onclick=()=>{newOnly=!newOnly;setBtn();render();};
 const bad = STATUS.sources.filter(s=>!s.ok), zero = STATUS.sources.filter(s=>s.ok && s.entries_in_feed===0);
 const foot = $('foot');
 if(STATUS.dupes_hidden) foot.append(el('div',null,'Ukryte duplikaty (ta sama premiera w kilku źródłach): '+STATUS.dupes_hidden));
+const noImg = DATA.filter(e=>!e.image).length, noDate = DATA.filter(e=>e.date_kind==='detected').length, upd = DATA.filter(e=>e.date_kind==='updated').length;
+foot.append(el('div',null,'Wpisów: '+DATA.length+'. Bez zdjęcia: '+noImg+'. Z datą wykrycia zamiast publikacji: '+noDate+(upd?'. Z datą aktualizacji: '+upd:'')+'.'));
 foot.append(el('div',null,'Źródła: '+STATUS.sources.filter(s=>s.ok).length+' działa, '+bad.length+' z błędem.'));
 bad.forEach(s=>foot.append(el('div','bad','⚠ '+s.source+': '+s.error)));
 zero.forEach(s=>foot.append(el('div','bad','⚠ '+s.source+': feed jest pusty')));
@@ -721,7 +1000,7 @@ def render_rss(entries, now, cfg, path: Path) -> None:
             f"<link>{xml_escape(e['link'])}</link>"
             f"<guid isPermaLink=\"false\">{e['uid']}</guid>"
             f"<pubDate>{format_datetime(d)}</pubDate>"
-            f"<description>{xml_escape(e['summary'])}</description>{cats}</item>")
+            f"<description>{xml_escape(e.get('snippet') or e['summary'])}</description>{cats}</item>")
     title = xml_escape(cfg["settings"]["site_title"])
     path.write_text(
         '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'

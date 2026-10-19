@@ -19,6 +19,17 @@
       "api_key_env": "TRANSLATE_API_KEY",
       "model": "claude-haiku-5-5",
       "max_chars_per_run": 20000
+    },
+    "enrich": {
+      "enabled": true,
+      "max_per_run": 60,
+      "timeout": 10,
+      "respect_robots": true,
+      "skip_hosts": [
+        "news.google.com",
+        "www.youtube.com",
+        "youtube.com"
+      ]
     }
   },
   "feeds": [
