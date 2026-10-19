@@ -1,5 +1,5 @@
 {
- "last_run": "2026-10-18T19:42:54.325783+00:00",
+ "last_run": "2026-10-19T05:40:09.286552+00:00",
  "sources": [
   {
    "source": "The Pelikan's Perch (Pelikan)",
@@ -197,19 +197,19 @@
    "source": "Google News: limited/special edition",
    "url": "https://news.google.com/rss/search?q=%22fountain+pen%22+%28%22limited+edition%22+OR+%22special+edition%22+OR+%22new+colorway%22+OR+%22new+colors%22%29+when%3A14d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "entries_in_feed": 9
+   "entries_in_feed": 10
   },
   {
    "source": "YouTube: Asvine Pen",
    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWSPXdu1xE88rAC1zcBhBNg",
-   "ok": true,
-   "entries_in_feed": 15
+   "ok": false,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCWSPXdu1xE88rAC1zcBhBNg"
   },
   {
    "source": "YouTube: Moonman Pens India (dystrybutor)",
    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCL45zQSo1b8PGkl9KxyXosw",
-   "ok": true,
-   "entries_in_feed": 15
+   "ok": false,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCL45zQSo1b8PGkl9KxyXosw"
   },
   {
    "source": "Scooboo (IN): Moonman/Majohn",
