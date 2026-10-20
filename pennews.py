@@ -309,19 +309,19 @@ def feed_opts(f) -> dict:
     return o
 
 
-def find_brands(text: str, m):
-    has_ctx = bool(m["ctx"].search(text))
+def find_brands(text: str, m, ctx_ok: bool = False):
+    has_ctx = ctx_ok or bool(m["ctx"].search(text))
     found = []
     for name, rx, amb in m["brands"]:
         if rx.search(text) and (not amb or has_ctx):
             canon = "Nahvalur" if name == "Narwhal" else "HongDian" if name == "Hong Dian" else \
-                    "YSTUDIO" if name == "Ystudio" else name
+                    "YSTUDIO" if name == "Ystudio" else "Majohn" if name == "Moonman" else name
             if canon not in found:
                 found.append(canon)
     return found
 
 
-def evaluate(title: str, summary: str, m, only_releases: bool, retailer: bool = False, assume: bool = False, opts=None, skip_lang: bool = False):
+def evaluate(title: str, summary: str, m, only_releases: bool, retailer: bool = False, assume: bool = False, opts=None, skip_lang: bool = False, force_release: bool = False):
     """Zwraca (zachowaj, tier, marki). tier: "release" | "stock" | None.
 
     Blogi i producenci: mocne lub słabe słowo => premiera.
@@ -339,7 +339,7 @@ def evaluate(title: str, summary: str, m, only_releases: bool, retailer: bool = 
         tier = None                         # np. wpis o nożach z bloga, który pisze też o piórach
     elif opts.get("must_title") and not opts["must_title"].search(title):
         tier = None
-    elif assume:  # źródło, w którym każdy nowy wpis jest z definicji premierą (np. kategoria "limited edition")
+    elif assume or force_release:  # źródło, w którym każdy nowy wpis jest z definicji premierą (np. kategoria "limited edition")
         tier = "release"
     else:
         def strong(t):
@@ -400,6 +400,24 @@ def page_candidates(feed, timeout: int, now: datetime):
     return out
 
 
+def normalize_feed(f) -> dict:
+    """Pozwala podać konto zamiast adresu: "bluesky": "login.bsky.social", "youtube_channel_id": "UC...",
+    "mastodon": "@konto@serwer.tld". Adres feedu jest dopisywany automatycznie."""
+    if not f.get("url"):
+        if f.get("bluesky"):
+            h = f["bluesky"].lstrip("@")
+            f["url"] = f"https://bsky.app/profile/{h}/rss"
+            f.setdefault("name", f"Bluesky: {h}")
+        elif f.get("youtube_channel_id"):
+            f["url"] = "https://www.youtube.com/feeds/videos.xml?channel_id=" + f["youtube_channel_id"]
+            f.setdefault("name", "YouTube: " + f["youtube_channel_id"])
+        elif f.get("mastodon"):
+            user, _, inst = f["mastodon"].lstrip("@").partition("@")
+            f["url"] = f"https://{inst}/@{user}.rss"
+            f.setdefault("name", f"Mastodon: @{user}@{inst}")
+    return f
+
+
 def feed_candidates(feed, timeout: int, now: datetime):
     if feed.get("type") == "page":
         return page_candidates(feed, timeout, now)
@@ -421,7 +439,10 @@ STOP = {"the", "a", "an", "of", "and", "or", "for", "in", "on", "to", "with", "f
         "release", "releases", "released", "announce", "announces", "announced", "introduces", "introducing",
         "introduced", "launches", "launched", "available", "now", "more", "plus", "collection", "series", "colour",
         "color", "colors", "colours", "colorway", "colorways", "edycja", "limitowana", "nowy", "nowa", "nowe",
-        "ef", "xf", "f", "m", "b", "bb", "fine", "medium", "broad", "extra", "double", "oblique", "stub", "nib", "nibs"}
+        "ef", "xf", "f", "m", "b", "bb", "fine", "medium", "broad", "extra", "double", "oblique", "stub", "nib", "nibs",
+        "pióro", "pióra", "wieczne", "wieczny", "specjalna", "specjalne", "limitowane", "limitowany", "zestaw", "prezentowy",
+        "atrament", "atramenty", "kolor", "kolorze", "długopis", "nowość", "nowości", "producent", "kolekcja", "edycji", "wersja",
+        "na", "do", "dla", "od", "po", "ze", "nowa", "nowy"}
 MODEL_RE = re.compile(r"^(?!(?:19|20)\d\d$)[a-z]*\d+[a-z0-9]*$")
 
 
@@ -700,6 +721,47 @@ def enrich_pass(stored, m, s, opts_by_source, cutoff) -> int:
     return done
 
 
+def _bk(name: str) -> str:
+    return re.sub(r"[\s.'’-]+", "", name.casefold())    # "J. Herbin" == "jherbin", "Caran d'Ache" == "carandache"
+
+
+class PLMarket:
+    """Rejestr marek widzianych w obserwowanych polskich sklepach. Marka spoza rejestru, która pojawia się
+    w polskim sklepie, to "nowa marka w Polsce" (według obserwowanych stron, nie całego rynku)."""
+
+    def __init__(self, cfg, path: Path):
+        cfg = cfg or {}
+        self.enabled = bool(cfg.get("enabled", True))
+        self.report_shop = bool(cfg.get("report_shop_new_brands", False))
+        self.path = path
+        self.brands = load_json(path, {"brands": {}}).get("brands", {})
+        for b in cfg.get("known_brands", []):
+            self.brands.setdefault(_bk(b), {"name": b, "first_seen": "seed", "where": "lista znanych marek"})
+
+    def known(self, brand: str) -> bool:
+        return _bk(brand) in self.brands
+
+    def add(self, brand: str, where: str, when: str) -> None:
+        self.brands.setdefault(_bk(brand), {"name": brand, "first_seen": when, "where": where})
+
+    def save(self) -> None:
+        if self.enabled:
+            self.path.write_text(json.dumps({"brands": self.brands}, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def brand_candidates(cands, m):
+    """Strona z listą producentów: tekst linku to marka (np. "BENU (40)"). Zostają tylko marki z listy `brands`."""
+    out, seen = [], set()
+    for c in cands:
+        text = re.sub(r"\s*[\(\[]?\d+[\)\]]?\s*$", "", clean_text(c["title"], 120)).strip()
+        found = find_brands(text, m, ctx_ok=True)
+        if not found or found[0] in seen:
+            continue
+        seen.add(found[0])
+        out.append(dict(c, id="brand:" + _bk(found[0]), _brand=found[0], title=text, body="", date_kind="detected"))
+    return out
+
+
 def uid(source: str, raw_id: str) -> str:
     return hashlib.sha1(f"{source}|{raw_id}".encode("utf-8")).hexdigest()[:16]
 
@@ -733,7 +795,8 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
         fb = feed_by_source.get(e.get("source"), {})
         keep, tier, brands = evaluate(e["title"], e.get("summary", ""), matchers, only,
                                       bool(fb.get("retailer")), bool(fb.get("assume_release")),
-                                      opts_by_source.get(e.get("source"), {}), bool(e.get("translated")))
+                                      opts_by_source.get(e.get("source"), {}), bool(e.get("translated")),
+                                      bool(e.get("pl_new")))
         if keep:  # zmiana słów kluczowych działa wstecz na całe archiwum
             e.pop("dup_of", None); e.pop("also", None)  # duplikaty liczone od nowa przy każdym uruchomieniu
             e["tier"], e["release"], e["brands"] = tier, tier == "release", brands
@@ -743,6 +806,10 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
     added = 0
     cutoff = now - timedelta(days=s["retention_days"])
     translator = Translator(s.get("translate"), data_dir / "translations.json", s["request_timeout"])
+    for f in cfg["feeds"]:
+        normalize_feed(f)
+    baselines = load_json(data_dir / "baselines.json", {})
+    pl = PLMarket(s.get("pl_market"), data_dir / "pl_market.json")
 
     for feed in cfg["feeds"]:
         if not feed.get("enabled", True):
@@ -751,27 +818,52 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
         try:
             count = 0
             rows = []
-            for c in feed_candidates(feed, s["request_timeout"], now):
+            cands = feed_candidates(feed, s["request_timeout"], now)
+            pl_shop = pl.enabled and feed.get("market") == "PL" and bool(feed.get("retailer"))
+            if feed.get("brands_page"):
+                cands = brand_candidates(cands, matchers)
+            all_cands = list(cands)
+            ignore = set()
+            if feed.get("type") == "page" and feed.get("baseline", True):
+                if name not in baselines:   # pierwsze zobaczenie strony: istniejący katalog to nie "nowości"
+                    baselines[name] = [uid(name, c["id"]) for c in cands][:5000]
+                    print(f"[linia bazowa] {name}: zapamiętano {len(cands)} istniejących linków, pokazywane będą tylko nowe")
+                    count, cands = len(cands), []
+                else:
+                    ignore = set(baselines[name])
+            for c in cands:
                 link = c["link"]
                 if urlparse(link).scheme not in ("http", "https"):
                     continue
                 u = uid(name, c["id"])
                 count += 1
-                if u in stored or c["published"] < cutoff:
+                if u in stored or u in ignore or c["published"] < cutoff:
                     continue
                 image = urljoin(link, c["image"]) if c["image"] else ""
+                title = clean_text(c["title"], 200) or "(bez tytułu)"
+                summary = clean_text(c["body"], s["max_summary_chars"])
+                pl_new, force = [], False
+                if c.get("_brand"):                       # strona z listą producentów
+                    force = True
+                    if pl_shop and not pl.known(c["_brand"]):
+                        pl_new = [c["_brand"]]
+                    elif not pl.report_shop:
+                        continue                          # marka znana w polskich sklepach: nie raportujemy
+                    title = f"Nowa marka w ofercie {name}: {c['_brand']}"
+                elif pl_shop:
+                    pl_new = [b for b in find_brands(f"{title} {summary}", matchers) if not pl.known(b)]
+                    force = bool(pl_new)
                 rows.append({"u": u, "link": link, "image": image if urlparse(image).scheme in ("http", "https") else "",
                              "published": c["published"], "date_kind": c.get("date_kind", "detected"),
-                             "raw": (c["body"] or "")[:60000],
-                             "title": clean_text(c["title"], 200) or "(bez tytułu)",
-                             "summary": clean_text(c["body"], s["max_summary_chars"])})
+                             "raw": (c["body"] or "")[:60000], "title": title, "summary": summary,
+                             "pl_new": pl_new, "force": force})
             translate_rows(rows, matchers, translator)
             for r in rows:
                 if r.get("skip"):
                     continue
                 keep, tier, brands = evaluate(r["title"], r["summary"], matchers, only, bool(feed.get("retailer", False)),
                                               bool(feed.get("assume_release", False)), opts_by_source[name],
-                                              r.get("translated", False))
+                                              r.get("translated", False), r.get("force", False))
                 if not keep:
                     continue
                 paras = [r["summary"]] if r.get("translated") else html_to_paragraphs(r["raw"])
@@ -796,8 +888,17 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
                 }
                 if r.get("translated"):
                     entry.update({"translated": True, "lang": r["lang"], "orig_title": r["orig_title"]})
+                if r.get("pl_new"):
+                    entry["pl_new"] = r["pl_new"]
+                    entry["snippet"] = (f"Marka {', '.join(r['pl_new'])} nie występowała dotąd na obserwowanych polskich "
+                                        f"stronach sklepowych (pierwszy raz: {name}).")
+                    entry["hl"] = list(r["pl_new"])
                 stored[r["u"]] = entry
                 added += 1
+            if pl_shop:                                   # po zdarzeniach: zapamiętaj marki widziane w tym sklepie
+                for c in all_cands:
+                    for b in ([c["_brand"]] if c.get("_brand") else find_brands(clean_text(c["title"], 200), matchers)):
+                        pl.add(b, name, now.isoformat())
             status.append({"source": name, "url": url, "ok": True, "entries_in_feed": count})
             print(f"[ok]   {name}: {count} wpisów w feedzie")
         except Exception as ex:  # jedno zepsute źródło nie może zatrzymać reszty
@@ -815,6 +916,8 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
     data_dir.mkdir(parents=True, exist_ok=True)
     out_dir.mkdir(parents=True, exist_ok=True)
     translator.save()
+    pl.save()
+    (data_dir / "baselines.json").write_text(json.dumps(baselines, ensure_ascii=False), encoding="utf-8")
     if translator.chars:
         print(f"Przetłumaczono znaków w tym uruchomieniu: {translator.chars}")
     entries_path.write_text(json.dumps(kept, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -879,6 +982,7 @@ footer .bad{color:#c0392b}
   <button id="f-all" aria-pressed="true">Premiery</button>
   <button id="f-rel" aria-pressed="false">+ dostawy sklepowe</button>
   <button id="f-new" aria-pressed="false">Nowe (__NEWH__ h)</button>
+  <button id="f-pl" aria-pressed="false">Nowe w Polsce</button>
   <select id="brand"><option value="">Wszystkie marki</option></select>
   <select id="src"><option value="">Wszystkie źródła</option></select>
   <input id="q" type="search" placeholder="Szukaj…">
@@ -893,7 +997,7 @@ const NEW_HOURS = __NEWH__;
 const ONLY_REL = __ONLYREL__;
 const now = Date.now();
 const $ = id => document.getElementById(id);
-let showStock = false, newOnly = false;
+let showStock = false, newOnly = false, plOnly = false;
 
 function safeUrl(u){ try{ const x = new URL(u); return (x.protocol==='http:'||x.protocol==='https:') ? x.href : '#'; }catch(e){ return '#'; } }
 function isNew(e){ return (now - Date.parse(e.first_seen)) < NEW_HOURS*3600*1000; }
@@ -902,6 +1006,7 @@ function el(tag, cls, text){ const n=document.createElement(tag); if(cls) n.clas
 $('upd').textContent = new Date(STATUS.last_run).toLocaleString('pl-PL');
 const stockN = DATA.filter(e=>e.tier==='stock').length;
 $('f-rel').textContent = '+ dostawy sklepowe ('+stockN+')';
+$('f-pl').textContent = 'Nowe w Polsce ('+DATA.filter(e=>e.pl_new && e.pl_new.length).length+')';
 const brands = [...new Set(DATA.flatMap(e=>e.brands))].sort((a,b)=>a.localeCompare(b));
 const srcs = [...new Set(DATA.map(e=>e.source))].sort();
 brands.forEach(b=>{ const o=el('option',null,b); o.value=b; $('brand').append(o); });
@@ -925,7 +1030,7 @@ function highlight(node, text, phrases){
 function render(){
   const q = $('q').value.trim().toLowerCase(), b = $('brand').value, s = $('src').value;
   const rows = DATA.filter(e =>
-    (showStock || e.tier!=='stock') && (!newOnly || isNew(e)) && (!b || e.brands.includes(b)) && (!s || e.source===s) &&
+    (showStock || e.tier!=='stock') && (!newOnly || isNew(e)) && (!plOnly || (e.pl_new && e.pl_new.length)) && (!b || e.brands.includes(b)) && (!s || e.source===s) &&
     (!q || (e.title+' '+e.summary+' '+(e.snippet||'')).toLowerCase().includes(q)));
   const box = $('list'); box.replaceChildren();
   if(!rows.length){ box.append(el('div','empty','Brak wpisów dla tych filtrów.')); return; }
@@ -942,6 +1047,7 @@ function render(){
     else if(e.summary) body.append(el('p','p',e.summary));
     const chips = el('div','chips');
     if(isNew(e)) chips.append(el('span','chip new','nowe'));
+    if(e.pl_new && e.pl_new.length) chips.append(el('span','chip new','Nowa marka w Polsce: '+e.pl_new.join(', ')));
     if(e.translated) chips.append(el('span','chip','tłumaczenie maszynowe'));
     if(e.tier==='stock') chips.append(el('span','chip','dostawa sklepowa')); else chips.append(el('span','chip rel','premiera / edycja'));
     e.brands.forEach(x=>chips.append(el('span','chip',x)));
@@ -954,8 +1060,9 @@ function render(){
     card.append(body); box.append(card);
   });
 }
-function setBtn(){ $('f-all').setAttribute('aria-pressed', !showStock&&!newOnly); $('f-rel').setAttribute('aria-pressed', showStock); $('f-new').setAttribute('aria-pressed', newOnly); }
-$('f-all').onclick=()=>{showStock=false;newOnly=false;setBtn();render();};
+function setBtn(){ $('f-all').setAttribute('aria-pressed', !showStock&&!newOnly&&!plOnly); $('f-pl').setAttribute('aria-pressed', plOnly); $('f-rel').setAttribute('aria-pressed', showStock); $('f-new').setAttribute('aria-pressed', newOnly); }
+$('f-all').onclick=()=>{showStock=false;newOnly=false;plOnly=false;setBtn();render();};
+$('f-pl').onclick=()=>{plOnly=!plOnly;setBtn();render();};
 $('f-rel').onclick=()=>{showStock=!showStock;setBtn();render();};
 $('f-new').onclick=()=>{newOnly=!newOnly;setBtn();render();};
 ['brand','src'].forEach(i=>$(i).onchange=render); $('q').oninput=render;
