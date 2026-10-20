@@ -1,0 +1,164 @@
+{
+ "brands": {
+  "aurora": {
+   "name": "Aurora",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "benu": {
+   "name": "Benu",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "carandache": {
+   "name": "Caran d'Ache",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "conklin": {
+   "name": "Conklin",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "cross": {
+   "name": "Cross",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "delta": {
+   "name": "Delta",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "diplomat": {
+   "name": "Diplomat",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "duke": {
+   "name": "Duke",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "esterbrook": {
+   "name": "Esterbrook",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "exo": {
+   "name": "Exo",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "fabercastell": {
+   "name": "Faber-Castell",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "ferriswheelpress": {
+   "name": "Ferris Wheel Press",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "grafvonfabercastell": {
+   "name": "Graf von Faber-Castell",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "jherbin": {
+   "name": "J. Herbin",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "kaweco": {
+   "name": "Kaweco",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "lamy": {
+   "name": "Lamy",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "leonardo": {
+   "name": "Leonardo",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "montblanc": {
+   "name": "Montblanc",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "montegrappa": {
+   "name": "Montegrappa",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "monteverde": {
+   "name": "Monteverde",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "namiki": {
+   "name": "Namiki",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "parker": {
+   "name": "Parker",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "pelikan": {
+   "name": "Pelikan",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "pilot": {
+   "name": "Pilot",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "pininfarina": {
+   "name": "Pininfarina",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "platinum": {
+   "name": "Platinum",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "sailor": {
+   "name": "Sailor",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "sheaffer": {
+   "name": "Sheaffer",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "visconti": {
+   "name": "Visconti",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "waldmann": {
+   "name": "Waldmann",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "waterman": {
+   "name": "Waterman",
+   "first_seen": "seed",
+   "where": "lista znanych marek"
+  },
+  "twsbi": {
+   "name": "TWSBI",
+   "first_seen": "2026-10-20T17:37:42.112195+00:00",
+   "where": "Pióromaniak (PL)"
+  }
+ }
+}

@@ -512,6 +512,26 @@
   ]
  },
  {
+  "uid": "86ba0baa2fd2db2b",
+  "source": "Zegarki i Pióra (blog PL)",
+  "title": "Leonardo Momento Zero Eruption Limited Edition",
+  "link": "https://zegarkiipiora.com/2026/10/09/leonardo-momento-zero-eruption-limited-edition/",
+  "summary": "Kolejnym z wyjątkowych piór wiecznych, które do nas dotarły jest tytułowy model Eruption od firmy Leonardo. Jest to również kontynuacja serii wydawanych w ograniczonej liczbie egzemplarzy, podobnie jak opisywany wcześniej wariant Liquidity – zachęcamy do zapoznania się z jego…",
+  "image": "https://zegarkiipiora.com/wp-content/uploads/2026/09/leonardo_mz_eruption_sm-5.jpg",
+  "published": "2026-10-09T09:48:31+00:00",
+  "date_kind": "published",
+  "snippet": "Kolejnym z wyjątkowych piór wiecznych, które do nas dotarły jest tytułowy model Eruption od firmy Leonardo. Jest to również kontynuacja serii wydawanych w ograniczonej liczbie egzemplarzy, podobnie jak opisywany wcześniej wariant Liquidity – zachęcamy do zapoznania się z jego opisem by nie dublować zamieszczonych nam t…",
+  "hl": [],
+  "first_seen": "2026-10-20T17:37:42.112195+00:00",
+  "tier": "release",
+  "retailer_src": false,
+  "release": true,
+  "brands": [
+   "Leonardo"
+  ],
+  "enrich_tries": 9
+ },
+ {
   "uid": "0f40203d0d127869",
   "source": "The Gentleman Stationer",
   "title": "New Arrivals: Tono & Lims Friendship Inks, Including Shimmer and Chromashaders",
@@ -702,8 +722,7 @@
   "retailer_src": true,
   "release": true,
   "brands": [
-   "Majohn",
-   "Moonman"
+   "Majohn"
   ],
   "enrich_tries": 9,
   "snippet": "Moonman ink is fast drying, smooth flowing, water based, non-toxic and pH neutral ink made from all natural dyes. Faceted glass bottle with a wide base, tight screw-top closure for convenience, ease of use and storage.",
@@ -723,8 +742,7 @@
   "retailer_src": true,
   "release": true,
   "brands": [
-   "Majohn",
-   "Moonman"
+   "Majohn"
   ],
   "enrich_tries": 9,
   "snippet": "The Moonman 50ml Non-Carbon Waterproof Fountain Pen Ink is specially formulated for smooth ink flow, vibrant color, and reliable everyday writing performance.",
@@ -744,8 +762,7 @@
   "retailer_src": true,
   "release": true,
   "brands": [
-   "Majohn",
-   "Moonman"
+   "Majohn"
   ],
   "enrich_tries": 9,
   "snippet": "Moonman ink is fast drying, smooth flowing, water based, non-toxic and pH neutral ink made from all natural dyes. 18ml Ink Bottle: Faceted glass bottle with a wide base, tight screw-top closure for convenience, ease of use and storage.",
@@ -764,8 +781,7 @@
   "retailer_src": true,
   "release": true,
   "brands": [
-   "Majohn",
-   "Moonman"
+   "Majohn"
   ],
   "enrich_tries": 9,
   "snippet": "Mini pocket-size, easy to carry:Mini compact design makes the pen delicate and cute, just like the treasure in the palm.",
@@ -784,8 +800,7 @@
   "retailer_src": true,
   "release": true,
   "brands": [
-   "Majohn",
-   "Moonman"
+   "Majohn"
   ],
   "enrich_tries": 9,
   "snippet": "Majohn P138 metal piston fountain pen, the perfect writing tool for those who appreciate both style and functionality. This stunning pen features an exquisite etching pattern that will make it stand out from the crowd.",
@@ -804,8 +819,7 @@
   "retailer_src": true,
   "release": true,
   "brands": [
-   "Majohn",
-   "Moonman"
+   "Majohn"
   ],
   "enrich_tries": 9,
   "snippet": "The Moonman RS3 Mini Fountain Pen combines an elegant translucent acrylic body with a distinctive faceted design and decorative metal clip.",
@@ -824,8 +838,7 @@
   "retailer_src": true,
   "release": true,
   "brands": [
-   "Majohn",
-   "Moonman"
+   "Majohn"
   ],
   "enrich_tries": 9,
   "snippet": "At just 100mm capped, the MAJOHN RS2 is engineered for writers who refuse to compromise on quality when they're on the move.",
@@ -844,8 +857,7 @@
   "retailer_src": true,
   "release": true,
   "brands": [
-   "Majohn",
-   "Moonman"
+   "Majohn"
   ],
   "enrich_tries": 9,
   "snippet": "Transparent Ink Window – The clear acrylic section allows you to monitor ink levels easily, ensuring you never run out unexpectedly.",
@@ -864,8 +876,7 @@
   "retailer_src": true,
   "release": true,
   "brands": [
-   "Majohn",
-   "Moonman"
+   "Majohn"
   ],
   "enrich_tries": 9,
   "snippet": "FLEX NIB DESIGN: The Majohn P136 features a flexible nib that allows for expressive line variation, making it ideal for calligraphy, journaling, and everyday writing.",
@@ -884,8 +895,7 @@
   "retailer_src": true,
   "release": true,
   "brands": [
-   "Majohn",
-   "Moonman"
+   "Majohn"
   ],
   "enrich_tries": 9,
   "snippet": "This pen is equipped with a fine nib to deliver an incomparable writing experience. The acrylic of this pen evokes vintage nostalgia.",
@@ -920,8 +930,7 @@
   "retailer_src": true,
   "release": true,
   "brands": [
-   "Majohn",
-   "Moonman"
+   "Majohn"
   ],
   "enrich_tries": 9,
   "snippet": "The Moonman B32 Fountain Pen features a slim retro-inspired design with a vertically ribbed metal body and a transparent ink-view window.",

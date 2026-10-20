@@ -1,5 +1,5 @@
 {
- "last_run": "2026-10-20T05:40:57.068104+00:00",
+ "last_run": "2026-10-20T17:37:42.112195+00:00",
  "sources": [
   {
    "source": "The Pelikan's Perch (Pelikan)",
@@ -143,7 +143,7 @@
    "source": "Stilo e Stile (limited edition)",
    "url": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition",
    "ok": true,
-   "entries_in_feed": 17
+   "entries_in_feed": 18
   },
   {
    "source": "JetPens: Kaweco Collection Sport",
@@ -185,7 +185,7 @@
    "source": "Swastik Penn: Hongdian",
    "url": "https://www.swastikpenn.com/collections/hongdian.atom",
    "ok": true,
-   "entries_in_feed": 25
+   "entries_in_feed": 24
   },
   {
    "source": "Google News: chińskie marki",
@@ -197,19 +197,19 @@
    "source": "Google News: limited/special edition",
    "url": "https://news.google.com/rss/search?q=%22fountain+pen%22+%28%22limited+edition%22+OR+%22special+edition%22+OR+%22new+colorway%22+OR+%22new+colors%22%29+when%3A14d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "entries_in_feed": 9
+   "entries_in_feed": 8
   },
   {
    "source": "YouTube: Asvine Pen",
    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWSPXdu1xE88rAC1zcBhBNg",
-   "ok": false,
-   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCWSPXdu1xE88rAC1zcBhBNg"
+   "ok": true,
+   "entries_in_feed": 15
   },
   {
    "source": "YouTube: Moonman Pens India (dystrybutor)",
    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCL45zQSo1b8PGkl9KxyXosw",
-   "ok": false,
-   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCL45zQSo1b8PGkl9KxyXosw"
+   "ok": true,
+   "entries_in_feed": 15
   },
   {
    "source": "Scooboo (IN): Moonman/Majohn",
@@ -234,6 +234,78 @@
    "url": "https://www.asvineessentials.com/?post_type=product&feed=rss2",
    "ok": false,
    "error": "HTTPSConnectionPool(host='www.asvineessentials.com', port=443): Max retries exceeded with url: /?post_type=product&feed=rss2 (Caused by NameResolutionError(\"HTTPSConnection(host='www.asvineessentials."
+  },
+  {
+   "source": "Zegarki i Pióra (blog PL)",
+   "url": "https://zegarkiipiora.com/feed/",
+   "ok": true,
+   "entries_in_feed": 10
+  },
+  {
+   "source": "Pióromaniak (PL)",
+   "url": "https://www.pioromaniak.pl/",
+   "ok": true,
+   "entries_in_feed": 64
+  },
+  {
+   "source": "Twoje Pióro: Pelikan limitowane (PL)",
+   "url": "https://www.twojepioro.pl/artykuly-pismienne/edycje-limitowane-pior-wiecznych/pelikan",
+   "ok": true,
+   "entries_in_feed": 123
+  },
+  {
+   "source": "Twoje Pióro: Kaweco limitowane (PL)",
+   "url": "https://www.twojepioro.pl/artykuly-pismienne/edycje-limitowane-pior-wiecznych/kaweco",
+   "ok": true,
+   "entries_in_feed": 125
+  },
+  {
+   "source": "Twoje Pióro: edycje limitowane (PL)",
+   "url": "https://www.twojepioro.pl/artykuly-pismienne/edycje-limitowane-pior-wiecznych",
+   "ok": true,
+   "entries_in_feed": 149
+  },
+  {
+   "source": "Pióroteka: Kaweco (PL)",
+   "url": "https://wiecznepiora.eu/piora-wieczne-kaweco",
+   "ok": true,
+   "entries_in_feed": 36
+  },
+  {
+   "source": "Pióroteka: Lamy (PL)",
+   "url": "https://wiecznepiora.eu/piora-wieczne-lamy",
+   "ok": true,
+   "entries_in_feed": 36
+  },
+  {
+   "source": "epiora.pl (PL)",
+   "url": "https://epiora.pl/",
+   "ok": true,
+   "entries_in_feed": 58
+  },
+  {
+   "source": "Scryba: Kaweco (PL)",
+   "url": "https://sklep-scryba.pl/artykuly-pismiennicze/piora-wieczne/kaweco",
+   "ok": true,
+   "entries_in_feed": 29
+  },
+  {
+   "source": "Bazarnik: Kaweco (PL)",
+   "url": "https://www.bazarnik.pl/art-pismienne/marki/kaweco/piora-wieczne",
+   "ok": true,
+   "entries_in_feed": 49
+  },
+  {
+   "source": "Noteka: nowości (PL)",
+   "url": "https://noteka.pl/pl/new",
+   "ok": true,
+   "entries_in_feed": 120
+  },
+  {
+   "source": "Noteka: marki piór (PL)",
+   "url": "https://noteka.pl/kategoria/piora-wieczne",
+   "ok": true,
+   "entries_in_feed": 10
   }
  ]
 }
