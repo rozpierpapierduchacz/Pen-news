@@ -1,5 +1,5 @@
 {
- "last_run": "2026-10-20T17:37:42.112195+00:00",
+ "last_run": "2026-10-21T05:40:33.330855+00:00",
  "sources": [
   {
    "source": "The Pelikan's Perch (Pelikan)",
@@ -16,8 +16,8 @@
   {
    "source": "The Well-Appointed Desk",
    "url": "https://www.wellappointeddesk.com/feed/",
-   "ok": true,
-   "entries_in_feed": 10
+   "ok": false,
+   "error": "HTTPSConnectionPool(host='www.wellappointeddesk.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.wellappointeddesk.com', port=443) at 0x"
   },
   {
    "source": "Edjelley",
@@ -202,14 +202,14 @@
   {
    "source": "YouTube: Asvine Pen",
    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWSPXdu1xE88rAC1zcBhBNg",
-   "ok": true,
-   "entries_in_feed": 15
+   "ok": false,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCWSPXdu1xE88rAC1zcBhBNg"
   },
   {
    "source": "YouTube: Moonman Pens India (dystrybutor)",
    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCL45zQSo1b8PGkl9KxyXosw",
-   "ok": true,
-   "entries_in_feed": 15
+   "ok": false,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCL45zQSo1b8PGkl9KxyXosw"
   },
   {
    "source": "Scooboo (IN): Moonman/Majohn",
