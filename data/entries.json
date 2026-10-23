@@ -1,5 +1,71 @@
 [
  {
+  "uid": "f228e249cdf185e1",
+  "source": "Stilo e Stile (limited edition)",
+  "title": "Leonardo Panta Rei Fountain Pen Blue Sand",
+  "link": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition/leonardo-panta-rei-fountain-pen-blue-sand",
+  "summary": "",
+  "image": "https://www.stiloestile.com/70774-large_default/leonardo-panta-rei-fountain-pen-blue-sand.jpg",
+  "published": "2026-10-23T05:40:21.353940+00:00",
+  "date_kind": "detected",
+  "snippet": "10% OFF FOR PREORDERS ONLY!Add the pen to your cart and the price will be automatically updated. Petroleum blue, rocky gray, and red accents bring philosophy and Italian craftsmanship together.",
+  "hl": [
+   "PREORDERS"
+  ],
+  "first_seen": "2026-10-23T05:40:21.353940+00:00",
+  "tier": "release",
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Leonardo"
+  ],
+  "enrich_tries": 9
+ },
+ {
+  "uid": "3f0441607659d04b",
+  "source": "Stilo e Stile (limited edition)",
+  "title": "Leonardo Panta Rei Fountain Pen Ivory",
+  "link": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition/leonardo-panta-rei-fountain-pen-ivory",
+  "summary": "",
+  "image": "https://www.stiloestile.com/70790-large_default/leonardo-panta-rei-fountain-pen-ivory.jpg",
+  "published": "2026-10-23T05:40:21.353940+00:00",
+  "date_kind": "detected",
+  "snippet": "10% OFF FOR PREORDERS ONLY!Add the pen to your cart and the price will be automatically updated. Mother-of-pearl ivory, gold trim, and little red details.",
+  "hl": [
+   "PREORDERS"
+  ],
+  "first_seen": "2026-10-23T05:40:21.353940+00:00",
+  "tier": "release",
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Leonardo"
+  ],
+  "enrich_tries": 9
+ },
+ {
+  "uid": "7fe3a25bfafed6c9",
+  "source": "Stilo e Stile (limited edition)",
+  "title": "Leonardo Panta Rei Fountain Pen Blue Sand 14k",
+  "link": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition/leonardo-panta-rei-fountain-pen-blue-sand-14k",
+  "summary": "",
+  "image": "https://www.stiloestile.com/70780-large_default/leonardo-panta-rei-fountain-pen-blue-sand-14k.jpg",
+  "published": "2026-10-23T05:40:21.353940+00:00",
+  "date_kind": "detected",
+  "snippet": "10% OFF FOR PREORDERS ONLY!Add the pen to your cart and the price will be automatically updated. Deep petroleum blue meets a #6 14K gold nib and Luciano De Crescenzo's gold-filled signature.",
+  "hl": [
+   "PREORDERS"
+  ],
+  "first_seen": "2026-10-23T05:40:21.353940+00:00",
+  "tier": "release",
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Leonardo"
+  ],
+  "enrich_tries": 9
+ },
+ {
   "uid": "4db04a8971782973",
   "source": "The Pen Addict",
   "title": "St. Jude Incentive Fulfillment Update",

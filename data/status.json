@@ -1,5 +1,5 @@
 {
- "last_run": "2026-10-22T05:39:37.613093+00:00",
+ "last_run": "2026-10-23T05:40:21.353940+00:00",
  "sources": [
   {
    "source": "The Pelikan's Perch (Pelikan)",
@@ -197,7 +197,7 @@
    "source": "Google News: limited/special edition",
    "url": "https://news.google.com/rss/search?q=%22fountain+pen%22+%28%22limited+edition%22+OR+%22special+edition%22+OR+%22new+colorway%22+OR+%22new+colors%22%29+when%3A14d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "entries_in_feed": 8
+   "entries_in_feed": 7
   },
   {
    "source": "YouTube: Asvine Pen",
@@ -251,19 +251,19 @@
    "source": "Twoje Pióro: Pelikan limitowane (PL)",
    "url": "https://www.twojepioro.pl/artykuly-pismienne/edycje-limitowane-pior-wiecznych/pelikan",
    "ok": true,
-   "entries_in_feed": 123
+   "entries_in_feed": 122
   },
   {
    "source": "Twoje Pióro: Kaweco limitowane (PL)",
    "url": "https://www.twojepioro.pl/artykuly-pismienne/edycje-limitowane-pior-wiecznych/kaweco",
    "ok": true,
-   "entries_in_feed": 125
+   "entries_in_feed": 124
   },
   {
    "source": "Twoje Pióro: edycje limitowane (PL)",
    "url": "https://www.twojepioro.pl/artykuly-pismienne/edycje-limitowane-pior-wiecznych",
    "ok": true,
-   "entries_in_feed": 149
+   "entries_in_feed": 148
   },
   {
    "source": "Pióroteka: Kaweco (PL)",
@@ -299,7 +299,7 @@
    "source": "Noteka: nowości (PL)",
    "url": "https://noteka.pl/pl/new",
    "ok": true,
-   "entries_in_feed": 127
+   "entries_in_feed": 128
   },
   {
    "source": "Noteka: marki piór (PL)",
