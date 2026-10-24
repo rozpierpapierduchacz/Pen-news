@@ -1,5 +1,24 @@
 [
  {
+  "uid": "3df996274b91e6e8",
+  "source": "The Well-Appointed Desk",
+  "title": "Quote of the Week: The beginning…",
+  "link": "https://www.wellappointeddesk.com/2026/10/quote-of-the-week-the-beginning/",
+  "summary": "Initially, I was thinking that “for the new year…” I’d add a post each week with a quote or bit of inspiration but I realized, why should I wait? Can I not launch a new idea or project on any day? Can we not wake up on a new day with a new commitment to…",
+  "image": "https://i0.wp.com/www.wellappointeddesk.com/wp-content/uploads/2026/10/QOTW-01.jpg?resize=1080%2C1440&ssl=1",
+  "published": "2026-10-23T15:00:00+00:00",
+  "date_kind": "published",
+  "snippet": "Can I not launch a new idea or project on any day? Can we not wake up on a new day with a new commitment to…",
+  "hl": [
+   "launch"
+  ],
+  "first_seen": "2026-10-24T05:40:03.199191+00:00",
+  "tier": "release",
+  "retailer_src": false,
+  "release": true,
+  "brands": []
+ },
+ {
   "uid": "f228e249cdf185e1",
   "source": "Stilo e Stile (limited edition)",
   "title": "Leonardo Panta Rei Fountain Pen Blue Sand",
@@ -1123,24 +1142,5 @@
   "hl": [
    "debut"
   ]
- },
- {
-  "uid": "0d72e1472b129a30",
-  "source": "TTPen: Hongdian",
-  "title": "HONGDIAN 1837 Maki-e Fountain Pen | 18K Gold-Plated | Classical Chinese Flora & Fauna",
-  "link": "https://www.ttpen.com/products/hongdian-1837-maki-e-fountain-pen-18k-gold-plated-classical-chinese-flora-fauna",
-  "summary": "Vendor: HONGDIAN Type: Fountain Pen Price: 29.00 HONGDIAN 1837 Maki-e — A Thousand Years of Art, Held in Your Hand The HONGDIAN 1837 Maki-e is not merely a writing instrument — it is a collector’s object. Inspired by the classical Chinese artistic tradition of flora and fauna…",
-  "image": "https://cdn.shopify.com/s/files/1/0804/2630/3793/files/HONGDIAN-1837-fountain-pen3.jpg?v=1782382137",
-  "published": "2026-06-25T10:17:12+00:00",
-  "first_seen": "2026-10-18T19:42:54.325783+00:00",
-  "tier": "release",
-  "retailer_src": true,
-  "release": true,
-  "brands": [
-   "HongDian"
-  ],
-  "enrich_tries": 9,
-  "snippet": "HONGDIAN 1837 Maki-e fountain pen with 18K gold-plated body, classical Chinese flora & fauna motif, and multi-layer ink printing.",
-  "hl": []
  }
 ]

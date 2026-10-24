@@ -1,5 +1,5 @@
 {
- "last_run": "2026-10-23T05:40:21.353940+00:00",
+ "last_run": "2026-10-24T05:40:03.199191+00:00",
  "sources": [
   {
    "source": "The Pelikan's Perch (Pelikan)",
@@ -245,7 +245,7 @@
    "source": "Pióromaniak (PL)",
    "url": "https://www.pioromaniak.pl/",
    "ok": true,
-   "entries_in_feed": 64
+   "entries_in_feed": 73
   },
   {
    "source": "Twoje Pióro: Pelikan limitowane (PL)",
@@ -299,7 +299,7 @@
    "source": "Noteka: nowości (PL)",
    "url": "https://noteka.pl/pl/new",
    "ok": true,
-   "entries_in_feed": 128
+   "entries_in_feed": 127
   },
   {
    "source": "Noteka: marki piór (PL)",
