@@ -1,5 +1,49 @@
 [
  {
+  "uid": "449e7d09dff5f648",
+  "source": "epiora.pl (PL)",
+  "title": "Atrament Pelikan Edelstein Ink of the Year 2025 Apricot Achat 50 ml",
+  "link": "https://epiora.pl/pl/p/Atrament-Pelikan-Edelstein-Ink-of-the-Year-2025-Apricot-Achat-50-ml/5198",
+  "summary": "",
+  "image": "https://epiora.pl/environment/cache/images/productGfx_13606_300_300/Atrament-Pelikan-Edelstein-Ink-of-the-Year-2025-Apricot-Achat.webp?overlay=1",
+  "published": "2026-10-28T05:50:11.177516+00:00",
+  "date_kind": "detected",
+  "snippet": "Atrament Pelikan Edelstein Ink of the Year 2025 Apricot Achat 50 ml",
+  "hl": [
+   "Ink of the Year"
+  ],
+  "first_seen": "2026-10-28T05:50:11.177516+00:00",
+  "tier": "release",
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Pelikan"
+  ],
+  "enrich_tries": 9
+ },
+ {
+  "uid": "1374c6cac2ee2f09",
+  "source": "The Gentleman Stationer",
+  "title": "New Arrivals: TWSBI ECO Jade Jelly + Bronze Fountain Pens, Plus New Diplomats!",
+  "link": "https://www.gentlemanstationer.com/blog/2026/10/27/new-arrivals-twsbi-eco-jade-jelly-bronze-fountain-pens-plus-new-diplomats",
+  "summary": "TWSBI’s latest release, the Jade Jelly + Bronze fountain pen , showed up this week and it’s another nice addition to the TWSBI ECO lineup, especially as some of the older ECOs are being retired. Lately, these ECO releases tend to sell out as soon as retailers get them in the…",
+  "image": "https://images.squarespace-cdn.com/content/v1/5349ba13e4b095a3fb0ba65c/1793021281173-W16UKOFXLNH97PBBBBQD/TWSBI-ECO-Jade-Jelly.jpeg?format=1000w",
+  "published": "2026-10-27T15:49:48+00:00",
+  "date_kind": "published",
+  "snippet": "New release season is officially upon us!",
+  "hl": [
+   "New release"
+  ],
+  "first_seen": "2026-10-28T05:50:11.177516+00:00",
+  "tier": "stock",
+  "retailer_src": true,
+  "release": false,
+  "brands": [
+   "TWSBI"
+  ],
+  "enrich_tries": 9
+ },
+ {
   "uid": "089c6b54f9fe5de9",
   "source": "Noteka: nowości (PL)",
   "title": "Pióro wieczne Esterbrook Estie Black Halloween Pastel with Bat - edycja limitowana 2026",

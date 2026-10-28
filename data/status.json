@@ -1,5 +1,5 @@
 {
- "last_run": "2026-10-27T05:41:15.153037+00:00",
+ "last_run": "2026-10-28T05:50:11.177516+00:00",
  "sources": [
   {
    "source": "The Pelikan's Perch (Pelikan)",
@@ -191,7 +191,7 @@
    "source": "Google News: chińskie marki",
    "url": "https://news.google.com/rss/search?q=%28Hongdian+OR+Majohn+OR+Asvine+OR+PenBBS+OR+Jinhao+OR+%22Wing+Sung%22+OR+Moonman%29+%22fountain+pen%22+when%3A14d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "entries_in_feed": 4
+   "entries_in_feed": 2
   },
   {
    "source": "Google News: limited/special edition",
@@ -245,7 +245,7 @@
    "source": "Pióromaniak (PL)",
    "url": "https://www.pioromaniak.pl/",
    "ok": true,
-   "entries_in_feed": 73
+   "entries_in_feed": 74
   },
   {
    "source": "Twoje Pióro: Pelikan limitowane (PL)",
@@ -281,7 +281,7 @@
    "source": "epiora.pl (PL)",
    "url": "https://epiora.pl/",
    "ok": true,
-   "entries_in_feed": 58
+   "entries_in_feed": 62
   },
   {
    "source": "Scryba: Kaweco (PL)",
