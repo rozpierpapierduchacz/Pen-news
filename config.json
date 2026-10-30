@@ -568,6 +568,198 @@
       "baseline": true,
       "enabled": true,
       "origin": "strona kategorii istnieje, lista 'Producent' z licznikami widoczna; wzorzec linków /producer/ z adresu strony producenta (noteka.pl/pl/producer/Platinum/242); nie wiem, czy pozycje listy są linkami"
+    },
+    {
+      "name": "Sheaffer (sklep producenta)",
+      "type": "page",
+      "url": "https://sheaffer.com/",
+      "link_pattern": "/products/",
+      "min_title_words": 4,
+      "baseline": true,
+      "assume_release": true,
+      "retailer": false,
+      "enabled": true,
+      "origin": "strona istnieje, w wynikach widziałem na niej listę produktów Balance III; wzorzec linków /products/ z adresów produktów, niesprawdzony"
+    },
+    {
+      "name": "Cult Pens: What's New",
+      "url": "https://cultpens.com/collections/whats-new.atom",
+      "retailer": true,
+      "assume_release": true,
+      "must_match_title": [
+        "fountain",
+        "ink",
+        "piston"
+      ],
+      "enabled": true,
+      "origin": "kolekcja 'What's New' istnieje i ma treść (cultpens.com/en-us/collections/whats-new, redakcyjna lista nowości); adres .atom to konwencja Shopify, niesprawdzony"
+    },
+    {
+      "name": "Cult Pens: Limited Edition Fountain Pens",
+      "url": "https://cultpens.com/collections/limited-edition-fountain-pens.atom",
+      "retailer": true,
+      "assume_release": true,
+      "enabled": true,
+      "origin": "kolekcja istnieje (cultpens.com/en-us/collections/limited-edition-fountain-pens), .atom to konwencja Shopify, niesprawdzony"
+    },
+    {
+      "name": "TWSBI (blog producenta)",
+      "url": "https://www.twsbi.com/blogs/news.atom",
+      "retailer": false,
+      "enabled": true,
+      "origin": "blog 'news' istnieje (widziałem wpis twsbi.com/blogs/news/new-eco-glow-green-coming-soon, ale stary, sprzed lat); .atom niesprawdzony"
+    },
+    {
+      "name": "Fountain Pen Revolution (blog)",
+      "url": "https://fprevolutionusa.com/blogs/news.atom",
+      "retailer": true,
+      "enabled": true,
+      "origin": "blog 'news' istnieje (fprevolutionusa.com/blogs/news/...), sklep z tanimi i chińskimi piórami; .atom niesprawdzony"
+    },
+    {
+      "name": "Goldspot: New Releases",
+      "url": "https://goldspot.com/collections/new-releases.atom",
+      "retailer": true,
+      "assume_release": true,
+      "must_match_title": [
+        "fountain",
+        "ink",
+        "piston"
+      ],
+      "enabled": true,
+      "origin": "kolekcja istnieje i jest świeża (goldspot.com/collections/new-releases, 'aktualizowana co tydzień'); .atom to konwencja Shopify, niesprawdzony"
+    },
+    {
+      "name": "Goldspot: Limited Edition Fountain Pens",
+      "url": "https://goldspot.com/collections/limited-edition-fountain-pens.atom",
+      "retailer": true,
+      "assume_release": true,
+      "enabled": true,
+      "origin": "kolekcja istnieje (widziałem jej treść); .atom niesprawdzony"
+    },
+    {
+      "name": "Goldspot: Exclusives",
+      "url": "https://goldspot.com/collections/goldspot-exclusives.atom",
+      "retailer": true,
+      "assume_release": true,
+      "must_match_title": [
+        "fountain",
+        "ink",
+        "piston"
+      ],
+      "enabled": true,
+      "origin": "kolekcja istnieje (widziałem jej treść); .atom niesprawdzony"
+    },
+    {
+      "name": "Goldspot: nowe kolekcje",
+      "type": "page",
+      "url": "https://goldspot.com/collections",
+      "link_pattern": "/collections/",
+      "min_title_words": 2,
+      "baseline": true,
+      "assume_release": true,
+      "retailer": true,
+      "enabled": true,
+      "origin": "strona listy kolekcji istnieje (widziałem treść); Goldspot zakłada osobną kolekcję dla nowej linii (np. sheaffer-balance-iii); nowa kolekcja = wpis. Lista może być stronicowana, obserwujemy tylko pierwszą stronę"
+    },
+    {
+      "name": "Goulet: New Arrivals",
+      "url": "https://www.gouletpens.com/collections/new-arrivals.atom",
+      "retailer": true,
+      "assume_release": true,
+      "must_match_title": [
+        "fountain",
+        "ink",
+        "piston"
+      ],
+      "enabled": true,
+      "origin": "kolekcja istnieje (produkty z ostatnich 30 dni, widziałem treść); .atom konwencja Shopify, niesprawdzony"
+    },
+    {
+      "name": "Goulet: Coming Soon",
+      "url": "https://www.gouletpens.com/collections/coming-soon.atom",
+      "retailer": true,
+      "assume_release": true,
+      "must_match_title": [
+        "fountain",
+        "ink",
+        "piston"
+      ],
+      "enabled": true,
+      "upcoming": true,
+      "ttl_days": 75,
+      "origin": "kolekcja istnieje (33 produkty z dopiskiem 'Coming Soon', widziałem treść); .atom niesprawdzony"
+    },
+    {
+      "name": "Goulet: Limited & Special Edition",
+      "url": "https://www.gouletpens.com/collections/limited-special-edition.atom",
+      "retailer": true,
+      "assume_release": true,
+      "must_match_title": [
+        "fountain",
+        "ink",
+        "piston"
+      ],
+      "enabled": true,
+      "origin": "kolekcja istnieje (adres z wyników); .atom niesprawdzony"
+    },
+    {
+      "name": "Pen Boutique: New Arrivals",
+      "url": "https://www.penboutique.com/collections/new-arrivals.atom",
+      "retailer": true,
+      "assume_release": true,
+      "must_match_title": [
+        "fountain",
+        "ink",
+        "piston"
+      ],
+      "enabled": true,
+      "origin": "kolekcja istnieje (widziałem treść); .atom niesprawdzony"
+    },
+    {
+      "name": "Pen Boutique: Coming Soon",
+      "url": "https://www.penboutique.com/collections/coming-soon.atom",
+      "retailer": true,
+      "assume_release": true,
+      "must_match_title": [
+        "fountain",
+        "ink",
+        "piston"
+      ],
+      "enabled": true,
+      "upcoming": true,
+      "ttl_days": 75,
+      "origin": "kolekcja istnieje (widziałem treść: m.in. S.T. Dupont Line D Eternity); .atom niesprawdzony"
+    },
+    {
+      "name": "Pen Boutique: Limited Edition",
+      "url": "https://www.penboutique.com/collections/fountain-pen-limited-edition.atom",
+      "retailer": true,
+      "assume_release": true,
+      "must_match_title": [
+        "fountain",
+        "ink",
+        "piston"
+      ],
+      "enabled": true,
+      "origin": "kolekcja istnieje (widziałem treść); .atom niesprawdzony"
+    },
+    {
+      "name": "JetPens: New Arrivals",
+      "type": "page",
+      "url": "https://www.jetpens.com/cPath/new",
+      "link_pattern": "/pd/",
+      "min_title_words": 3,
+      "baseline": true,
+      "assume_release": true,
+      "must_match_title": [
+        "fountain",
+        "ink",
+        "piston"
+      ],
+      "retailer": true,
+      "enabled": true,
+      "origin": "strona 'New Arrivals' istnieje (widziałem treść, głównie markery i papier); wzorzec linków /pd/ z pamięci, niesprawdzony"
     }
   ],
   "brands": [
@@ -780,7 +972,8 @@
     "konwerter\\w*",
     "grawer\\w*",
     "kalendarz\\w*",
-    "zeszyt\\w*"
+    "zeszyt\\w*",
+    "plush"
   ],
   "exclude_text_keywords": [
     "giveaway",
@@ -808,7 +1001,6 @@
     "launch(es|ed|ing)?",
     "announc(es|ed|ing)",
     "unveil(s|ed|ing)?",
-    "introduc(es|ed|ing)",
     "collab(oration)?s?",
     "debut(s|ed)?",
     "brand new",
@@ -876,7 +1068,16 @@
     "w nowych kolorach",
     "nowy model",
     "nowa kolekcj\\w*",
-    "kaweco (?:collection|lunar)"
+    "kaweco (?:collection|lunar)",
+    "introduc(?:es|ed|ing)(?! (?:in|back in|way back in) (?:1\\d{3}|20[01]\\d))",
+    "coming in (?:january|february|march|april|may|june|july|august|september|october|november|december)",
+    "coming (?:this|next) (?:week|month|season|year)",
+    "reinvent\\w*",
+    "reimagin\\w*",
+    "relaunch\\w*",
+    "makes a (?:return|comeback)",
+    "comeback",
+    "(?:just|has|have) landed"
   ],
   "weak_keywords": [
     "new arrivals?",
@@ -918,5 +1119,18 @@
     "予約",
     "한정판",
     "신제품"
+  ],
+  "manual_entries": [
+    {
+      "title": "Sheaffer Balance III: klasyczny Balance z 1929 roku wraca w wersji z tłokiem",
+      "source": "Dodane ręcznie (Goldspot, Sheaffer)",
+      "link": "https://goldspot.com/collections/sheaffer-balance-iii",
+      "published": "2026-10-08",
+      "snippet": "Sheaffer Balance III nawiązuje do modelu Balance z 1929 roku: smukła, opływowa sylwetka, napełnianie tłokowe z okienkiem poziomu atramentu i dwukolorowa stalówka ze stali. Wersje E892 (chromowane wykończenia) i E893 (złote), czarna żywica.",
+      "highlight": [
+        "Sheaffer Balance III",
+        "napełnianie tłokowe"
+      ]
+    }
   ]
 }

@@ -442,7 +442,8 @@ STOP = {"the", "a", "an", "of", "and", "or", "for", "in", "on", "to", "with", "f
         "ef", "xf", "f", "m", "b", "bb", "fine", "medium", "broad", "extra", "double", "oblique", "stub", "nib", "nibs",
         "pióro", "pióra", "wieczne", "wieczny", "specjalna", "specjalne", "limitowane", "limitowany", "zestaw", "prezentowy",
         "atrament", "atramenty", "kolor", "kolorze", "długopis", "nowość", "nowości", "producent", "kolekcja", "edycji", "wersja",
-        "na", "do", "dla", "od", "po", "ze", "nowa", "nowy"}
+        "na", "do", "dla", "od", "po", "ze", "nowa", "nowy",
+        "fp", "rb", "bp", "ballpoint", "rollerball", "trims", "trim"}
 MODEL_RE = re.compile(r"^(?!(?:19|20)\d\d$)[a-z]*\d+[a-z0-9]*$")
 
 
@@ -470,6 +471,7 @@ def dedupe(entries, window_days: int = 21, jac: float = 0.5) -> int:
     """Łączy wpisy o tej samej premierze z różnych źródeł. Zwraca liczbę ukrytych duplikatów.
     Pierwszeństwo głównego wpisu: premiera > dostawa sklepowa, blog/producent > sklep, wcześniejszy, z obrazkiem."""
     for e in entries:
+        e["upcoming"] = bool(e.get("upcoming_own"))
         e["_tok"] = title_tokens(e["title"])
         e["_dt"] = datetime.fromisoformat(e["published"])
         e.pop("dup_of", None); e.pop("also", None)
@@ -504,6 +506,7 @@ def dedupe(entries, window_days: int = 21, jac: float = 0.5) -> int:
                 seen_src.add(g["source"])
                 also.append({"source": g["source"], "link": g["link"]})
         main["also"] = also
+        main["upcoming"] = all(g.get("upcoming_own") for g in grp)   # jeśli któreś źródło już ma produkt w sprzedaży: nie "wkrótce"
         for g in grp[1:]:
             g["dup_of"] = main["uid"]
             hidden += 1
@@ -792,6 +795,10 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
     opts_by_source = {n: feed_opts(f) for n, f in feed_by_source.items()}
     stored = {}
     for e in load_json(entries_path, []):
+        if e.get("manual"):                      # wpis dodany ręcznie (config "manual_entries"): zawsze zostaje
+            e.pop("dup_of", None); e.pop("also", None)
+            stored[e["uid"]] = e
+            continue
         fb = feed_by_source.get(e.get("source"), {})
         keep, tier, brands = evaluate(e["title"], e.get("summary", ""), matchers, only,
                                       bool(fb.get("retailer")), bool(fb.get("assume_release")),
@@ -882,6 +889,8 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
                     # przy pierwszym uruchomieniu nic nie świeci się jako "nowe"
                     "first_seen": (r["published"] if first_run else now).isoformat(),
                     "tier": tier,
+                    "upcoming_own": bool(feed.get("upcoming", False)),
+                    "ttl_days": feed.get("ttl_days"),
                     "retailer_src": bool(feed.get("retailer", False)),
                     "release": tier == "release",
                     "brands": brands,
@@ -905,10 +914,29 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
             status.append({"source": name, "url": url, "ok": False, "error": str(ex)[:200]})
             print(f"[BŁĄD] {name}: {ex}", file=sys.stderr)
 
+    for me in cfg.get("manual_entries", []):     # to, co wiesz, a czego skrypt nie złapał
+        link, title = me.get("link", ""), clean_text(me.get("title", ""), 200)
+        if urlparse(link).scheme not in ("http", "https") or not title:
+            continue
+        u = uid("manual", link)
+        if u in stored:
+            continue
+        pub, snippet = parse_date(me.get("published", "")), clean_text(me.get("snippet", ""), 400)
+        stored[u] = {"uid": u, "source": me.get("source", "Dodane ręcznie"), "title": title, "link": link,
+                     "summary": snippet[: s["max_summary_chars"]], "image": me.get("image", ""),
+                     "published": (pub or now).isoformat(), "date_kind": "published" if pub else "detected",
+                     "snippet": snippet, "hl": list(me.get("highlight", [])), "first_seen": now.isoformat(),
+                     "tier": "release", "release": True, "retailer_src": False,
+                     "brands": find_brands(f"{title} {snippet}", matchers), "enrich_tries": 0, "manual": True}
     enriched = enrich_pass(stored, matchers, s, opts_by_source, cutoff)
     if enriched:
         print(f"Pobrano stron wpisów (data, zdjęcie, fragment): {enriched}")
-    kept = [e for e in stored.values() if datetime.fromisoformat(e["published"]) >= cutoff]
+    def _fresh(e):
+        if datetime.fromisoformat(e["published"]) < cutoff:
+            return False
+        ttl = e.get("ttl_days")
+        return not ttl or now - datetime.fromisoformat(e["first_seen"]) <= timedelta(days=int(ttl))
+    kept = [e for e in stored.values() if _fresh(e)]
     kept.sort(key=lambda e: e["published"], reverse=True)
     hidden = dedupe(kept, int(s.get("dedupe_window_days", 21)), float(s.get("dedupe_jaccard", 0.5)))
     shown = [e for e in kept if not e.get("dup_of")]
@@ -983,6 +1011,7 @@ footer .bad{color:#c0392b}
   <button id="f-rel" aria-pressed="false">+ dostawy sklepowe</button>
   <button id="f-new" aria-pressed="false">Nowe (__NEWH__ h)</button>
   <button id="f-pl" aria-pressed="false">Nowe w Polsce</button>
+  <button id="f-up" aria-pressed="false">Zapowiedzi</button>
   <select id="brand"><option value="">Wszystkie marki</option></select>
   <select id="src"><option value="">Wszystkie źródła</option></select>
   <input id="q" type="search" placeholder="Szukaj…">
@@ -997,7 +1026,7 @@ const NEW_HOURS = __NEWH__;
 const ONLY_REL = __ONLYREL__;
 const now = Date.now();
 const $ = id => document.getElementById(id);
-let showStock = false, newOnly = false, plOnly = false;
+let showStock = false, newOnly = false, plOnly = false, upOnly = false;
 
 function safeUrl(u){ try{ const x = new URL(u); return (x.protocol==='http:'||x.protocol==='https:') ? x.href : '#'; }catch(e){ return '#'; } }
 function isNew(e){ return (now - Date.parse(e.first_seen)) < NEW_HOURS*3600*1000; }
@@ -1006,6 +1035,7 @@ function el(tag, cls, text){ const n=document.createElement(tag); if(cls) n.clas
 $('upd').textContent = new Date(STATUS.last_run).toLocaleString('pl-PL');
 const stockN = DATA.filter(e=>e.tier==='stock').length;
 $('f-rel').textContent = '+ dostawy sklepowe ('+stockN+')';
+$('f-up').textContent = 'Zapowiedzi ('+DATA.filter(e=>e.upcoming).length+')';
 $('f-pl').textContent = 'Nowe w Polsce ('+DATA.filter(e=>e.pl_new && e.pl_new.length).length+')';
 const brands = [...new Set(DATA.flatMap(e=>e.brands))].sort((a,b)=>a.localeCompare(b));
 const srcs = [...new Set(DATA.map(e=>e.source))].sort();
@@ -1030,7 +1060,7 @@ function highlight(node, text, phrases){
 function render(){
   const q = $('q').value.trim().toLowerCase(), b = $('brand').value, s = $('src').value;
   const rows = DATA.filter(e =>
-    (showStock || e.tier!=='stock') && (!newOnly || isNew(e)) && (!plOnly || (e.pl_new && e.pl_new.length)) && (!b || e.brands.includes(b)) && (!s || e.source===s) &&
+    (showStock || e.tier!=='stock') && (!newOnly || isNew(e)) && (!plOnly || (e.pl_new && e.pl_new.length)) && (!upOnly || e.upcoming) && (!b || e.brands.includes(b)) && (!s || e.source===s) &&
     (!q || (e.title+' '+e.summary+' '+(e.snippet||'')).toLowerCase().includes(q)));
   const box = $('list'); box.replaceChildren();
   if(!rows.length){ box.append(el('div','empty','Brak wpisów dla tych filtrów.')); return; }
@@ -1047,6 +1077,7 @@ function render(){
     else if(e.summary) body.append(el('p','p',e.summary));
     const chips = el('div','chips');
     if(isNew(e)) chips.append(el('span','chip new','nowe'));
+    if(e.upcoming) chips.append(el('span','chip rel','zapowiedź: wkrótce w sprzedaży'));
     if(e.pl_new && e.pl_new.length) chips.append(el('span','chip new','Nowa marka w Polsce: '+e.pl_new.join(', ')));
     if(e.translated) chips.append(el('span','chip','tłumaczenie maszynowe'));
     if(e.tier==='stock') chips.append(el('span','chip','dostawa sklepowa')); else chips.append(el('span','chip rel','premiera / edycja'));
@@ -1060,8 +1091,9 @@ function render(){
     card.append(body); box.append(card);
   });
 }
-function setBtn(){ $('f-all').setAttribute('aria-pressed', !showStock&&!newOnly&&!plOnly); $('f-pl').setAttribute('aria-pressed', plOnly); $('f-rel').setAttribute('aria-pressed', showStock); $('f-new').setAttribute('aria-pressed', newOnly); }
-$('f-all').onclick=()=>{showStock=false;newOnly=false;plOnly=false;setBtn();render();};
+function setBtn(){ $('f-all').setAttribute('aria-pressed', !showStock&&!newOnly&&!plOnly&&!upOnly); $('f-up').setAttribute('aria-pressed', upOnly); $('f-pl').setAttribute('aria-pressed', plOnly); $('f-rel').setAttribute('aria-pressed', showStock); $('f-new').setAttribute('aria-pressed', newOnly); }
+$('f-all').onclick=()=>{showStock=false;newOnly=false;plOnly=false;upOnly=false;setBtn();render();};
+$('f-up').onclick=()=>{upOnly=!upOnly;setBtn();render();};
 $('f-pl').onclick=()=>{plOnly=!plOnly;setBtn();render();};
 $('f-rel').onclick=()=>{showStock=!showStock;setBtn();render();};
 $('f-new').onclick=()=>{newOnly=!newOnly;setBtn();render();};
