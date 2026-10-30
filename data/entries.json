@@ -1,5 +1,67 @@
 [
  {
+  "uid": "17dc85c713edaa0c",
+  "source": "Noteka: nowości (PL)",
+  "title": "Sailor Pióro wieczne Rei 2nd Series Iwate Kinoshiru-nuri - edycja limitowana",
+  "link": "https://noteka.pl/pl/p/Sailor-Pioro-wieczne-Rei-2nd-Series-Iwate-Kinoshiru-nuri-edycja-limitowana/8354",
+  "summary": "",
+  "image": "https://noteka.pl/userdata/public/gfx/54154/NOTEKA-Select-Sailor-Rei-Iwate.jpg",
+  "published": "2026-10-30T05:52:33.988098+00:00",
+  "date_kind": "detected",
+  "snippet": "Kolekcjonerskie pióro wieczne ze złotą stalówką 21K: Sailor Rei 2nd Series Iwate",
+  "hl": [],
+  "first_seen": "2026-10-30T05:52:33.988098+00:00",
+  "tier": "release",
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Sailor"
+  ],
+  "enrich_tries": 9
+ },
+ {
+  "uid": "602f105e1d131e07",
+  "source": "Noteka: nowości (PL)",
+  "title": "Pelikan Souveran M809 Black Matt - Pióro wieczne - edycja limitowana 2025",
+  "link": "https://noteka.pl/pl/p/Pelikan-Souveran-M809-Black-Matt-Pioro-wieczne-edycja-limitowana-2025/7550",
+  "summary": "",
+  "image": "https://noteka.pl/userdata/public/gfx/46471/Pelikan-Souveran-M809-Black-Matt---Pioro-wieczne---edycja-limitowana-2025.jpg",
+  "published": "2026-10-30T05:52:33.988098+00:00",
+  "date_kind": "detected",
+  "snippet": "Limitowane pióro wieczne Pelikan Souveran M809 Black Matt - edycja limitowana z 2025 roku",
+  "hl": [
+   "edycja limitowana"
+  ],
+  "first_seen": "2026-10-30T05:52:33.988098+00:00",
+  "tier": "release",
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Pelikan"
+  ],
+  "enrich_tries": 9
+ },
+ {
+  "uid": "3376ae4cfa9f33f5",
+  "source": "The Gentleman Stationer",
+  "title": "Thursday Drops: More Planners Arrive! Midori Hibino, Gradation Day-Length, Kawecos and More!",
+  "link": "https://www.gentlemanstationer.com/blog/2026/10/29/thursday-drops-more-planners-arrive-midori-hibino-gradation-day-length-kawecos-and-more",
+  "summary": "Midori B6 Day-Length Gradation Planner, shown here next to the Pilot Custom 845 Urushi The second wave of 2027 planners arrived this week, with new releases from Midori in the B6 Gradation and Hibino format. For those looking at a planner smaller than an A5, these are both…",
+  "image": "https://images.squarespace-cdn.com/content/v1/5349ba13e4b095a3fb0ba65c/d9f526eb-8bc6-48bf-8545-222ae3b25d58/Midori-B6-Day-Length-Diary.jpeg?format=1000w",
+  "published": "2026-10-29T22:27:05+00:00",
+  "date_kind": "published",
+  "snippet": "In addition to planners, we have a ton of new arrivals from Kaweco (including Lunar Purple Sports and a new AL Piston Sport) , as well as new fountain pen releases from Diplomat in both the Cobra and Viper lines.",
+  "hl": [
+   "new fountain pen releases",
+   "new arrivals"
+  ],
+  "first_seen": "2026-10-30T05:52:33.988098+00:00",
+  "tier": "stock",
+  "retailer_src": true,
+  "release": false,
+  "brands": []
+ },
+ {
   "uid": "449e7d09dff5f648",
   "source": "epiora.pl (PL)",
   "title": "Atrament Pelikan Edelstein Ink of the Year 2025 Apricot Achat 50 ml",

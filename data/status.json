@@ -1,5 +1,5 @@
 {
- "last_run": "2026-10-29T05:51:52.007887+00:00",
+ "last_run": "2026-10-30T05:52:33.988098+00:00",
  "sources": [
   {
    "source": "The Pelikan's Perch (Pelikan)",
@@ -197,7 +197,7 @@
    "source": "Google News: limited/special edition",
    "url": "https://news.google.com/rss/search?q=%22fountain+pen%22+%28%22limited+edition%22+OR+%22special+edition%22+OR+%22new+colorway%22+OR+%22new+colors%22%29+when%3A14d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "entries_in_feed": 8
+   "entries_in_feed": 7
   },
   {
    "source": "YouTube: Asvine Pen",
