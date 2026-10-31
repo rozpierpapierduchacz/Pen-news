@@ -67,6 +67,11 @@
         "Waldmann",
         "Waterman"
       ]
+    },
+    "group_variants": {
+      "enabled": true,
+      "window_days": 21,
+      "min_ratio": 0.6
     }
   },
   "feeds": [

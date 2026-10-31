@@ -9,6 +9,7 @@ Użycie:
     python pennews.py --config inna.json       # inny plik konfiguracji (np. do testów)
 """
 import argparse
+import difflib
 import hashlib
 import html as htmllib
 import json
@@ -765,6 +766,162 @@ def brand_candidates(cands, m):
     return out
 
 
+WORD_RE = re.compile(r"[^\W_]+(?:['’][^\W_]+)?")
+
+
+def _toks(title: str):
+    return [(m.group(0).lower(), m.start(), m.end()) for m in WORD_RE.finditer(title)]
+
+
+def _blocks(wa, wb):
+    sm = difflib.SequenceMatcher(None, wa, wb, autojunk=False)
+    return [b for b in sm.get_matching_blocks() if b.size]
+
+
+def _regions_ok(title: str, toks, matched) -> bool:
+    """Każdy niedopasowany fragment tytułu musi wyglądać jak wariant: stoi na końcu tytułu, po separatorze/"in",
+    albo przed nawiasem/separatorem. Słowo w środku nazwy modelu (Safari vs Al-Star) nie jest wariantem."""
+    idxs = [k for k in range(len(toks)) if k not in matched]
+    runs, cur = [], []
+    for k in idxs:
+        if cur and k != cur[-1] + 1:
+            runs.append(cur)
+            cur = []
+        cur.append(k)
+    if cur:
+        runs.append(cur)
+    for run in runs:
+        before = title[:toks[run[0]][1]].rstrip().lower()
+        after = title[toks[run[-1]][2]:].lstrip()
+        if after == "" or after[0] in "-–—(,:[" or before.endswith(("-", "–", "—", "(", ":", ",", " in", " w", " kolor", " color", " colour")):
+            continue
+        return False
+    return True
+
+
+def _is_variant_pair(ta, tb, min_ratio: float) -> bool:
+    """Dwa tytuły to warianty jednego wydania: wspólna większość słów, różni się tylko krótki fragment
+    (kolorystyka, nazwa wariantu). Różnica w oznaczeniu modelu (M200/M800) wyklucza grupowanie.
+    ta, tb: (tytuł, lista (słowo, początek, koniec))."""
+    (ttl_a, ka), (ttl_b, kb) = ta, tb
+    wa, wb = [w for w, _, _ in ka], [w for w, _, _ in kb]
+    if wa == wb or len(set(wa) & set(wb)) < 4:
+        return False
+    blocks = _blocks(wa, wb)
+    match = sum(b.size for b in blocks)
+    da, db = len(wa) - match, len(wb) - match
+    if match < 4 or da < 1 or db < 1 or da > 4 or db > 4 or match / max(len(wa), len(wb)) < min_ratio:
+        return False
+    ma = {k for b in blocks for k in range(b.a, b.a + b.size)}
+    mb = {k for b in blocks for k in range(b.b, b.b + b.size)}
+    diff = [w for k, w in enumerate(wa) if k not in ma] + [w for k, w in enumerate(wb) if k not in mb]
+    if any(MODEL_RE.match(w) for w in diff) or all(w in STOP for w in diff):
+        return False
+    return _regions_ok(ttl_a, ka, ma) and _regions_ok(ttl_b, kb, mb)
+
+
+def _slice(title: str, toks, idxs) -> str:
+    if not idxs:
+        return ""
+    start, end = toks[min(idxs)][1], toks[max(idxs)][2]
+    seg = title[start:end]
+    if seg.count("(") > seg.count(")"):
+        j = title.find(")", end)
+        end = j + 1 if j != -1 else end
+    elif seg.count(")") > seg.count("("):
+        j = title.rfind("(", 0, start)
+        start = j if j != -1 else start
+    return title[start:end].strip(" -–—,:")
+
+
+def _remove_spans(title: str, spans) -> str:
+    out = title
+    for a, b in sorted(spans, reverse=True):
+        out = out[:a] + out[b:]
+    out = re.sub(r"\(\s*\)", "", out)
+    out = re.sub(r"\s+", " ", out)
+    out = re.sub(r"\s*[-–—,:]\s*(?=[-–—,:]|$)", "", out)                      # osierocone separatory
+    out = re.sub(r"\s+(?:in|with|w|z|i|and|&)(?=\s*(?:[-–—,:]|$))", "", out, flags=re.I)  # osierocone spójniki
+    return out.strip(" -–—,:")
+
+
+def group_families(entries, window_days: int = 21, min_ratio: float = 0.6, enabled: bool = True):
+    """Łączy warianty jednego wydania (np. 5 kolorystyk tego samego pióra) w jedną kartę z jednym odnośnikiem.
+    Zwraca (lista do wyświetlenia, (liczba wpisów w grupach, liczba grup)). Nie zmienia zapisanych wpisów."""
+    if not enabled or len(entries) < 2:
+        return entries, (0, 0)
+    n = len(entries)
+    toks = [_toks(e["title"]) for e in entries]
+    words = [[w for w, _, _ in t] for t in toks]
+    dts = [datetime.fromisoformat(e["published"]) for e in entries]
+    parent = list(range(n))
+
+    def find(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            if abs((dts[i] - dts[j]).days) > window_days:
+                continue
+            a, b = entries[i], entries[j]
+            if a.get("brands") and b.get("brands") and not (set(a["brands"]) & set(b["brands"])):
+                continue
+            if _is_variant_pair((entries[i]["title"], toks[i]), (entries[j]["title"], toks[j]), min_ratio):
+                parent[find(j)] = find(i)
+    groups = {}
+    for i in range(n):
+        groups.setdefault(find(i), []).append(i)
+
+    out, g_entries, g_groups = [], 0, 0
+    for idxs in groups.values():
+        if len(idxs) == 1:
+            out.append(entries[idxs[0]])
+            continue
+        order = sorted(idxs, key=lambda i: (entries[i].get("tier") != "release", entries[i].get("retailer_src", False),
+                                            dts[i], not entries[i].get("image")))
+        p = order[0]
+        pw, pt = words[p], toks[p]
+        keep = set(range(len(pw)))
+        var = {}
+        for m_ in order[1:]:
+            blocks = _blocks(pw, words[m_])
+            keep &= {k for b in blocks for k in range(b.a, b.a + b.size)}
+            mm = {k for b in blocks for k in range(b.b, b.b + b.size)}
+            var[m_] = _slice(entries[m_]["title"], toks[m_], [k for k in range(len(words[m_])) if k not in mm])
+        pun = [k for k in range(len(pw)) if k not in keep]
+        var[p] = _slice(entries[p]["title"], pt, pun)
+        family = _remove_spans(entries[p]["title"], [(pt[k][1], pt[k][2]) for k in pun])
+        variants = list(dict.fromkeys(v for v in (var[i] for i in sorted(idxs, key=lambda i: (dts[i], i))) if v))
+        if len(family) < 8 or len(variants) < 2:      # za mało wspólnego tytułu albo wariantów: zostaw osobno
+            out.extend(entries[i] for i in idxs)
+            continue
+        d = dict(entries[p])
+        d["title"], d["variants"] = family, variants
+        d["published"] = max(dts[i] for i in idxs).isoformat()          # nowy wariant podbija wydanie
+        d["first_seen"] = max(entries[i]["first_seen"] for i in idxs)
+        d["upcoming"] = all(entries[i].get("upcoming") for i in idxs)
+        d["tier"] = "release" if any(entries[i].get("tier") == "release" for i in idxs) else "stock"
+        d["brands"] = list(dict.fromkeys(b for i in idxs for b in entries[i].get("brands", [])))
+        d["pl_new"] = list(dict.fromkeys(b for i in idxs for b in entries[i].get("pl_new", [])))
+        if not d["image"]:
+            d["image"] = next((entries[i]["image"] for i in order if entries[i].get("image")), "")
+        seen_src, also = {d["source"]}, []
+        for i in order:
+            for x in entries[i].get("also", []):
+                if x["source"] not in seen_src:
+                    seen_src.add(x["source"])
+                    also.append(x)
+        d["also"] = also
+        out.append(d)
+        g_entries += len(idxs)
+        g_groups += 1
+    out.sort(key=lambda e: e["published"], reverse=True)
+    return out, (g_entries, g_groups)
+
+
 def uid(source: str, raw_id: str) -> str:
     return hashlib.sha1(f"{source}|{raw_id}".encode("utf-8")).hexdigest()[:16]
 
@@ -940,6 +1097,8 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
     kept.sort(key=lambda e: e["published"], reverse=True)
     hidden = dedupe(kept, int(s.get("dedupe_window_days", 21)), float(s.get("dedupe_jaccard", 0.5)))
     shown = [e for e in kept if not e.get("dup_of")]
+    gc = s.get("group_variants", {})
+    shown, grouped = group_families(shown, int(gc.get("window_days", 21)), float(gc.get("min_ratio", 0.6)), bool(gc.get("enabled", True)))
 
     data_dir.mkdir(parents=True, exist_ok=True)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -952,7 +1111,7 @@ def run(cfg_path: Path, data_dir: Path, out_dir: Path) -> int:
     (data_dir / "status.json").write_text(
         json.dumps({"last_run": now.isoformat(), "sources": status}, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    render_html(shown, status, now, cfg, out_dir / "index.html", hidden)
+    render_html(shown, status, now, cfg, out_dir / "index.html", hidden, grouped)
     render_rss(shown, now, cfg, out_dir / "feed.xml")
     print(f"Nowych wpisów: {added}, w archiwum: {len(kept)}, ukrytych duplikatów: {hidden}")
     if status and not any(x["ok"] for x in status):
@@ -1061,7 +1220,7 @@ function render(){
   const q = $('q').value.trim().toLowerCase(), b = $('brand').value, s = $('src').value;
   const rows = DATA.filter(e =>
     (showStock || e.tier!=='stock') && (!newOnly || isNew(e)) && (!plOnly || (e.pl_new && e.pl_new.length)) && (!upOnly || e.upcoming) && (!b || e.brands.includes(b)) && (!s || e.source===s) &&
-    (!q || (e.title+' '+e.summary+' '+(e.snippet||'')).toLowerCase().includes(q)));
+    (!q || (e.title+' '+e.summary+' '+(e.snippet||'')+' '+(e.variants||[]).join(' ')).toLowerCase().includes(q)));
   const box = $('list'); box.replaceChildren();
   if(!rows.length){ box.append(el('div','empty','Brak wpisów dla tych filtrów.')); return; }
   rows.forEach(e=>{
@@ -1075,8 +1234,10 @@ function render(){
     if(e.orig_title) body.append(el('div','meta','Oryginał ('+e.lang+'): '+e.orig_title));
     if(e.snippet){ const sp = el('p','snip'); highlight(sp, e.snippet, e.hl||[]); body.append(sp); }
     else if(e.summary) body.append(el('p','p',e.summary));
+    if(e.variants && e.variants.length){ const v=e.variants, more=v.length>8?' · +'+(v.length-8):''; body.append(el('p','meta','Warianty: '+v.slice(0,8).join(' · ')+more)); }
     const chips = el('div','chips');
     if(isNew(e)) chips.append(el('span','chip new','nowe'));
+    if(e.variants && e.variants.length){ const n=e.variants.length; chips.append(el('span','chip rel', n+((n%10>=2&&n%10<=4&&!(n%100>=12&&n%100<=14))?' warianty':' wariantów'))); }
     if(e.upcoming) chips.append(el('span','chip rel','zapowiedź: wkrótce w sprzedaży'));
     if(e.pl_new && e.pl_new.length) chips.append(el('span','chip new','Nowa marka w Polsce: '+e.pl_new.join(', ')));
     if(e.translated) chips.append(el('span','chip','tłumaczenie maszynowe'));
@@ -1101,6 +1262,7 @@ $('f-new').onclick=()=>{newOnly=!newOnly;setBtn();render();};
 
 const bad = STATUS.sources.filter(s=>!s.ok), zero = STATUS.sources.filter(s=>s.ok && s.entries_in_feed===0);
 const foot = $('foot');
+if(STATUS.grouped && STATUS.grouped[0]) foot.append(el('div',null,'Zgrupowane warianty: '+STATUS.grouped[0]+' wpisów w '+STATUS.grouped[1]+' kartach.'));
 if(STATUS.dupes_hidden) foot.append(el('div',null,'Ukryte duplikaty (ta sama premiera w kilku źródłach): '+STATUS.dupes_hidden));
 const noImg = DATA.filter(e=>!e.image).length, noDate = DATA.filter(e=>e.date_kind==='detected').length, upd = DATA.filter(e=>e.date_kind==='updated').length;
 foot.append(el('div',null,'Wpisów: '+DATA.length+'. Bez zdjęcia: '+noImg+'. Z datą wykrycia zamiast publikacji: '+noDate+(upd?'. Z datą aktualizacji: '+upd:'')+'.'));
@@ -1118,13 +1280,13 @@ def _js_json(obj) -> str:
     return json.dumps(obj, ensure_ascii=False).replace("</", "<\\/")
 
 
-def render_html(entries, status, now, cfg, path: Path, hidden: int = 0) -> None:
+def render_html(entries, status, now, cfg, path: Path, hidden: int = 0, grouped=(0, 0)) -> None:
     s = cfg["settings"]
     out = (PAGE.replace("__TITLE__", htmllib.escape(s["site_title"]))
                .replace("__NEWH__", str(int(s["new_hours"])))
                .replace("__ONLYREL__", "true" if s.get("only_releases") else "false")
                .replace("__DATA__", _js_json(entries))
-               .replace("__STATUS__", _js_json({"last_run": now.isoformat(), "sources": status, "dupes_hidden": hidden})))
+               .replace("__STATUS__", _js_json({"last_run": now.isoformat(), "sources": status, "dupes_hidden": hidden, "grouped": list(grouped)})))
     path.write_text(out, encoding="utf-8")
 
 
@@ -1139,7 +1301,7 @@ def render_rss(entries, now, cfg, path: Path) -> None:
             f"<link>{xml_escape(e['link'])}</link>"
             f"<guid isPermaLink=\"false\">{e['uid']}</guid>"
             f"<pubDate>{format_datetime(d)}</pubDate>"
-            f"<description>{xml_escape(e.get('snippet') or e['summary'])}</description>{cats}</item>")
+            f"<description>{xml_escape((e.get('snippet') or e['summary']) + (' Warianty: ' + ', '.join(e['variants']) if e.get('variants') else ''))}</description>{cats}</item>")
     title = xml_escape(cfg["settings"]["site_title"])
     path.write_text(
         '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
