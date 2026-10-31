@@ -1,5 +1,5 @@
 {
- "last_run": "2026-10-30T18:29:46.824830+00:00",
+ "last_run": "2026-10-31T05:48:12.736559+00:00",
  "sources": [
   {
    "source": "The Pelikan's Perch (Pelikan)",
@@ -202,14 +202,14 @@
   {
    "source": "YouTube: Asvine Pen",
    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWSPXdu1xE88rAC1zcBhBNg",
-   "ok": true,
-   "entries_in_feed": 15
+   "ok": false,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCWSPXdu1xE88rAC1zcBhBNg"
   },
   {
    "source": "YouTube: Moonman Pens India (dystrybutor)",
    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCL45zQSo1b8PGkl9KxyXosw",
-   "ok": true,
-   "entries_in_feed": 15
+   "ok": false,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCL45zQSo1b8PGkl9KxyXosw"
   },
   {
    "source": "Scooboo (IN): Moonman/Majohn",
@@ -281,7 +281,7 @@
    "source": "epiora.pl (PL)",
    "url": "https://epiora.pl/",
    "ok": true,
-   "entries_in_feed": 62
+   "entries_in_feed": 63
   },
   {
    "source": "Scryba: Kaweco (PL)",
@@ -299,7 +299,7 @@
    "source": "Noteka: nowości (PL)",
    "url": "https://noteka.pl/pl/new",
    "ok": true,
-   "entries_in_feed": 132
+   "entries_in_feed": 128
   },
   {
    "source": "Noteka: marki piór (PL)",

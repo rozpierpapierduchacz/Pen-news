@@ -1,5 +1,31 @@
 [
  {
+  "uid": "d96bd677844890ad",
+  "source": "Pen Boutique: New Arrivals",
+  "title": "Ferris Wheel Press Ink Bottle - Brilliant Blue Boulevard - 10ml",
+  "link": "https://www.penboutique.com/products/ferris-wheel-press-brilliant-blue-boulevard-fountain-pen-ink-10ml",
+  "summary": "Vendor: Ferris Wheel Press Type: Refill - Bottled Ink Price: 10.00 Let Your Words Shine in Brilliant Blue Description Celebrate the magic of illuminated Parisian streets with Ferris Wheel Press Brilliant Blue Boulevard Fountain Pen Ink. Its deep royal blue hue and radiant rose…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Ferris-Wheel-Press-Ink-Bottle-Brilliant-Blue-Boulevard-10ml-Refill-Bottled-Ink-Ferris-Wheel-Press.png?v=1793399709",
+  "published": "2026-10-30T18:40:59+00:00",
+  "date_kind": "published",
+  "snippet": "Sailor Fountain Pen - Commemorative - 115th Anniversary Hiroshima Momiji",
+  "hl": [
+   "Commemorative",
+   "Anniversary"
+  ],
+  "first_seen": "2026-10-31T05:48:12.736559+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Ferris Wheel Press"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
   "uid": "0fd63681cc6dbe3e",
   "source": "Stilo e Stile (limited edition)",
   "title": "Ferris Wheel Press x Harry Potter The Masque Set Fountain Pen & Ink Dementor",
@@ -2162,6 +2188,31 @@
   "dup_of": "64e9f4cd8b25a226"
  },
  {
+  "uid": "5727b0f5ea7f1b18",
+  "source": "Goldspot: New Releases",
+  "title": "Esterbrook x Sweet Kawaii Design Pastel Halloween Shimmer Bottled Ink in Purple - 30ml",
+  "link": "https://goldspot.com/products/esterbrook-x-sweet-kawaii-design-pastel-halloween-shimmer-bottled-ink-in-purple-30ml",
+  "summary": "Vendor: Esterbrook Pens Type: Bottled Ink Price: 19.95 Elevate your writing and creative expression with the Esterbrook x Sweet Kawaii Design Pastel Halloween Shimmer Bottled Ink. A delightful collaboration between Esterbrook’s legendary craftsmanship and Sweet Kawaii Design’s…",
+  "image": "https://cdn.shopify.com/s/files/1/1693/8459/files/cef92f6d-1b04-4aee-bc23-d330aa97b0b5.jpg?v=1792083207",
+  "published": "2026-10-23T13:53:16+00:00",
+  "date_kind": "published",
+  "snippet": "A delightful collaboration between Esterbrook’s legendary craftsmanship and Sweet Kawaii Design’s playful aesthetic, this special-edition 30ml fountain pen ink captures the whimsical magic of the spooky season.",
+  "hl": [
+   "collaboration"
+  ],
+  "first_seen": "2026-10-31T05:48:12.736559+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Esterbrook"
+  ],
+  "upcoming": false,
+  "dup_of": "64e9f4cd8b25a226"
+ },
+ {
   "uid": "9c423406169797f4",
   "source": "Goldspot: New Releases",
   "title": "Esterbrook Estie Sweetly Haunted Fountain Pen in Bat",
@@ -2513,7 +2564,8 @@
   "brands": [
    "Delta"
   ],
-  "upcoming": false
+  "upcoming": false,
+  "dup_of": "baab23a4306cf0ff"
  },
  {
   "uid": "3e837cfbc527c2e3",
@@ -3458,11 +3510,90 @@
   "also": [
    {
     "source": "Pen Boutique: Coming Soon",
-    "link": "https://www.penboutique.com/products/monteverde-mp1-fountain-pen-gift-set-vincent-van-gogh-starry-night-numbered-edition"
+    "link": "https://www.penboutique.com/products/monteverde-mp1-fountain-pen-vincent-van-gogh-starry-night-numbered-edition"
    },
    {
     "source": "Goulet: New Arrivals",
     "link": "https://www.gouletpens.com/products/monteverde-mp1-collectible-fountain-pen-starry-night"
+   }
+  ]
+ },
+ {
+  "uid": "335c8369109e10dd",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Monteverde MP1 Fountain Pen - Vincent Van Gogh Starry Night (Numbered Edition)",
+  "link": "https://www.penboutique.com/products/monteverde-mp1-fountain-pen-vincent-van-gogh-starry-night-numbered-edition",
+  "summary": "Vendor: Monteverde Type: Fountain Price: 68.00 Monteverde MP1 Fountain Pen | Vincent Van Gogh Starry Night (Black Trim) Bring iconic post-impressionist art to your daily writing with the Monteverde MP1 Vincent Van Gogh Starry Night Fountain Pen . Inspired by Van Gogh’s…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Monteverde-MP1-Fountain-Pen-Vincent-Van-Gogh-Starry-Night-Numbered-Edition-Fountain-Monteverde.png?v=1792190842",
+  "published": "2026-10-16T12:55:52+00:00",
+  "date_kind": "published",
+  "snippet": "Inspired by Van Gogh’s world-famous masterpiece, this special edition features a vibrant, multi-hued resin body that echoes the swirling blues, glowing yellows, and atmospheric movement of a starry night sky.",
+  "hl": [
+   "special edition"
+  ],
+  "first_seen": "2026-10-31T05:48:12.736559+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Monteverde"
+  ],
+  "upcoming": true,
+  "dup_of": "adf41b3ce9ee6477"
+ },
+ {
+  "uid": "e8608a20d7fb6adb",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Delta Limited Edition Fountain Pen - DV 2.0 - Wisteria Walk - Gold Trim (Oversize)",
+  "link": "https://www.penboutique.com/products/delta-limited-edition-fountain-pen-dv-2-0-wisteria-walk-gold-trim-oversize",
+  "summary": "Vendor: Delta Type: Fountain Price: 500.16 Delta DV 2.0 Wisteria Walk Fountain Pen | Gold Trim (#8 Nib, Oversize) Experience grand proportions and vibrant color with the Delta DV 2.0 Wisteria Walk Oversize Fountain Pen . Handcrafted in Italy from custom resin created by renowned…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Delta-Limited-Edition-Fountain-Pen-DV-2_0-Wisteria-Walk-Gold-Trim-Oversize-Fountain-Delta_f28dc7ce.png?v=1792190804",
+  "published": "2026-10-16T03:36:42+00:00",
+  "date_kind": "published",
+  "snippet": "Series: Delta Limited Edition",
+  "hl": [
+   "Limited Edition"
+  ],
+  "first_seen": "2026-10-31T05:48:12.736559+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Delta"
+  ],
+  "upcoming": true
+ },
+ {
+  "uid": "baab23a4306cf0ff",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Delta Limited Edition Fountain Pen - DV 2.0 - Wisteria Walk - Gold Trim (Mid-Size)",
+  "link": "https://www.penboutique.com/products/delta-limited-edition-fountain-pen-dv-2-0-wisteria-walk-gold-trim-mid-size",
+  "summary": "Vendor: Delta Type: Fountain Price: 262.80 Delta DV 2.0 Wisteria Walk Fountain Pen | Gold Trim (Mid-Size) Celebrate color, craftsmanship, and artisan beauty with the Delta DV 2.0 Wisteria Walk Mid-Size Fountain Pen . Crafted in collaboration with renowned resin artist Jonathon…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Delta-Limited-Edition-Fountain-Pen-DV-2_0-Wisteria-Walk-Gold-Trim-Mid-Size-Fountain-Delta_c0632a4c.png?v=1792190784",
+  "published": "2026-10-16T02:50:46+00:00",
+  "date_kind": "published",
+  "snippet": "Crafted in collaboration with renowned resin artist Jonathon Brooks of Carolina Pen Company, this limited-edition release showcases a captivating custom resin with organic flows of purple, green, and blue.",
+  "hl": [
+   "collaboration"
+  ],
+  "first_seen": "2026-10-31T05:48:12.736559+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Delta"
+  ],
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Goulet: Limited & Special Edition",
+    "link": "https://www.gouletpens.com/products/delta-dv-original-mid-size-fountain-pen-wisteria-walk-limited-edition"
    }
   ]
  },
@@ -3728,6 +3859,49 @@
   "upcoming": false
  },
  {
+  "uid": "7addde976445fb38",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Wearingeul Edgar Allan Poe - The Tell- Tale Heart - Ink Bottle 30ml",
+  "link": "https://www.penboutique.com/products/wearingeul-tell-tale-heart-fountain-pen-ink",
+  "summary": "Vendor: Wearingeul Type: Refill - Bottled Ink Price: 28.00 A Haunting Burgundy That Reveals Its Secrets Description Immerse yourself in the haunting atmosphere of Edgar Allan Poe's The Tell-Tale Heart with Wearingeul's literary-inspired fountain pen ink. This captivating shade…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Wearingeul-Edgar-Allan-Poe-The-Tell-Tale-Heart-Ink-Bottle-30ml-Refill-Bottled-Ink-Wearingeul.webp?v=1791962646",
+  "published": "2026-10-13T12:08:34+00:00",
+  "date_kind": "published",
+  "snippet": "A Haunting Burgundy That Reveals Its Secrets",
+  "hl": [
+   "Reveals"
+  ],
+  "first_seen": "2026-10-31T05:48:12.736559+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": true
+ },
+ {
+  "uid": "88aeb0ffc5ce3aba",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Wearingeul Oscar Wilde - Salome - Ink Bottle 30ml",
+  "link": "https://www.penboutique.com/products/wearingeul-salome-fountain-pen-ink",
+  "summary": "Vendor: Wearingeul Type: Refill - Bottled Ink Price: 28.00 A Mysterious Blue-Gray Inspired by Literary Desire Description Bring the dramatic atmosphere of Oscar Wilde's Salomé to your writing with Wearingeul Salomé Fountain Pen Ink. This captivating shade combines a cold, dark…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Wearingeul-Oscar-Wilde-Salome-Ink-Bottle-30ml-Refill-Bottled-Ink-Wearingeul.webp?v=1791962646",
+  "published": "2026-10-13T12:08:08+00:00",
+  "date_kind": "published",
+  "snippet": "Type: Refill - Bottled Ink",
+  "hl": [],
+  "first_seen": "2026-10-31T05:48:12.736559+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": true
+ },
+ {
   "uid": "aedffda8836b68ac",
   "source": "Goldspot: Limited Edition Fountain Pens",
   "title": "Lamy Scala Fountain Pen in Pearl Limited Edition - Fine",
@@ -3781,7 +3955,36 @@
   "retailer_src": true,
   "release": true,
   "brands": [],
-  "upcoming": false
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Pen Boutique: Coming Soon",
+    "link": "https://www.penboutique.com/products/taccia-empress-ukiyo-e-utamaro-fountain-pen"
+   }
+  ]
+ },
+ {
+  "uid": "a5614057255cccee",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Taccia Empress Fountain Pen - Ukiyo-e Utamaro \"Poppin\" (Limited Edition)",
+  "link": "https://www.penboutique.com/products/taccia-empress-ukiyo-e-utamaro-fountain-pen",
+  "summary": "Vendor: Taccia Pens Type: Fountain Price: 3276.00 Graceful Beauty Inspired by Japanese Ukiyo-e Description The TACCIA Empress Ukiyo-e Utamaro Limited Edition pays tribute to Kitagawa Utamaro, celebrated for his elegant and graceful portraits of beautiful women. Handcrafted in…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Taccia-Empress-Fountain-Pen-Ukiyo-e-Utamaro-Poppin-Limited-Edition-Fountain-Taccia-Pens-Medium.png?v=1791788108",
+  "published": "2026-10-12T04:32:46+00:00",
+  "date_kind": "published",
+  "snippet": "The TACCIA Empress Ukiyo-e Utamaro Limited Edition pays tribute to Kitagawa Utamaro, celebrated for his elegant and graceful portraits of beautiful women.",
+  "hl": [
+   "Limited Edition"
+  ],
+  "first_seen": "2026-10-31T05:48:12.736559+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": true,
+  "dup_of": "601a2885642dfedd"
  },
  {
   "uid": "fcaf31e7674cea4f",
@@ -3803,7 +4006,31 @@
   "retailer_src": true,
   "release": true,
   "brands": [],
-  "upcoming": false
+  "upcoming": false,
+  "dup_of": "0e1878348c78a2fc"
+ },
+ {
+  "uid": "b095a95c1bf174aa",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Taccia Empress Fountain Pen - Wajima 36 Blue (Limited Edition)",
+  "link": "https://www.penboutique.com/products/taccia-empress-wajima-36-blue-fountain-pen",
+  "summary": "Vendor: Taccia Pens Type: Fountain Price: 3516.00 A Legacy of Wajima Lacquer Craftsmanship Description The TACCIA Empress Wajima 36 Blue Limited Edition celebrates the rich heritage of Wajima lacquerware with a distinctive body of gold rings and layered blue and black urushi…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Taccia-Empress-Fountain-Pen-Wajima-36-Blue-Limited-Edition-Fountain-Taccia-Pens-Medium.png?v=1791788108",
+  "published": "2026-10-12T04:32:31+00:00",
+  "date_kind": "published",
+  "snippet": "The TACCIA Empress Wajima 36 Blue Limited Edition celebrates the rich heritage of Wajima lacquerware with a distinctive body of gold rings and layered blue and black urushi strokes.",
+  "hl": [
+   "Limited Edition"
+  ],
+  "first_seen": "2026-10-31T05:48:12.736559+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": true,
+  "dup_of": "0e1878348c78a2fc"
  },
  {
   "uid": "0e1878348c78a2fc",
@@ -3825,7 +4052,36 @@
   "retailer_src": true,
   "release": true,
   "brands": [],
-  "upcoming": false
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Pen Boutique: Coming Soon",
+    "link": "https://www.penboutique.com/products/taccia-empress-wajima-36-red-fountain-pen"
+   }
+  ]
+ },
+ {
+  "uid": "26942413013e06b2",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Taccia Empress Fountain Pen - Wajima 36 Red (Limited Edition)",
+  "link": "https://www.penboutique.com/products/taccia-empress-wajima-36-red-fountain-pen",
+  "summary": "Vendor: Taccia Pens Type: Fountain Price: 3516.00 A Timeless Expression of Wajima Urushi Craftsmanship Description The TACCIA Empress Wajima 36 Red Limited Edition showcases the enduring artistry of Wajima lacquerware through a richly textured red urushi finish and distinctive…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Taccia-Empress-Fountain-Pen-Wajima-36-Red-Limited-Edition-Fountain-Taccia-Pens-Medium.png?v=1791788108",
+  "published": "2026-10-12T04:32:16+00:00",
+  "date_kind": "published",
+  "snippet": "The TACCIA Empress Wajima 36 Red Limited Edition showcases the enduring artistry of Wajima lacquerware through a richly textured red urushi finish and distinctive layered detailing.",
+  "hl": [
+   "Limited Edition"
+  ],
+  "first_seen": "2026-10-31T05:48:12.736559+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": true,
+  "dup_of": "0e1878348c78a2fc"
  },
  {
   "uid": "b067dd359ae42201",
@@ -3848,7 +4104,37 @@
   "retailer_src": true,
   "release": true,
   "brands": [],
-  "upcoming": false
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Pen Boutique: Coming Soon",
+    "link": "https://www.penboutique.com/products/taccia-empress-dawns-celebration-fountain-pen"
+   }
+  ]
+ },
+ {
+  "uid": "7269c447e0efa66f",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Taccia Empress Fountain Pen - Dawn's Celebration (Limited Edition)",
+  "link": "https://www.penboutique.com/products/taccia-empress-dawns-celebration-fountain-pen",
+  "summary": "Vendor: Taccia Pens Type: Fountain Price: 4556.00 A Celebration of New Beginnings in Japanese Lacquer Art Description The TACCIA Empress Dawn’s Celebration Limited Edition captures the quiet beauty of a new dawn, with delicate dragonflies dancing among water lilies as the sun…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Taccia-Empress-Fountain-Pen-Dawns-Celebration-Limited-Edition-Fountain-Taccia-Pens-Medium.png?v=1791788108",
+  "published": "2026-10-12T04:31:55+00:00",
+  "date_kind": "published",
+  "snippet": "Limited to 20 Pieces Worldwide – A highly exclusive edition for collectors.",
+  "hl": [
+   "Limited to 20",
+   "exclusive edition"
+  ],
+  "first_seen": "2026-10-31T05:48:12.736559+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": true,
+  "dup_of": "b067dd359ae42201"
  },
  {
   "uid": "80155a128861e062",
