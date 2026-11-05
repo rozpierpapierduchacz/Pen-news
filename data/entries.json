@@ -1,5 +1,397 @@
 [
  {
+  "uid": "7361e3bcd281465e",
+  "source": "The Gentleman Stationer",
+  "title": "Thursday Drops: All The Fountain Pen Day Weekend Specials! Use FPDAY10 at Checkout Plus Tiered Gifts",
+  "link": "https://www.gentlemanstationer.com/blog/2026/11/4/thursday-drops-all-the-fountain-pen-day-weekend-specials",
+  "summary": "This year’s Fountain Pen Day Swag! This year’s Fountain Pen Day Swag! Happy Fountain Pen Day! Well, technically Fountain Pen Day isn’t until Friday, but we always run our Fountain Pen Day Weekend Specials from Thursday through Sunday. The following promotions are active through…",
+  "image": "https://images.squarespace-cdn.com/content/v1/5349ba13e4b095a3fb0ba65c/f9e71c91-dd34-4469-8e9c-aef7c0b0e2b5/Fountain-pen-day-swag-2026.jpeg?format=1000w",
+  "published": "2026-11-05T06:00:00+00:00",
+  "date_kind": "published",
+  "snippet": "Kaweco Lunar Sport Fountain Pens. The latest Kaweco Lunar releases - Shadow Purple and Lunar Light Purple - are in stock.",
+  "hl": [
+   "Kaweco Lunar"
+  ],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "stock",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": false,
+  "brands": [],
+  "upcoming": false
+ },
+ {
+  "uid": "b8d86c58afa0e7ca",
+  "source": "Pen Boutique: New Arrivals",
+  "title": "Wahl-Eversharp Skyline Fountain Pen - Blue - Gold Trim",
+  "link": "https://www.penboutique.com/products/wahl-eversharp-skyline-blue-fountain-pen-gold-trim",
+  "summary": "Vendor: Wahl-Eversharp Type: Fountain Price: 69.00 Timeless Blue Elegance. Golden Heritage Exceptional Writing Discover the Wahl-Eversharp Skyline Fountain Pen in Blue with Gold Trim, a refined tribute to one of America's most iconic writing instrument designs. Inspired by the…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Wahl-Eversharp-Skyline-Fountain-Pen-Blue-Gold-Trim-Fountain-Wahl-Eversharp-Fine.png?v=1793832444",
+  "published": "2026-11-04T21:35:17+00:00",
+  "date_kind": "published",
+  "snippet": "Inspired by the legendary 1940s Skyline collection, it features a rich blue lacquered brass body, elegant gold accents, and a beautifully crafted stainless steel nib.",
+  "hl": [
+   "Skyline collection"
+  ],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false
+ },
+ {
+  "uid": "2771611d645211f0",
+  "source": "Pen Boutique: New Arrivals",
+  "title": "Wahl-Eversharp Skyline Fountain Pen - Black - Silver Trim",
+  "link": "https://www.penboutique.com/products/wahl-eversharp-skyline-fountain-pen-black-silver-trim",
+  "summary": "Vendor: Wahl-Eversharp Type: Fountain Price: 65.00 Classic Lines. Modern Writing. A streamlined silhouette, timeless black finish, and crisp silver accents make the Wahl-Eversharp Skyline Fountain Pen a classic with contemporary appeal. Designed by renowned industrial designer…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Wahl-Eversharp-Skyline-Fountain-Pen-Black-Silver-Trim-Fountain-Wahl-Eversharp-Fine.png?v=1793832435",
+  "published": "2026-11-04T21:35:11+00:00",
+  "date_kind": "published",
+  "snippet": "This modern revival preserves the spirit of the original while bringing its distinctive design to today's writing desk.",
+  "hl": [
+   "revival"
+  ],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false
+ },
+ {
+  "uid": "00e1cad7933be5e0",
+  "source": "Pen Boutique: New Arrivals",
+  "title": "Wahl-Eversharp Skyline Fountain Pen - Black - Gold Trim",
+  "link": "https://www.penboutique.com/products/wahl-eversharp-skyline-black-fountain-pen",
+  "summary": "Vendor: Wahl-Eversharp Type: Fountain Price: 69.00 A Legacy of American Craftsmanship An Art of Writing Experience timeless sophistication with the Wahl-Eversharp Skyline Fountain Pen in Black. Inspired by the iconic 1940s design, this elegant writing instrument features a…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Wahl-Eversharp-Skyline-Fountain-Pen-Black-Gold-Trim-Fountain-Wahl-Eversharp-Fine.png?v=1793832431",
+  "published": "2026-11-04T21:35:09+00:00",
+  "date_kind": "published",
+  "snippet": "Sailor Fountain Pen - Commemorative - 115th Anniversary Hiroshima Momiji",
+  "hl": [
+   "Commemorative",
+   "Anniversary"
+  ],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "4e6fe8c010ba190f",
+  "source": "Goulet: Limited & Special Edition",
+  "title": "Monteverde Innova Fountain Pen - Smoky Purple (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/monteverde-innova-fountain-pen-smoky-purple-special-edition",
+  "summary": "Vendor: Monteverde Type: Fountain Pens Price: 68.00 A new Goulet-exclusive Monteverde Innova fountain pen! This smoky purple pen has gunmetal trim and is one pen you are going to want to snag before it's gone. Limited to 300 pieces worldwide. Each pen is numbered out of 000/300…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Monteverde-Innova-SmokyPurple-FP-2.jpg?v=1784149591",
+  "published": "2026-11-04T19:48:17+00:00",
+  "date_kind": "published",
+  "snippet": "Limited to 300 pieces worldwide. Each pen is numbered out of 000/300 on the top of the cap opposite the clip.",
+  "hl": [
+   "Limited to 300"
+  ],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Monteverde"
+  ],
+  "upcoming": false
+ },
+ {
+  "uid": "0e06ac46c917c964",
+  "source": "Pen Boutique: New Arrivals",
+  "title": "OMAS Paragon Fountain Pen: 150625 - 14k Gold( Limited Edition)",
+  "link": "https://www.penboutique.com/products/omas-paragon-fountain-pen-150625-limited-edition",
+  "summary": "Vendor: Omas Type: Fountain Price: 4054.57 A Century of Italian Heritage. A Legacy Written in Gold. Celebrating 100 years of OMAS heritage, the Paragon: 150625 brings together a century of Italian craftsmanship and remarkable historical significance. Created in honor of the…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/OMAS-Paragon-Fountain-Pen-150625-14k-Gold-Limited-Edition-Fountain-Omas-Medium.png?v=1793746011",
+  "published": "2026-11-04T15:21:37+00:00",
+  "date_kind": "published",
+  "snippet": "Worldwide Limited Edition: Restricted to only 125 pieces.",
+  "hl": [
+   "Limited Edition"
+  ],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Pen Boutique: Limited Edition",
+    "link": "https://www.penboutique.com/products/omas-paragon-fountain-pen-150625-limited-edition"
+   }
+  ]
+ },
+ {
+  "uid": "845beb208d2f082a",
+  "source": "Pen Boutique: Limited Edition",
+  "title": "OMAS Paragon Fountain Pen: 150625 - 14k Gold( Limited Edition)",
+  "link": "https://www.penboutique.com/products/omas-paragon-fountain-pen-150625-limited-edition",
+  "summary": "Vendor: Omas Type: Fountain Price: 4054.57 A Century of Italian Heritage. A Legacy Written in Gold. Celebrating 100 years of OMAS heritage, the Paragon: 150625 brings together a century of Italian craftsmanship and remarkable historical significance. Created in honor of the…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/OMAS-Paragon-Fountain-Pen-150625-14k-Gold-Limited-Edition-Fountain-Omas-Medium.png?v=1793746011",
+  "published": "2026-11-04T15:21:37+00:00",
+  "date_kind": "published",
+  "snippet": "Worldwide Limited Edition: Restricted to only 125 pieces.",
+  "hl": [
+   "Limited Edition"
+  ],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "dup_of": "0e06ac46c917c964"
+ },
+ {
+  "uid": "845ea93ecf659c51",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Omas Bologna Fountain Pen - Permanio (Limited Edition)",
+  "link": "https://www.penboutique.com/products/omas-bologna-fountain-pen-permanio",
+  "summary": "Vendor: Omas Type: Fountain Price: 1788.64 A Legacy in Every Line, a Legend in Every Stroke. The OMAS Bologna Fountain Pen – Permanio celebrates the revival of Italian penmaking tradition with a remarkable connection to the past. Crafted from classic Pearl Grey Celluloid and…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Omas-Bologna-Fountain-Pen-Permanio-Limited-Edition-Fountain-Omas.png?v=1793746008",
+  "published": "2026-11-04T15:21:34+00:00",
+  "date_kind": "published",
+  "snippet": "The OMAS Bologna Fountain Pen – Permanio celebrates the revival of Italian penmaking tradition with a remarkable connection to the past.",
+  "hl": [
+   "revival"
+  ],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": true
+ },
+ {
+  "uid": "37e794ade2abf71f",
+  "source": "Goldspot: nowe kolekcje",
+  "title": "Midori Paintable Rotating Stamp",
+  "link": "https://goldspot.com/collections/midori-paintable-rotating-stamp",
+  "summary": "",
+  "image": "http://goldspot.com/cdn/shop/collections/library-22953199-B3FB-4E96-81F4-8E4580756586-L0-001.jpg?v=1793823923",
+  "published": "2026-11-04T15:03:18+00:00",
+  "date_kind": "page",
+  "snippet": "Discover a fun and creative way to add personality to your journals, planners, and DIY projects!",
+  "hl": [],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "08beebae1cdee24f",
+  "source": "Goldspot: nowe kolekcje",
+  "title": "All Midori Products",
+  "link": "https://goldspot.com/collections/all-midori-products",
+  "summary": "",
+  "image": "http://goldspot.com/cdn/shop/collections/library-5954DD8B-ECF3-45D8-9BFC-DAB0528AEAA9-L0-001-source.jpg?v=1793821452",
+  "published": "2026-11-04T14:44:09+00:00",
+  "date_kind": "page",
+  "snippet": "Discover Midori’s thoughtfully designed stationery, including notebooks, index clips, knitted book bands with pockets, and other accessories for everyday writing, journaling, and organization.",
+  "hl": [],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "55e9e26ebfebabaf",
+  "source": "Goulet: New Arrivals",
+  "title": "BENU Cocktail Hour Fountain Pen Gift Set - Christmas Cheer (Special Edition)",
+  "link": "https://www.gouletpens.com/products/benu-cocktail-hour-fountain-pen-gift-set-christmas-cheer-special-edition",
+  "summary": "Vendor: BENU Type: Fountain Pens Price: 380.00 This year, BENU presents the special edition Christmas Cheer gift set, created to celebrate the festive season. Perfect as a festive treat for yourself or a thoughtful gift for any fountain pen enthusiast. Presented in a luxurious…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/BENUCocktailHour-ChristmasCheerGiftSetStock-1.jpg?v=1789743478",
+  "published": "2026-11-04T14:32:31+00:00",
+  "date_kind": "published",
+  "snippet": "This year, BENU presents the special edition Christmas Cheer gift set, created to celebrate the festive season. Perfect as a festive treat for yourself or a thoughtful gift for any fountain pen enthusiast.",
+  "hl": [
+   "special edition"
+  ],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Benu"
+  ],
+  "upcoming": false,
+  "dup_of": "cedacca5ade5f80b"
+ },
+ {
+  "uid": "c1d495fc53c147ec",
+  "source": "Goulet: New Arrivals",
+  "title": "BENU Tribute Fountain Pen - A Christmas Carol (Special Edition)",
+  "link": "https://www.gouletpens.com/products/benu-tribute-fountain-pen-a-christmas-carol-special-edition",
+  "summary": "Vendor: BENU Type: Fountain Pens Price: 330.00 BENU’s Tribute Collection celebrates the people, places, ideas and creations that continue to inspire us. For this year’s Christmas Edition, we turn to one of the season’s most cherished stories. Inspired by Charles Dickens’ A…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/BENU-Tribute-AChristmasCarol-2.jpg?v=1793829144",
+  "published": "2026-11-04T14:32:30+00:00",
+  "date_kind": "published",
+  "snippet": "BENU’s Tribute Collection celebrates the people, places, ideas and creations that continue to inspire us. For this year’s Christmas Edition, we turn to one of the season’s most cherished stories.",
+  "hl": [],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Benu"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "475b529b1812fef7"
+ },
+ {
+  "uid": "e0820447b6905564",
+  "source": "Goulet: New Arrivals",
+  "title": "Conklin 1898 Fountain Pen - Orion (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/conklin-1898-fountain-pen-orion-limited-edition",
+  "summary": "Vendor: Conklin Type: Fountain Pens Price: 180.00 This Conklin 1898 fountain pen is a limited edition of only 198 pens, featuring a blue and yellow resin made by Jonathon Brooks of the Carolina Pen Company. This 1898 features a new clip. Each pen is numbered out of /198 on the…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Conklin1898-Orionstock-7.jpg?v=1793036964",
+  "published": "2026-11-04T14:31:57+00:00",
+  "date_kind": "published",
+  "snippet": "This Conklin 1898 fountain pen is a limited edition of only 198 pens, featuring a blue and yellow resin made by Jonathon Brooks of the Carolina Pen Company.",
+  "hl": [
+   "limited edition"
+  ],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Conklin"
+  ],
+  "upcoming": false,
+  "dup_of": "eae9c42b6a358f00"
+ },
+ {
+  "uid": "b1e9ca434dc2fab5",
+  "source": "Goulet: New Arrivals",
+  "title": "Wearingeul The Tell-Tale Heart - Ink Sample",
+  "link": "https://www.gouletpens.com/products/wearingeul-the-tell-tale-heart-ink-sample",
+  "summary": "Vendor: Wearingeul Type: Ink Samples Price: 3.50 2ml fountain pen ink sample of Wearingeul The Tell-Tale Heart in a labeled plastic vial. This deep burgundy pink gives way to green sheen. Wearingeul inks are made in South Korea.",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Wearingeul-TheTell-TaleHeart-SwabText_7a70bbf7-b734-4091-8d50-2c0169a5c20e.jpg?v=1793721745",
+  "published": "2026-11-04T14:31:29+00:00",
+  "date_kind": "published",
+  "snippet": "2ml fountain pen ink sample of Wearingeul The Tell-Tale Heart in a labeled plastic vial. This deep burgundy pink gives way to green sheen.",
+  "hl": [],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "24be57f16de26a35",
+  "source": "Goulet: New Arrivals",
+  "title": "Wearingeul The Tell-Tale Heart - 30ml Bottled Ink",
+  "link": "https://www.gouletpens.com/products/wearingeul-the-tell-tale-heart-30ml-bottled-ink",
+  "summary": "Vendor: Wearingeul Type: Bottled Ink Price: 28.00 This deep burgundy pink 30ml glass bottle of Wearingeul The Tell-Take Heart ink gives way to some slight green sheen. Wearingeul inks are made in South Korea. They illustrate scenes or the atmosphere of novels and poems.",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Wearingeul-TheTell-TaleHeart-BS-SwabText.jpg?v=1793721197",
+  "published": "2026-11-04T14:31:28+00:00",
+  "date_kind": "published",
+  "snippet": "This deep burgundy pink 30ml glass bottle of Wearingeul The Tell-Take Heart ink gives way to some slight green sheen.",
+  "hl": [],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "217bc067790119dd",
+  "source": "Cult Pens: What's New",
+  "title": "Wearingeul Preface Fountain Pen The Secret Garden",
+  "link": "https://cultpens.com/products/wearingeul-preface-fountain-pen-the-secret-garden",
+  "summary": "Vendor: Wearingeul Type: Fountain Pens Price: 67.00 Part of Wearingeul’s Preface Series, this pen is inspired by Frances Hodgson Burnett’s novel The Secret Garden. The delicate green tones of the body capture the freshness of a lush, blooming garden, and the nib and trim are…",
+  "image": "https://cdn.shopify.com/s/files/1/0659/6388/4787/files/WG00034-01.jpg?v=1793287207",
+  "published": "2026-11-04T13:23:22+00:00",
+  "date_kind": "published",
+  "snippet": "Part of Wearingeul’s Preface Series, this pen is inspired by Frances Hodgson Burnett’s novel The Secret Garden. The delicate green tones of the body capture the freshness of a lush, blooming garden, and the nib and trim are gold-coloured.",
+  "hl": [],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "79534546a9277e33"
+ },
+ {
+  "uid": "c7d3b3df7967dd35",
+  "source": "Pióromaniak (PL)",
+  "title": "Delta Paestum – pióro wieczne – edycja limitowana",
+  "link": "https://www.pioromaniak.pl/produkt/delta-paestum-pioro-wieczne-edycja-limitowana/",
+  "summary": "",
+  "image": "https://www.pioromaniak.pl/wp-content/uploads/2026/08/delta-paestum-pioro-wieczne.jpg",
+  "published": "2026-11-04T10:09:14+00:00",
+  "date_kind": "page",
+  "snippet": "Delta Paestum – piÃ³ro wieczne – edycja limitowana",
+  "hl": [
+   "edycja limitowana"
+  ],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Delta"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
   "uid": "7958abb322cf3b22",
   "source": "Stilo e Stile (limited edition)",
   "title": "Leonardo x Stilo&Stile Momento Zero Fountain Pen Circus",
@@ -100,6 +492,32 @@
   ],
   "upcoming": false,
   "dup_of": "9920d3c55b631a86"
+ },
+ {
+  "uid": "6a4388032263a3d5",
+  "source": "Pen Boutique: New Arrivals",
+  "title": "Nahvalur Eclipse Fountain Pen - Ruby",
+  "link": "https://www.penboutique.com/products/nahvalur-eclipse-fountain-pen-eclipse-ruby",
+  "summary": "Vendor: Nahvalur Type: Fountain Price: 99.00 description",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/RUBY1.webp?v=1772479849",
+  "published": "2026-11-03T19:03:58+00:00",
+  "date_kind": "published",
+  "snippet": "Sailor Fountain Pen - Commemorative - 115th Anniversary Hiroshima Momiji",
+  "hl": [
+   "Commemorative",
+   "Anniversary"
+  ],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Nahvalur"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
  },
  {
   "uid": "4530a8f9420b6b0b",
@@ -603,6 +1021,32 @@
    "anniversary"
   ],
   "first_seen": "2026-11-04T06:05:23.762210+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Lamy"
+  ],
+  "upcoming": false,
+  "dup_of": "9920d3c55b631a86"
+ },
+ {
+  "uid": "7c835d4b60b4c9e1",
+  "source": "Goldspot: New Releases",
+  "title": "Lamy 2000 Fountain Pen Set in Bog Oak - 14K Gold",
+  "link": "https://goldspot.com/products/lamy-2000-fountain-pen-set-in-bog-oak-14k-gold",
+  "summary": "Vendor: Lamy Pens Type: Fountain Pen Price: 799.00 For six decades, the LAMY 2000 has stood as the ultimate expression of timeless design and function. Created to mark its 60th anniversary, this Special Edition Fountain Pen Set honors six generations of design excellence with a…",
+  "image": "https://cdn.shopify.com/s/files/1/1693/8459/files/6ad940f5-7b38-40fc-85b9-1157b2e40d51.png?v=1792179921",
+  "published": "2026-11-03T05:00:02+00:00",
+  "date_kind": "published",
+  "snippet": "Created to mark its 60th anniversary, this Special Edition Fountain Pen Set honors six generations of design excellence with a refined synthesis of rare natural materials and iconic engineering.",
+  "hl": [
+   "anniversary",
+   "Special Edition"
+  ],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
   "tier": "release",
   "upcoming_own": false,
   "ttl_days": null,
@@ -1951,6 +2395,10 @@
     "link": "https://www.penboutique.com/products/lamy-2000-fountain-pen-bog-oak-60th-anniversary-limited-edition-gift-set"
    },
    {
+    "source": "Goldspot: New Releases",
+    "link": "https://goldspot.com/products/lamy-2000-fountain-pen-set-in-bog-oak-14k-gold"
+   },
+   {
     "source": "Cult Pens: What's New",
     "link": "https://cultpens.com/products/lamy-2000-fountain-pen-bog-oak-medium"
    },
@@ -3205,7 +3653,8 @@
   "release": true,
   "brands": [],
   "enrich_tries": 9,
-  "upcoming": true
+  "upcoming": true,
+  "dup_of": "79534546a9277e33"
  },
  {
   "uid": "4c61d153b0ce5132",
@@ -3268,7 +3717,8 @@
   "release": true,
   "brands": [],
   "enrich_tries": 9,
-  "upcoming": true
+  "upcoming": true,
+  "dup_of": "79534546a9277e33"
  },
  {
   "uid": "9fb55fff923bff1a",
@@ -3338,11 +3788,15 @@
   "release": true,
   "brands": [],
   "enrich_tries": 9,
-  "upcoming": true,
+  "upcoming": false,
   "also": [
    {
     "source": "Goulet: Coming Soon",
-    "link": "https://www.gouletpens.com/products/wearingeul-literature-preface-fountain-pen-the-secret-garden"
+    "link": "https://www.gouletpens.com/products/wearingeul-the-secret-garden-ink-sample"
+   },
+   {
+    "source": "Cult Pens: What's New",
+    "link": "https://cultpens.com/products/wearingeul-preface-fountain-pen-the-secret-garden"
    }
   ]
  },
@@ -3470,6 +3924,10 @@
   "also": [
    {
     "source": "Goulet: Limited & Special Edition",
+    "link": "https://www.gouletpens.com/products/conklin-1898-fountain-pen-orion-limited-edition"
+   },
+   {
+    "source": "Goulet: New Arrivals",
     "link": "https://www.gouletpens.com/products/conklin-1898-fountain-pen-orion-limited-edition"
    }
   ]
@@ -4922,7 +5380,13 @@
   "hl": [
    "PREORDERS"
   ],
-  "upcoming": false
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Goulet: New Arrivals",
+    "link": "https://www.gouletpens.com/products/benu-cocktail-hour-fountain-pen-gift-set-christmas-cheer-special-edition"
+   }
+  ]
  },
  {
   "uid": "06547d211cfb804a",
@@ -5076,7 +5540,13 @@
   "hl": [
    "PREORDERS"
   ],
-  "upcoming": false
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Goulet: New Arrivals",
+    "link": "https://www.gouletpens.com/products/benu-tribute-fountain-pen-a-christmas-carol-special-edition"
+   }
+  ]
  },
  {
   "uid": "7113fbb3c1841a06",
@@ -7210,6 +7680,29 @@
    "Faber-Castell",
    "Graf von Faber-Castell"
   ],
+  "upcoming": false
+ },
+ {
+  "uid": "e5a50815853eb887",
+  "source": "Everything Calligraphy (PH): Moonman/Majohn",
+  "title": "Majohn (Moonman)#26 Fountain Pen Nib",
+  "link": "https://www.everythingcalligraphy.com/products/majohn-26-nibs",
+  "summary": "Vendor: Moonman Type: Stationery Price: 149.00 - 199.00 (12 variants) Pens that can use Majohn's #26 Nibs: S1, S3, N2, N3, CANDY, YOUTH, M2 & WANCAI",
+  "image": "https://cdn.shopify.com/s/files/1/0905/3760/files/Majohn26Nibs3.png?v=1789690673",
+  "published": "2026-09-21T00:12:40+00:00",
+  "date_kind": "published",
+  "snippet": "Price: 149.00 - 199.00 (12 variants)",
+  "hl": [],
+  "first_seen": "2026-11-05T06:07:15.900940+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Majohn"
+  ],
+  "enrich_tries": 9,
   "upcoming": false
  },
  {
