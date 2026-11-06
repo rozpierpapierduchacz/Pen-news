@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-05T06:07:15.900940+00:00",
+ "last_run": "2026-11-06T06:04:32.722043+00:00",
  "sources": [
   {
    "source": "The Pelikan's Perch (Pelikan)",
@@ -185,19 +185,19 @@
    "source": "Swastik Penn: Hongdian",
    "url": "https://www.swastikpenn.com/collections/hongdian.atom",
    "ok": true,
-   "entries_in_feed": 21
+   "entries_in_feed": 25
   },
   {
    "source": "Google News: chińskie marki",
    "url": "https://news.google.com/rss/search?q=%28Hongdian+OR+Majohn+OR+Asvine+OR+PenBBS+OR+Jinhao+OR+%22Wing+Sung%22+OR+Moonman%29+%22fountain+pen%22+when%3A14d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "entries_in_feed": 0
+   "entries_in_feed": 1
   },
   {
    "source": "Google News: limited/special edition",
    "url": "https://news.google.com/rss/search?q=%22fountain+pen%22+%28%22limited+edition%22+OR+%22special+edition%22+OR+%22new+colorway%22+OR+%22new+colors%22%29+when%3A14d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "entries_in_feed": 9
+   "entries_in_feed": 8
   },
   {
    "source": "YouTube: Asvine Pen",
@@ -245,7 +245,7 @@
    "source": "Pióromaniak (PL)",
    "url": "https://www.pioromaniak.pl/",
    "ok": true,
-   "entries_in_feed": 74
+   "entries_in_feed": 73
   },
   {
    "source": "Twoje Pióro: Pelikan limitowane (PL)",
@@ -299,7 +299,7 @@
    "source": "Noteka: nowości (PL)",
    "url": "https://noteka.pl/pl/new",
    "ok": true,
-   "entries_in_feed": 131
+   "entries_in_feed": 130
   },
   {
    "source": "Noteka: marki piór (PL)",
@@ -358,8 +358,8 @@
   {
    "source": "Goldspot: nowe kolekcje",
    "url": "https://goldspot.com/collections",
-   "ok": true,
-   "entries_in_feed": 984
+   "ok": false,
+   "error": "500 Server Error: Internal Server Error for url: https://goldspot.com/collections"
   },
   {
    "source": "Goulet: New Arrivals",
