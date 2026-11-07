@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-06T06:04:32.722043+00:00",
+ "last_run": "2026-11-07T05:53:20.463195+00:00",
  "sources": [
   {
    "source": "The Pelikan's Perch (Pelikan)",
@@ -197,7 +197,7 @@
    "source": "Google News: limited/special edition",
    "url": "https://news.google.com/rss/search?q=%22fountain+pen%22+%28%22limited+edition%22+OR+%22special+edition%22+OR+%22new+colorway%22+OR+%22new+colors%22%29+when%3A14d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "entries_in_feed": 8
+   "entries_in_feed": 7
   },
   {
    "source": "YouTube: Asvine Pen",
@@ -245,7 +245,7 @@
    "source": "Pióromaniak (PL)",
    "url": "https://www.pioromaniak.pl/",
    "ok": true,
-   "entries_in_feed": 73
+   "entries_in_feed": 74
   },
   {
    "source": "Twoje Pióro: Pelikan limitowane (PL)",
@@ -299,7 +299,7 @@
    "source": "Noteka: nowości (PL)",
    "url": "https://noteka.pl/pl/new",
    "ok": true,
-   "entries_in_feed": 130
+   "entries_in_feed": 129
   },
   {
    "source": "Noteka: marki piór (PL)",
