@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-07T05:53:20.463195+00:00",
+ "last_run": "2026-11-08T05:54:48.228601+00:00",
  "sources": [
   {
    "source": "The Pelikan's Perch (Pelikan)",
@@ -142,8 +142,8 @@
   {
    "source": "Stilo e Stile (limited edition)",
    "url": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition",
-   "ok": false,
-   "error": "403 Client Error: Forbidden for url: https://www.stiloestile.com/en/fountain-pens/special-limited-edition"
+   "ok": true,
+   "entries_in_feed": 21
   },
   {
    "source": "JetPens: Kaweco Collection Sport",
@@ -197,7 +197,7 @@
    "source": "Google News: limited/special edition",
    "url": "https://news.google.com/rss/search?q=%22fountain+pen%22+%28%22limited+edition%22+OR+%22special+edition%22+OR+%22new+colorway%22+OR+%22new+colors%22%29+when%3A14d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "entries_in_feed": 7
+   "entries_in_feed": 8
   },
   {
    "source": "YouTube: Asvine Pen",
