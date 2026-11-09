@@ -1,5 +1,27 @@
 [
  {
+  "uid": "349675255ab2e5a2",
+  "source": "Goldspot: Limited Edition Fountain Pens",
+  "title": "Omas Fountain Pen in Torre di Pisa",
+  "link": "https://goldspot.com/products/omas-fountain-pen-in-torre-di-pisa",
+  "summary": "Vendor: Omas Type: Fountain Pen Price: 5000.00 OMAS presents the Torre di Pisa, a limited-edition fountain pen inspired by one of Italy’s most iconic architectural landmarks. Celebrated for its distinctive lean and centuries of history, the Leaning Tower of Pisa serves as the…",
+  "image": "https://cdn.shopify.com/s/files/1/1693/8459/files/7bcbb9b1-df9d-4fdc-9241-f7966206f913.jpg?v=1793917387",
+  "published": "2026-11-09T05:00:01+00:00",
+  "date_kind": "published",
+  "snippet": "Completing the design, the iconic OMAS Emotica clip has been reimagined as an integrated stand, allowing the pen to rest at the same unmistakable angle as its architectural muse.",
+  "hl": [
+   "reimagined"
+  ],
+  "first_seen": "2026-11-09T06:15:02.355261+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false
+ },
+ {
   "uid": "b7eafa40e6339d0c",
   "source": "Stilo e Stile (limited edition)",
   "title": "Scribo Piuma Fountain Pen Hane Aka Limited Edition",
@@ -10232,28 +10254,6 @@
   "release": true,
   "brands": [
    "Visconti"
-  ],
-  "upcoming": false
- },
- {
-  "uid": "a5ac20a66f65276e",
-  "source": "Pen Boutique",
-  "title": "Getting to Know Leonardo -- Heritage, Craftsmanship, and Modern Italian Design",
-  "link": "https://www.penboutique.com/blogs/blog/getting-to-know-leonardo-heritage-craftsmanship-and-modern-italian-design",
-  "summary": "While Pen Boutique has been regularly carrying Leonardo pens since the debut of our beautiful store exclusive Rangoli at the 2023 DC Pen Show, we've only featured a handful of designs at a time... until now! At a special Saturday Leonardo Pen Day, we unveiled more than twenty…",
-  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/IMG_2628.jpg?v=1692842223",
-  "published": "2026-07-12T02:22:40+00:00",
-  "first_seen": "2026-07-12T02:22:40+00:00",
-  "release": false,
-  "brands": [
-   "Leonardo"
-  ],
-  "tier": "stock",
-  "retailer_src": true,
-  "enrich_tries": 9,
-  "snippet": "While Pen Boutique has been regularly carrying Leonardo pens since the debut of our beautiful store exclusive Rangoli at the 2023 DC Pen Show, we've only featured a handful of designs at a time...",
-  "hl": [
-   "debut"
   ],
   "upcoming": false
  }
