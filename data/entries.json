@@ -1,5 +1,201 @@
 [
  {
+  "uid": "4db1e6aafa2d73f7",
+  "source": "Twoje Pióro: edycje limitowane (PL)",
+  "title": "Pióro wieczne Graf von Faber Castell Classic Magnum Pernambuco 18k - edycja limitowana jubileuszowa",
+  "link": "https://www.twojepioro.pl/pl/p/Pioro-wieczne-Graf-von-Faber-Castell-Classic-Magnum-Pernambuco-18k-edycja-limitowana-jubileuszowa/20734",
+  "summary": "",
+  "image": "https://www.twojepioro.pl/environment/cache/images/productGfx_99676_500_500/Pioro-wieczne-Graf-von-Faber-Castell-Classic-Magnum-Pernambuco.webp?overlay=1",
+  "published": "2026-11-10T05:58:58.305325+00:00",
+  "date_kind": "detected",
+  "snippet": "",
+  "hl": [],
+  "first_seen": "2026-11-10T05:58:58.305325+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 1,
+  "upcoming": false
+ },
+ {
+  "uid": "f77b8c05622e6d4b",
+  "source": "Goulet: New Arrivals",
+  "title": "Rohrer & Klingner Pitahaya - Ink Sample (2026 Limited Edition)",
+  "link": "https://www.gouletpens.com/products/rohrer-klingner-pitahaya-ink-sample-2026-limited-edition",
+  "summary": "Vendor: Rohrer & Klingner Type: Ink Samples Price: 2.50 A 2ml sample of Rohrer & Klingner Pitahaya fountain pen ink, in a labeled plastic vial. Rohrer & Klingner is delighted to present to you their 2026 limited edition color: Pitahaya, inspired by the intense red color of the…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Rohrer_Klingner-Pitahaya-Dragonfruit-SwabText.jpg?v=1794235496",
+  "published": "2026-11-09T19:12:49+00:00",
+  "date_kind": "published",
+  "snippet": "Rohrer & Klingner is delighted to present to you their 2026 limited edition color: Pitahaya, inspired by the intense red color of the dragon fruit.",
+  "hl": [
+   "limited edition"
+  ],
+  "first_seen": "2026-11-10T05:58:58.305325+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "dup_of": "45c8d1ee81f1419c"
+ },
+ {
+  "uid": "deee13b806930466",
+  "source": "Goulet: New Arrivals",
+  "title": "Rohrer & Klingner Pitahaya - 50ml Bottled Ink (2026 Limited Edition)",
+  "link": "https://www.gouletpens.com/products/rohrer-klingner-pitahaya-50ml-bottled-ink-2026-limited-edition",
+  "summary": "Vendor: Rohrer & Klingner Type: Bottled Ink Price: 14.08 50ml glass bottle of Rohrer & Klingner Pitahaya fountain pen ink. Rohrer & Klingner is delighted to announce a new ink, inspired by the intense red color of the dragon fruit. It combines brilliant color intensity with…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Rohrer_Klingner-Pitahaya-Dragonfruit-BS-SwabText.jpg?v=1794235495",
+  "published": "2026-11-09T19:12:48+00:00",
+  "date_kind": "published",
+  "snippet": "Rohrer & Klingner is delighted to announce a new ink, inspired by the intense red color of the dragon fruit. It combines brilliant color intensity with excellent flow properties, making it ideal for both everyday writing and creative calligraphy.",
+  "hl": [
+   "new ink"
+  ],
+  "first_seen": "2026-11-10T05:58:58.305325+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "dup_of": "45c8d1ee81f1419c"
+ },
+ {
+  "uid": "b8f2fa7a475cc795",
+  "source": "Goulet: New Arrivals",
+  "title": "Pilot Metropolitan Fountain Pen - Light Green (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/pilot-metropolitan-fountain-pen-light-green-limited-edition",
+  "summary": "Vendor: Pilot Type: Fountain Pens Price: 54.50 Pilot introduces the first-ever Limited Edition Metropolitan collection called, Chanomegumi, a three-color release inspired by the natural beauty and cultural tradition of Japanese green tea. Deep Green, Light Green, and Roasted Tea…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Pilot_Metropolitan_MR_LE_CHANOMEGUMI_FP_LIME_TipOut_Stock.jpg?v=1793040597",
+  "published": "2026-11-09T18:37:19+00:00",
+  "date_kind": "published",
+  "snippet": "Pilot introduces the first-ever Limited Edition Metropolitan collection called, Chanomegumi, a three-color release inspired by the natural beauty and cultural tradition of Japanese green tea.",
+  "hl": [
+   "introduces",
+   "Limited Edition"
+  ],
+  "first_seen": "2026-11-10T05:58:58.305325+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Pilot"
+  ],
+  "upcoming": false,
+  "dup_of": "5407c8f4c963e819"
+ },
+ {
+  "uid": "8facad35e4b9b2f7",
+  "source": "Goulet: New Arrivals",
+  "title": "Pilot Metropolitan Fountain Pen - Deep Green (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/pilot-metropolitan-fountain-pen-deep-green-limited-edition",
+  "summary": "Vendor: Pilot Type: Fountain Pens Price: 54.50 Pilot introduces the first-ever Limited Edition Metropolitan collection called, Chanomegumi, a three-color release inspired by the natural beauty and cultural tradition of Japanese green tea. Deep Green, Light Green, and Roasted Tea…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Pilot_Metropolitan_MR_LE_CHANOMEGUMI_FP_GREEN_TipOut_Stock.jpg?v=1793040378",
+  "published": "2026-11-09T18:37:19+00:00",
+  "date_kind": "published",
+  "snippet": "Pilot introduces the first-ever Limited Edition Metropolitan collection called, Chanomegumi, a three-color release inspired by the natural beauty and cultural tradition of Japanese green tea.",
+  "hl": [
+   "introduces",
+   "Limited Edition"
+  ],
+  "first_seen": "2026-11-10T05:58:58.305325+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Pilot"
+  ],
+  "upcoming": false,
+  "dup_of": "5407c8f4c963e819"
+ },
+ {
+  "uid": "c2973c169486bea9",
+  "source": "Goulet: New Arrivals",
+  "title": "Pilot Metropolitan Fountain Pen - Roasted Tea Brown (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/pilot-metropolitan-fountain-pen-roasted-tea-brown-limited-edition",
+  "summary": "Vendor: Pilot Type: Fountain Pens Price: 54.50 Pilot introduces the first-ever Limited Edition Metropolitan collection called, Chanomegumi, a three-color release inspired by the natural beauty and cultural tradition of Japanese green tea. Deep Green, Light Green, and Roasted Tea…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/PilotMetropolitanMRLECHANOMEGUMIFPBROWN_TipOutStock.jpg?v=1793039863",
+  "published": "2026-11-09T18:37:18+00:00",
+  "date_kind": "published",
+  "snippet": "Pilot introduces the first-ever Limited Edition Metropolitan collection called, Chanomegumi, a three-color release inspired by the natural beauty and cultural tradition of Japanese green tea.",
+  "hl": [
+   "introduces",
+   "Limited Edition"
+  ],
+  "first_seen": "2026-11-10T05:58:58.305325+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Pilot"
+  ],
+  "upcoming": false,
+  "dup_of": "ba01bac0b86fb1cd"
+ },
+ {
+  "uid": "41ef93f96951591a",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Nahvalur Horizon Fountain Pen - Candy Cane",
+  "link": "https://www.penboutique.com/products/nahvalur-horizon-fountain-pen-candy-cane",
+  "summary": "Vendor: Nahvalur Type: Fountain Price: 180.00 A festive twist on timeless writing elegance. Add a little festive sweetness to your writing with the Nahvalur Horizon Candy Cane Fountain Pen. Inspired by the cheerful colors of traditional Christmas candy, this special edition…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Nahvalur-Horizon-Fountain-Pen-Candy-Cane-Fountain-Nahvalur-Extra-Fine-2.png?v=1794005185",
+  "published": "2026-11-09T17:38:24+00:00",
+  "date_kind": "published",
+  "snippet": "Inspired by the cheerful colors of traditional Christmas candy, this special edition features flowing ribbons of vibrant red, fresh green, and creamy white across its gracefully curved resin body.",
+  "hl": [
+   "special edition"
+  ],
+  "first_seen": "2026-11-10T05:58:58.305325+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Nahvalur"
+  ],
+  "upcoming": true,
+  "dup_of": "ecaf144cde849689"
+ },
+ {
+  "uid": "717bf7fd388bf89c",
+  "source": "Pióromaniak (PL)",
+  "title": "Visconti Homo Sapiens Carbon Rose – pióro wieczne – edycja limitowana – PRZEDSPRZEDAŻ",
+  "link": "https://www.pioromaniak.pl/produkt/visconti-homo-sapiens-carbon-rose/",
+  "summary": "",
+  "image": "https://www.pioromaniak.pl/wp-content/uploads/2026/11/Visconti-Homo-Sapiens-Carbon-Rose-pioromaniak-pioro-1.jpg",
+  "published": "2026-11-09T17:25:03+00:00",
+  "date_kind": "page",
+  "snippet": "PiÃ³ro wieczne Visconti Homo Sapiens Carbon Rose to wyjÄ tkowa edycja limitowana. NakÅad ograniczony do 288 egzemplarzy na caÅy Åwiat.",
+  "hl": [
+   "edycja limitowana"
+  ],
+  "first_seen": "2026-11-10T05:58:58.305325+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Visconti"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "31f8d81542e97835"
+ },
+ {
   "uid": "349675255ab2e5a2",
   "source": "Goldspot: Limited Edition Fountain Pens",
   "title": "Omas Fountain Pen in Torre di Pisa",
@@ -935,7 +1131,13 @@
    "Nahvalur"
   ],
   "enrich_tries": 9,
-  "upcoming": false
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Pen Boutique: Coming Soon",
+    "link": "https://www.penboutique.com/products/nahvalur-horizon-fountain-pen-candy-cane"
+   }
+  ]
  },
  {
   "uid": "14115abe4bb67bb1",
@@ -3890,7 +4092,7 @@
    "Pilot"
   ],
   "upcoming": false,
-  "dup_of": "46d1c25105e747a2"
+  "dup_of": "5407c8f4c963e819"
  },
  {
   "uid": "96c37633c09c5bb6",
@@ -3915,7 +4117,7 @@
    "Pilot"
   ],
   "upcoming": false,
-  "dup_of": "46d1c25105e747a2"
+  "dup_of": "5407c8f4c963e819"
  },
  {
   "uid": "f05a252df580d6f6",
@@ -3965,7 +4167,7 @@
    "Pilot"
   ],
   "upcoming": false,
-  "dup_of": "46d1c25105e747a2"
+  "dup_of": "5407c8f4c963e819"
  },
  {
   "uid": "897ed54511be33fc",
@@ -5725,6 +5927,10 @@
    {
     "source": "Pen Boutique: New Arrivals",
     "link": "https://www.penboutique.com/products/pilot-mr-fountain-pen-limited-edition-chanomegumi-roasted-tea-brown"
+   },
+   {
+    "source": "Goulet: New Arrivals",
+    "link": "https://www.gouletpens.com/products/pilot-metropolitan-fountain-pen-roasted-tea-brown-limited-edition"
    }
   ]
  },
@@ -5751,17 +5957,8 @@
   "brands": [
    "Pilot"
   ],
-  "upcoming": false,
-  "also": [
-   {
-    "source": "Goldspot: New Releases",
-    "link": "https://goldspot.com/products/pilot-mr-chanomegumi-fountain-pen-in-lime-limited-edition"
-   },
-   {
-    "source": "Pen Boutique: New Arrivals",
-    "link": "https://www.penboutique.com/products/pilot-mr-fountain-pen-limited-edition-chanomegumi-deep-green"
-   }
-  ]
+  "upcoming": true,
+  "dup_of": "5407c8f4c963e819"
  },
  {
   "uid": "5407c8f4c963e819",
@@ -5786,7 +5983,21 @@
   "brands": [
    "Pilot"
   ],
-  "upcoming": true
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Goldspot: New Releases",
+    "link": "https://goldspot.com/products/pilot-mr-chanomegumi-fountain-pen-in-lime-limited-edition"
+   },
+   {
+    "source": "Pen Boutique: New Arrivals",
+    "link": "https://www.penboutique.com/products/pilot-mr-fountain-pen-limited-edition-chanomegumi-deep-green"
+   },
+   {
+    "source": "Goulet: New Arrivals",
+    "link": "https://www.gouletpens.com/products/pilot-metropolitan-fountain-pen-light-green-limited-edition"
+   }
+  ]
  },
  {
   "uid": "34a0cb61574977dd",
@@ -6175,6 +6386,10 @@
    {
     "source": "Cult Pens: What's New",
     "link": "https://cultpens.com/products/rohrer-klingner-limited-edition-fountain-pen-ink-50ml-pitahaya"
+   },
+   {
+    "source": "Goulet: New Arrivals",
+    "link": "https://www.gouletpens.com/products/rohrer-klingner-pitahaya-50ml-bottled-ink-2026-limited-edition"
    }
   ]
  },
@@ -6909,6 +7124,10 @@
    {
     "source": "Goulet: Limited & Special Edition",
     "link": "https://www.gouletpens.com/products/visconti-homo-sapiens-fountain-pen-carbon-rose-limited-edition"
+   },
+   {
+    "source": "Pióromaniak (PL)",
+    "link": "https://www.pioromaniak.pl/produkt/visconti-homo-sapiens-carbon-rose/"
    }
   ]
  },
