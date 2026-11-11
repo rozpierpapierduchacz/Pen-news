@@ -1,5 +1,152 @@
 [
  {
+  "uid": "061d1946435259d8",
+  "source": "Bazarnik: Kaweco (PL)",
+  "title": "PIÓRO WIECZNE KAWECO COLLECTION MARBLE OCEAN",
+  "link": "https://www.bazarnik.pl/art-pismienne/marki/kaweco/piora-wieczne/kolekcja-collection/pioro-wieczne-kaweco-collection-marble-ocean,p1133361366",
+  "summary": "",
+  "image": "https://www.bazarnik.pl/files/883681440/a-4251734928658---w-242-h-170-wo-242-ho-170.jpg",
+  "published": "2026-11-11T06:06:10.910146+00:00",
+  "date_kind": "detected",
+  "snippet": "PIÓRO WIECZNE KAWECO COLLECTION MARBLE OCEAN ⭐ Odkryj cuda morza. Przygotuj się na prawdziwe poszukiwanie skarbów dzięki nowemu pióru wiecznemu z kolekcji",
+  "hl": [
+   "KAWECO COLLECTION"
+  ],
+  "first_seen": "2026-11-11T06:06:10.910146+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Kaweco"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "a066773aaf937e2d",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Sailor Ebonite Eternal Flow Fountain Pen - Ripple Wave - Nickel Chrome Trim (North America Exclusive)",
+  "link": "https://www.penboutique.com/products/sailor-ebonite-eternal-flow-fountain-pen-ripple-wave-nickel-chrome-trim-north-america-exclusive",
+  "summary": "Vendor: Sailor Pens Type: Fountain Price: 960.00 Sailor Fountain Pen | Ebonite Eternal Flow - Deep Navy Blue (Ripple Wave) Experience the meditative rhythm of putting pen to paper with the Sailor Ebonite Eternal Flow Fountain Pen in Deep Navy Blue . Inspired by the eternal…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/SailorEboniteEternalFlowFountainPen-RippleWave-NickelChromeTrim_NorthAmericaExclusive_01.png?v=1794365853",
+  "published": "2026-11-11T03:11:12+00:00",
+  "date_kind": "published",
+  "snippet": "The tactile feedback of the deeply engraved ebonite ripples feels astonishingly secure in the hand, while the deep navy blue colorway emits a quiet, sophisticated elegance.",
+  "hl": [
+   "colorway"
+  ],
+  "first_seen": "2026-11-11T06:06:10.910146+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Sailor"
+  ],
+  "upcoming": true
+ },
+ {
+  "uid": "f3b01625c54223b4",
+  "source": "The Gentleman Stationer",
+  "title": "New Arrivals: Hobonichi Is Here!",
+  "link": "https://www.gentlemanstationer.com/blog/2026/11/10/new-arrivals-hobonichi-is-here",
+  "summary": "They took a bit longer to arrive, but we just received a shipment of 2027 Hobonichi Techo planners in the A5 “Hon” and “Weeks” formats! The Hon is the bound hardback version that does not require a separate cover, while the weeks is the compact planner slim enough to fit in a…",
+  "image": "https://images.squarespace-cdn.com/content/v1/5349ba13e4b095a3fb0ba65c/91c0e39d-6cd8-46bc-a33f-0ac3b7736d94/Hobonichi-A5-Hon-Techo.jpg?format=1000w",
+  "published": "2026-11-10T23:26:39+00:00",
+  "date_kind": "published",
+  "snippet": "They took a bit longer to arrive, but we just received a shipment of 2027 Hobonichi Techo planners in the A5 “Hon” and “Weeks” formats!",
+  "hl": [],
+  "first_seen": "2026-11-11T06:06:10.910146+00:00",
+  "tier": "stock",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": false,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "af0efb7523e4d805",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Taccia Empress Fountain Pen - Chinkin Flight of the Phoenix (Limited Edition)",
+  "link": "https://www.penboutique.com/products/taccia-empress-chinkin-flight-of-the-phoenix-fountain-pen",
+  "summary": "Vendor: Taccia Pens Type: Fountain Price: 3916.00 A Legendary Flight, Immortalized in Japanese Gold. Description The Taccia Empress Chinkin Flight of the Phoenix Limited Edition showcases extraordinary Japanese lacquer artistry, featuring a hand-carved phoenix motif adorned with…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Taccia-Empress-Fountain-Pen-Chinkin-Flight-of-the-Phoenix-Limited-Edition-Fountain-Taccia-Pens-Medium.png?v=1794350793",
+  "published": "2026-11-10T22:20:15+00:00",
+  "date_kind": "published",
+  "snippet": "Exclusive Limited Edition: Strictly limited to 36 pieces worldwide, making it a rare collectible for discerning fountain pen enthusiasts.",
+  "hl": [
+   "Limited Edition",
+   "limited to 36"
+  ],
+  "first_seen": "2026-11-11T06:06:10.910146+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Pen Boutique: Limited Edition",
+    "link": "https://www.penboutique.com/products/taccia-empress-chinkin-flight-of-the-phoenix-fountain-pen"
+   }
+  ]
+ },
+ {
+  "uid": "38a432157052832b",
+  "source": "Pen Boutique: Limited Edition",
+  "title": "Taccia Empress Fountain Pen - Chinkin Flight of the Phoenix (Limited Edition)",
+  "link": "https://www.penboutique.com/products/taccia-empress-chinkin-flight-of-the-phoenix-fountain-pen",
+  "summary": "Vendor: Taccia Pens Type: Fountain Price: 3916.00 A Legendary Flight, Immortalized in Japanese Gold. Description The Taccia Empress Chinkin Flight of the Phoenix Limited Edition showcases extraordinary Japanese lacquer artistry, featuring a hand-carved phoenix motif adorned with…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Taccia-Empress-Fountain-Pen-Chinkin-Flight-of-the-Phoenix-Limited-Edition-Fountain-Taccia-Pens-Medium.png?v=1794350793",
+  "published": "2026-11-10T22:20:15+00:00",
+  "date_kind": "published",
+  "snippet": "Exclusive Limited Edition: Strictly limited to 36 pieces worldwide, making it a rare collectible for discerning fountain pen enthusiasts.",
+  "hl": [
+   "Limited Edition",
+   "limited to 36"
+  ],
+  "first_seen": "2026-11-11T06:06:10.910146+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "dup_of": "af0efb7523e4d805"
+ },
+ {
+  "uid": "ffbd889bb5f51c94",
+  "source": "Goulet: New Arrivals",
+  "title": "Pilot Custom Enju Fountain Pen - Wood",
+  "link": "https://www.gouletpens.com/products/pilot-custom-enju-fountain-pen-wood",
+  "summary": "Vendor: Pilot Type: Fountain Pens Price: 960.00 Crafted from Japanese Enju wood, also known as the Japanese Pagoda Tree, The Custom Enju combines material traditionally associated with longevity and good fortune with pen craftsmanship. Each pen showcases the unique grain…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Pilot-Custom-Enju-Wood-4.jpg?v=1794333458",
+  "published": "2026-11-10T17:10:22+00:00",
+  "date_kind": "published",
+  "snippet": "Crafted from Japanese Enju wood, also known as the Japanese Pagoda Tree, The Custom Enju combines material traditionally associated with longevity and good fortune with pen craftsmanship.",
+  "hl": [],
+  "first_seen": "2026-11-11T06:06:10.910146+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Pilot"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "8d53e214e4111f02"
+ },
+ {
   "uid": "4db1e6aafa2d73f7",
   "source": "Twoje Pióro: edycje limitowane (PL)",
   "title": "Pióro wieczne Graf von Faber Castell Classic Magnum Pernambuco 18k - edycja limitowana jubileuszowa",
@@ -17,7 +164,7 @@
   "retailer_src": true,
   "release": true,
   "brands": [],
-  "enrich_tries": 1,
+  "enrich_tries": 2,
   "upcoming": false
  },
  {
@@ -6812,10 +6959,14 @@
    "Pilot"
   ],
   "enrich_tries": 9,
-  "upcoming": true,
+  "upcoming": false,
   "also": [
    {
     "source": "Goulet: Coming Soon",
+    "link": "https://www.gouletpens.com/products/pilot-custom-enju-fountain-pen-wood"
+   },
+   {
+    "source": "Goulet: New Arrivals",
     "link": "https://www.gouletpens.com/products/pilot-custom-enju-fountain-pen-wood"
    }
   ]
