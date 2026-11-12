@@ -1,5 +1,250 @@
 [
  {
+  "uid": "2ecc8580f126f04b",
+  "source": "Goulet: Coming Soon",
+  "title": "SCRIBO PIUMA Fountain Pen - HANE Aka (Special Edition)",
+  "link": "https://www.gouletpens.com/products/scribo-piuma-fountain-pen-hane-aka-special-edition",
+  "summary": "Vendor: SCRIBO Type: Fountain Pens Price: 1370.00 A genuine touch of Japanese artistry has arrived in Bologna. As far back as the Jōmon period, red lacquer was used to coat objects that were also believed to possess symbolic value. Associated with fire, sun, and life, this color…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/SCRIBOPIUMAHane-Akastock-7.jpg?v=1793973120",
+  "published": "2026-11-11T18:31:12+00:00",
+  "date_kind": "published",
+  "snippet": "From this inspiration comes PIUMA HANE Aka, created in a limited edition of just 110 pieces, with glossy red lacquer and yellow gold accents.",
+  "hl": [
+   "limited edition"
+  ],
+  "first_seen": "2026-11-12T06:10:39.383669+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": true,
+  "dup_of": "b7eafa40e6339d0c"
+ },
+ {
+  "uid": "232d890e87217766",
+  "source": "Goulet: Limited & Special Edition",
+  "title": "SCRIBO PIUMA Fountain Pen - HANE Aka (Special Edition)",
+  "link": "https://www.gouletpens.com/products/scribo-piuma-fountain-pen-hane-aka-special-edition",
+  "summary": "Vendor: SCRIBO Type: Fountain Pens Price: 1370.00 A genuine touch of Japanese artistry has arrived in Bologna. As far back as the Jōmon period, red lacquer was used to coat objects that were also believed to possess symbolic value. Associated with fire, sun, and life, this color…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/SCRIBOPIUMAHane-Akastock-7.jpg?v=1793973120",
+  "published": "2026-11-11T18:31:12+00:00",
+  "date_kind": "published",
+  "snippet": "From this inspiration comes PIUMA HANE Aka, created in a limited edition of just 110 pieces, with glossy red lacquer and yellow gold accents.",
+  "hl": [
+   "limited edition"
+  ],
+  "first_seen": "2026-11-12T06:10:39.383669+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "dup_of": "b7eafa40e6339d0c"
+ },
+ {
+  "uid": "5ab708d2717e0024",
+  "source": "Goulet: Coming Soon",
+  "title": "Colorverse First Signal Glistening - 15ml Bottled Ink (Special Edition)",
+  "link": "https://www.gouletpens.com/products/colorverse-first-signal-glistening-15ml-bottled-ink-special-edition",
+  "summary": "Vendor: Colorverse Type: Bottled Ink Price: 15.00 This 15ml glass bottle of Colorverse First Signal Glistening fountain pen ink is a deep gray color with added purple shimmer. From deep space, a mysterious signal reaches us for the first time. First Signal captures the strange…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/ColorverseFirstSignalGlisteningstock-1.jpg?v=1794000177",
+  "published": "2026-11-11T18:30:01+00:00",
+  "date_kind": "published",
+  "snippet": "This 15ml glass bottle of Colorverse First Signal Glistening fountain pen ink is a deep gray color with added purple shimmer.",
+  "hl": [],
+  "first_seen": "2026-11-12T06:10:39.383669+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": true
+ },
+ {
+  "uid": "d77bddc8c667879c",
+  "source": "Goulet: Coming Soon",
+  "title": "Colorverse Frostfall Glistening - 15ml Bottled Ink (Special Edition)",
+  "link": "https://www.gouletpens.com/products/colorverse-frostfall-glistening-15ml-bottled-ink-special-edition",
+  "summary": "Vendor: Colorverse Type: Bottled Ink Price: 15.00 This 15ml glass bottle of Colorverse Frostfall Glistening fountain pen ink is a brown/tan color with added gold shimmer. Inspired by Sanggang , one of Korea's 24 solar terms, Frostfall reflects the transition into late autumn and…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/ColorverseFrostfallGlisteningstock-1.jpg?v=1794000142",
+  "published": "2026-11-11T18:29:27+00:00",
+  "date_kind": "published",
+  "snippet": "This 15ml glass bottle of Colorverse Frostfall Glistening fountain pen ink is a brown/tan color with added gold shimmer.",
+  "hl": [],
+  "first_seen": "2026-11-12T06:10:39.383669+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": true
+ },
+ {
+  "uid": "72097798ad991780",
+  "source": "Goulet: Coming Soon",
+  "title": "Sailor 1911 King of Pens Maki-e Ukiyo-e Fountain Pen - Sugino Juheiji Tsugufusa (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/sailor-1911-king-of-pens-maki-e-ukiyo-e-fountain-pen-sugino-juheiji-tsugufusa-limited-edition",
+  "summary": "Vendor: Sailor Type: Fountain Pens Price: 6000.00 Introducing the Sailor King of Pens Maki-e Ukiyo-e “Sugino Juheiji Tsugufusa.” This release draws directly from the visionary genius of Utagawa Kuniyoshi , one of the late Edo period’s most celebrated ukiyo-e masters. Renowned…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/SailorKOPMaki-eUkiyo-e_SuginoJuheijiTsugufusa_Stock-4.jpg?v=1793991412",
+  "published": "2026-11-11T18:28:00+00:00",
+  "date_kind": "published",
+  "snippet": "Introducing the Sailor King of Pens Maki-e Ukiyo-e “Sugino Juheiji Tsugufusa.” This release draws directly from the visionary genius of Utagawa Kuniyoshi , one of the late Edo period’s most celebrated ukiyo-e masters.",
+  "hl": [
+   "Introducing"
+  ],
+  "first_seen": "2026-11-12T06:10:39.383669+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Sailor"
+  ],
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Goulet: Limited & Special Edition",
+    "link": "https://www.gouletpens.com/products/sailor-1911-king-of-pens-maki-e-ukiyo-e-fountain-pen-sugino-juheiji-tsugufusa-limited-edition"
+   }
+  ]
+ },
+ {
+  "uid": "d7b5b6c9704f0e5d",
+  "source": "Goulet: Limited & Special Edition",
+  "title": "Sailor 1911 King of Pens Maki-e Ukiyo-e Fountain Pen - Sugino Juheiji Tsugufusa (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/sailor-1911-king-of-pens-maki-e-ukiyo-e-fountain-pen-sugino-juheiji-tsugufusa-limited-edition",
+  "summary": "Vendor: Sailor Type: Fountain Pens Price: 6000.00 Introducing the Sailor King of Pens Maki-e Ukiyo-e “Sugino Juheiji Tsugufusa.” This release draws directly from the visionary genius of Utagawa Kuniyoshi , one of the late Edo period’s most celebrated ukiyo-e masters. Renowned…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/SailorKOPMaki-eUkiyo-e_SuginoJuheijiTsugufusa_Stock-4.jpg?v=1793991412",
+  "published": "2026-11-11T18:28:00+00:00",
+  "date_kind": "published",
+  "snippet": "Introducing the Sailor King of Pens Maki-e Ukiyo-e “Sugino Juheiji Tsugufusa.” This release draws directly from the visionary genius of Utagawa Kuniyoshi , one of the late Edo period’s most celebrated ukiyo-e masters.",
+  "hl": [
+   "Introducing"
+  ],
+  "first_seen": "2026-11-12T06:10:39.383669+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Sailor"
+  ],
+  "upcoming": false,
+  "dup_of": "72097798ad991780"
+ },
+ {
+  "uid": "72b30d27a5440d75",
+  "source": "Goulet: Coming Soon",
+  "title": "Pelikan M800 Fountain Pen - Indian Ocean (Special Edition)",
+  "link": "https://www.gouletpens.com/products/pelikan-m800-fountain-pen-indian-ocean-special-edition",
+  "summary": "Vendor: Pelikan Type: Fountain Pens Price: 1036.00 Inspired by the mesmerising colours and endless movement of the ocean, the Pelikan Souverän M800 Indian Ocean captures the beauty of nature in an extraordinary writing instrument. Deep ocean blue and vibrant golden yellow…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/PelikanM800SouveranIndianOceanStock-7.jpg?v=1793973384",
+  "published": "2026-11-11T17:19:57+00:00",
+  "date_kind": "published",
+  "snippet": "This new series invites you to discover the beauty of the world’s oceans through exceptional writing instruments, each inspired by the distinctive character of a different ocean.",
+  "hl": [
+   "new series"
+  ],
+  "first_seen": "2026-11-12T06:10:39.383669+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Pelikan"
+  ],
+  "upcoming": true,
+  "dup_of": "c4f72089e1a64c7c"
+ },
+ {
+  "uid": "1d32254f52e2e957",
+  "source": "Goulet: Limited & Special Edition",
+  "title": "Pelikan M800 Fountain Pen - Indian Ocean (Special Edition)",
+  "link": "https://www.gouletpens.com/products/pelikan-m800-fountain-pen-indian-ocean-special-edition",
+  "summary": "Vendor: Pelikan Type: Fountain Pens Price: 1036.00 Inspired by the mesmerising colours and endless movement of the ocean, the Pelikan Souverän M800 Indian Ocean captures the beauty of nature in an extraordinary writing instrument. Deep ocean blue and vibrant golden yellow…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/PelikanM800SouveranIndianOceanStock-7.jpg?v=1793973384",
+  "published": "2026-11-11T17:19:57+00:00",
+  "date_kind": "published",
+  "snippet": "This new series invites you to discover the beauty of the world’s oceans through exceptional writing instruments, each inspired by the distinctive character of a different ocean.",
+  "hl": [
+   "new series"
+  ],
+  "first_seen": "2026-11-12T06:10:39.383669+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Pelikan"
+  ],
+  "upcoming": false,
+  "dup_of": "c4f72089e1a64c7c"
+ },
+ {
+  "uid": "bd92c0fdbd07352b",
+  "source": "Goulet: New Arrivals",
+  "title": "Visconti Homo Sapiens Fountain Pen - Carbon Rose (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/visconti-homo-sapiens-fountain-pen-carbon-rose-limited-edition",
+  "summary": "Vendor: Visconti Type: Fountain Pens Price: 2716.00 Visconti presents the Homo Sapiens Carbon Rose, the third chapter in a collection born of technical experimentation and aesthetic exploration. T his new edition expresses an elegance defined by subtle hues, contrasts and…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/ViscontiHomoSapiensCarbonRosestock-9.jpg?v=1792503865",
+  "published": "2026-11-11T15:41:16+00:00",
+  "date_kind": "published",
+  "snippet": "This Limited Edition is individually numbered and limited to 288 pens worldwide. Each pen is presented in a beautifully crafted limited-edition box.",
+  "hl": [
+   "Limited Edition",
+   "limited to 288"
+  ],
+  "first_seen": "2026-11-12T06:10:39.383669+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Visconti"
+  ],
+  "upcoming": false,
+  "dup_of": "31f8d81542e97835"
+ },
+ {
+  "uid": "02dec8b96857f25b",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Pelikan Souveran Fountain Pen - M800 Indian Ocean (Special Edition)",
+  "link": "https://www.penboutique.com/products/pelikan-souveran-m800-indian-ocean-fountain-pen",
+  "summary": "Vendor: Pelikan-Pens Type: Fountain Price: 1036.00 Inspired by the Ocean. Crafted to Make Waves. The Pelikan Souverän M800 Indian Ocean Special Edition celebrates the beauty and mystery of the world's oceans through a captivating blend of deep ocean blue and vibrant golden…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Pelikan-Souveran-Fountain-Pen-M800-Indian-Ocean-Special-Edition-Fountain-Pelikan-Pens-Extra-Fine.png?v=1794350797",
+  "published": "2026-11-11T13:09:49+00:00",
+  "date_kind": "published",
+  "snippet": "First Edition of the Oceans Series: Introduces Pelikan's new ocean-inspired collection, with a new ocean-themed special edition planned every two years.",
+  "hl": [
+   "Introduces",
+   "new ocean-themed special edition"
+  ],
+  "first_seen": "2026-11-12T06:10:39.383669+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Pelikan"
+  ],
+  "upcoming": true,
+  "dup_of": "c4f72089e1a64c7c"
+ },
+ {
   "uid": "061d1946435259d8",
   "source": "Bazarnik: Kaweco (PL)",
   "title": "PIÓRO WIECZNE KAWECO COLLECTION MARBLE OCEAN",
@@ -385,7 +630,17 @@
   "release": true,
   "brands": [],
   "enrich_tries": 9,
-  "upcoming": false
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Goulet: Coming Soon",
+    "link": "https://www.gouletpens.com/products/scribo-piuma-fountain-pen-hane-aka-special-edition"
+   },
+   {
+    "source": "Goulet: Limited & Special Edition",
+    "link": "https://www.gouletpens.com/products/scribo-piuma-fountain-pen-hane-aka-special-edition"
+   }
+  ]
  },
  {
   "uid": "b979b2bf353facbf",
@@ -1576,6 +1831,18 @@
    {
     "source": "Stilo e Stile (limited edition)",
     "link": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition/pelikan-souveran-m800-fountain-pen-indian-ocean-special-edition"
+   },
+   {
+    "source": "Pen Boutique: Coming Soon",
+    "link": "https://www.penboutique.com/products/pelikan-souveran-m800-indian-ocean-fountain-pen"
+   },
+   {
+    "source": "Goulet: Coming Soon",
+    "link": "https://www.gouletpens.com/products/pelikan-m800-fountain-pen-indian-ocean-special-edition"
+   },
+   {
+    "source": "Goulet: Limited & Special Edition",
+    "link": "https://www.gouletpens.com/products/pelikan-m800-fountain-pen-indian-ocean-special-edition"
    }
   ]
  },
@@ -7279,6 +7546,10 @@
    {
     "source": "Pióromaniak (PL)",
     "link": "https://www.pioromaniak.pl/produkt/visconti-homo-sapiens-carbon-rose/"
+   },
+   {
+    "source": "Goulet: New Arrivals",
+    "link": "https://www.gouletpens.com/products/visconti-homo-sapiens-fountain-pen-carbon-rose-limited-edition"
    }
   ]
  },
