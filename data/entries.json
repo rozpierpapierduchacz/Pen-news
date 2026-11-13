@@ -1,5 +1,347 @@
 [
  {
+  "uid": "6f1305e569a43e2d",
+  "source": "Bazarnik: Kaweco (PL)",
+  "title": "PIÓRO WIECZNE KAWECO LUNAR SPORT LIGHT GREEN",
+  "link": "https://www.bazarnik.pl/art-pismienne/pioro-wieczne-kaweco-lunar-sport-light-green,p1391516144",
+  "summary": "",
+  "image": "https://www.bazarnik.pl/files/566204143/a-lunar_1---w-242-h-170-wo-242-ho-170.jpg",
+  "published": "2026-11-13T06:07:31.073684+00:00",
+  "date_kind": "detected",
+  "snippet": "PIÓRO WIECZNE KAWECO LUNAR SPORT LIGHT GREEN ⭐️ Kaweco LUNAR Sport Light Green to połączenie nowoczesnego designu i niezawodnej funkcjonalności.",
+  "hl": [
+   "KAWECO LUNAR"
+  ],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Kaweco"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "cee8ba3d39aa6011",
+  "source": "Bazarnik: Kaweco (PL)",
+  "title": "PIÓRO WIECZNE KAWECO LUNAR SPORT SHADOW BLUE",
+  "link": "https://www.bazarnik.pl/art-pismienne/pioro-wieczne-kaweco-lunar-sport-shadow-blue,p1487531080",
+  "summary": "",
+  "image": "https://www.bazarnik.pl/files/566204143/a-4251734928429---w-242-h-170-wo-242-ho-170.jpg",
+  "published": "2026-11-13T06:07:31.073684+00:00",
+  "date_kind": "detected",
+  "snippet": "PIÓRO WIECZNE KAWECO LUNAR SPORT SHADOW BLUE ⭐️ Kaweco LUNAR Sport to połączenie nowoczesnego designu i niezawodnej funkcjonalności.",
+  "hl": [
+   "KAWECO LUNAR"
+  ],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Kaweco"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "770706364118434f",
+  "source": "Bazarnik: Kaweco (PL)",
+  "title": "PIÓRO WIECZNE KAWECO LUNAR SPORT LIGHT PURPLE",
+  "link": "https://www.bazarnik.pl/art-pismienne/marki/kaweco/piora-wieczne/pioro-wieczne-kaweco-lunar-sport-light-purple,p388894541",
+  "summary": "",
+  "image": "https://www.bazarnik.pl/files/1756835013/pioro-wieczne-kaweco-lunar-light-purple-otwarte---w-242-h-170-wo-242-ho-170.jpg",
+  "published": "2026-11-13T06:07:31.073684+00:00",
+  "date_kind": "detected",
+  "snippet": "PIÓRO WIECZNE KAWECO LUNAR SPORT LIGHT PURPLE ⭐️ Kaweco LUNAR Sport Light Purple to połączenie nowoczesnego designu i niezawodnej funkcjonalności.",
+  "hl": [
+   "KAWECO LUNAR"
+  ],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Kaweco"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "48eb83173739b730",
+  "source": "Bazarnik: Kaweco (PL)",
+  "title": "PIÓRO WIECZNE KAWECO LUNAR SPORT SHADOW PURPLE",
+  "link": "https://www.bazarnik.pl/art-pismienne/marki/kaweco/piora-wieczne/kolekcja-lunar-sport/pioro-wieczne-kaweco-lunar-sport-shadow-purple,p1612671258",
+  "summary": "",
+  "image": "https://www.bazarnik.pl/files/393684559/pioro-wieczne-kaweco-lunar-shadow-purple-otwarte_1---w-242-h-170-wo-242-ho-170.jpg",
+  "published": "2026-11-13T06:07:31.073684+00:00",
+  "date_kind": "detected",
+  "snippet": "PIÓRO WIECZNE KAWECO LUNAR SPORT SHADOW PURPLE ⭐️ Kaweco LUNAR Sport Shadow Purple to połączenie nowoczesnego designu i niezawodnej funkcjonalności.",
+  "hl": [
+   "KAWECO LUNAR"
+  ],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Kaweco"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "e10b1770c5f156f5",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Benu Haute Fountain Pen - Charme",
+  "link": "https://www.penboutique.com/products/benu-haute-fountain-pen-charme",
+  "summary": "Vendor: Benu Type: Fountain Price: 210.00 A Touch of Turquoise, A World of Charme. Bring a little sparkle to your writing with the BENU Haute Fountain Pen – Charme. Inspired by the French word for charm , this captivating design blends cool aqua and turquoise shades with deeper…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Benu-Haute-Fountain-Pen-Charme-Fountain-Benu-Extra-Fine.png?v=1793832416",
+  "published": "2026-11-13T03:38:54+00:00",
+  "date_kind": "published",
+  "snippet": "A Touch of Turquoise, A World of Charme.",
+  "hl": [],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Benu"
+  ],
+  "enrich_tries": 9,
+  "upcoming": true
+ },
+ {
+  "uid": "18dd99bb9ced9816",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Benu Haute Fountain Pen - Chérie",
+  "link": "https://www.penboutique.com/products/benu-haute-fountain-pen-cherie",
+  "summary": "Vendor: Benu Type: Fountain Price: 210.00 A Little Sparkle, A Lot of Love. Fall in love with the delicate beauty of the BENU Haute Fountain Pen – Chérie. Named after the French word for darling or beloved , Chérie brings romance and elegance to the art of writing. Its…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Benu-Haute-Fountain-Pen-Cherie-Fountain-Benu-Extra-Fine.png?v=1793832407",
+  "published": "2026-11-13T03:38:52+00:00",
+  "date_kind": "published",
+  "snippet": "A Little Sparkle, A Lot of Love.",
+  "hl": [],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Benu"
+  ],
+  "enrich_tries": 9,
+  "upcoming": true
+ },
+ {
+  "uid": "e283db56e8d712da",
+  "source": "Goulet: New Arrivals",
+  "title": "Magna Carta Terrazzo Pink Fountain Pen (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/magna-carta-terrazzo-pink-fountain-pen-limited-edition",
+  "summary": "Vendor: Magna Carta Type: Fountain Pens Price: 460.00 A Goulet exclusive, (non-numbered) limited edition! Boasting a #6 Magna Carta 14K True Flex Nib and an ebonite feed housing, the Mag 600 flex nib effortlessly transitions between intricate detail and wide strokes. The trim of…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/MagnaCarta-TerrazzoPink-3_ac51d972-bab9-45b6-abd9-302999bc0617.jpg?v=1794432177",
+  "published": "2026-11-12T19:27:18+00:00",
+  "date_kind": "published",
+  "snippet": "A Goulet exclusive, (non-numbered) limited edition! Boasting a #6 Magna Carta 14K True Flex Nib and an ebonite feed housing, the Mag 600 flex nib effortlessly transitions between intricate detail and wide strokes.",
+  "hl": [
+   "limited edition"
+  ],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Goulet: Limited & Special Edition",
+    "link": "https://www.gouletpens.com/products/magna-carta-terrazzo-pink-fountain-pen-limited-edition"
+   }
+  ]
+ },
+ {
+  "uid": "d14e2615b683dd51",
+  "source": "Goulet: Limited & Special Edition",
+  "title": "Magna Carta Terrazzo Pink Fountain Pen (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/magna-carta-terrazzo-pink-fountain-pen-limited-edition",
+  "summary": "Vendor: Magna Carta Type: Fountain Pens Price: 460.00 A Goulet exclusive, (non-numbered) limited edition! Boasting a #6 Magna Carta 14K True Flex Nib and an ebonite feed housing, the Mag 600 flex nib effortlessly transitions between intricate detail and wide strokes. The trim of…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/MagnaCarta-TerrazzoPink-3_ac51d972-bab9-45b6-abd9-302999bc0617.jpg?v=1794432177",
+  "published": "2026-11-12T19:27:18+00:00",
+  "date_kind": "published",
+  "snippet": "A Goulet exclusive, (non-numbered) limited edition! Boasting a #6 Magna Carta 14K True Flex Nib and an ebonite feed housing, the Mag 600 flex nib effortlessly transitions between intricate detail and wide strokes.",
+  "hl": [
+   "limited edition"
+  ],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "dup_of": "e283db56e8d712da"
+ },
+ {
+  "uid": "f8219858628dd042",
+  "source": "Goulet: New Arrivals",
+  "title": "Magna Carta Mag 600 Fountain Pen - Arcade (Limited Production)",
+  "link": "https://www.gouletpens.com/products/magna-carta-mag-600-fountain-pen-arcade-limited-production",
+  "summary": "Vendor: Magna Carta Type: Fountain Pens Price: 500.00 The Magna Carta Mag 600 fountain pen is impressive in size with a unique and desirable flex nib! The Arcade pen is crafted with stacked resin in blue and varying colors including white, red, and black, finished with 24K PVD…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/MagnaCarta-Mag600-Arcade-4.jpg?v=1794419566",
+  "published": "2026-11-12T19:27:17+00:00",
+  "date_kind": "published",
+  "snippet": "The Magna Carta Mag 600 fountain pen is impressive in size with a unique and desirable flex nib!",
+  "hl": [],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "a15fd38b5845fdf8",
+  "source": "Goulet: Coming Soon",
+  "title": "Franklin Christoph Model 31 Fountain Pen - 80's Baby (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/franklin-christoph-model-31-fountain-pen-80s-baby-limited-edition",
+  "summary": "Vendor: Franklin-Christoph Type: Fountain Pens Price: 185.00 - 195.00 (6 variants) Introducing our ninth exclusive collaboration with Franklin-Christoph! This limited edition Model 31 style fountain pen features a stunning custom blended resin named \"80's Baby\". The resin has…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/FranklinChristoph-31-80_sBaby-4.jpg?v=1793987117",
+  "published": "2026-11-12T17:52:04+00:00",
+  "date_kind": "published",
+  "snippet": "Introducing our ninth exclusive collaboration with Franklin-Christoph! This limited edition Model 31 style fountain pen features a stunning custom blended resin named \"80's Baby\".",
+  "hl": [
+   "Introducing",
+   "collaboration",
+   "limited edition"
+  ],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Goulet: Limited & Special Edition",
+    "link": "https://www.gouletpens.com/products/franklin-christoph-model-31-fountain-pen-80s-baby-limited-edition"
+   }
+  ]
+ },
+ {
+  "uid": "ff5e87135601cd92",
+  "source": "Goulet: Limited & Special Edition",
+  "title": "Franklin Christoph Model 31 Fountain Pen - 80's Baby (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/franklin-christoph-model-31-fountain-pen-80s-baby-limited-edition",
+  "summary": "Vendor: Franklin-Christoph Type: Fountain Pens Price: 185.00 - 195.00 (6 variants) Introducing our ninth exclusive collaboration with Franklin-Christoph! This limited edition Model 31 style fountain pen features a stunning custom blended resin named \"80's Baby\". The resin has…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/FranklinChristoph-31-80_sBaby-4.jpg?v=1793987117",
+  "published": "2026-11-12T17:52:04+00:00",
+  "date_kind": "published",
+  "snippet": "Introducing our ninth exclusive collaboration with Franklin-Christoph! This limited edition Model 31 style fountain pen features a stunning custom blended resin named \"80's Baby\".",
+  "hl": [
+   "Introducing",
+   "collaboration",
+   "limited edition"
+  ],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "dup_of": "a15fd38b5845fdf8"
+ },
+ {
+  "uid": "bc2d228c6f985fd4",
+  "source": "Goulet: Coming Soon",
+  "title": "Wearingeul The Night Before Christmas - 30ml Bottled Ink (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/wearingeul-the-night-before-christmas-30ml-bottled-ink-limited-edition",
+  "summary": "Vendor: Wearingeul Type: Bottled Ink Price: 28.00 This dark midnight blue/teal 30ml glass bottle of Wearingeul The Night Before Christmas has shimmering violet pearl in it. It captures the mystery of a moonless night and the flutter of love that blossoms even in the darkness.…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/TheNightBeforeChristmas.png?v=1794499176",
+  "published": "2026-11-12T17:28:53+00:00",
+  "date_kind": "published",
+  "snippet": "This dark midnight blue/teal 30ml glass bottle of Wearingeul The Night Before Christmas has shimmering violet pearl in it.",
+  "hl": [],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": true
+ },
+ {
+  "uid": "e5b1aff622516058",
+  "source": "Goulet: Coming Soon",
+  "title": "Wearingeul The Night Before Christmas - Ink Sample (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/wearingeul-the-night-before-christmas-ink-sample-limited-edition",
+  "summary": "Vendor: Wearingeul Type: Ink Samples Price: 3.50 2ml fountain pen ink sample of Wearingeul The Night Before Christmas in a labeled plastic vial. This dark blue fountain pen ink has added violet shimmer. Wearingeul inks are made in South Korea.",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/TheNightBeforeChristmas_4.jpg?v=1794499174",
+  "published": "2026-11-12T17:28:12+00:00",
+  "date_kind": "published",
+  "snippet": "2ml fountain pen ink sample of Wearingeul The Night Before Christmas in a labeled plastic vial. This dark blue fountain pen ink has added violet shimmer.",
+  "hl": [],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": true
+ },
+ {
+  "uid": "5479ccd7415f1184",
+  "source": "Pen Boutique: New Arrivals",
+  "title": "Pelikan Souveran Fountain Pen - M1000 Black & Blue (US Exclusive Release)",
+  "link": "https://www.penboutique.com/products/pelikan-souveran-fountain-pen-m1000-black-blue",
+  "summary": "Vendor: Pelikan-Pens Type: Fountain Price: 876.00 Bold in Presence. Brilliant on Paper. Make every word a statement with the Pelikan Souverän M1000 Black & Blue Fountain Pen. Combining Pelikan’s distinguished German craftsmanship with a striking black-and-blue aesthetic, this…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Pelikan-Souveran-Fountain-Pen-M1000-Black-Blue-Fountain-Pelikan-Pens-Extra-Fine.png?v=1793222646",
+  "published": "2026-11-12T12:20:25+00:00",
+  "date_kind": "published",
+  "snippet": "Sailor Fountain Pen - Commemorative - 115th Anniversary Hiroshima Momiji",
+  "hl": [
+   "Commemorative",
+   "Anniversary"
+  ],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Pelikan"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "a2cbd33b06e9f746"
+ },
+ {
   "uid": "2ecc8580f126f04b",
   "source": "Goulet: Coming Soon",
   "title": "SCRIBO PIUMA Fountain Pen - HANE Aka (Special Edition)",
@@ -219,6 +561,27 @@
   "dup_of": "31f8d81542e97835"
  },
  {
+  "uid": "bd07448a90cf1d22",
+  "source": "Goldspot: nowe kolekcje",
+  "title": "Midori Etching Clips",
+  "link": "https://goldspot.com/collections/midori-etching-clips",
+  "summary": "",
+  "image": "http://goldspot.com/cdn/shop/collections/Midori_Etching_Clips.jpg?v=1794421690",
+  "published": "2026-11-11T13:28:10+00:00",
+  "date_kind": "page",
+  "snippet": "Bring style and function to your stationery collection with Midori Etching Clips. Perfect for marking pages, organizing papers, and adding a decorative touch to your everyday essentials.",
+  "hl": [],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
   "uid": "02dec8b96857f25b",
   "source": "Pen Boutique: Coming Soon",
   "title": "Pelikan Souveran Fountain Pen - M800 Indian Ocean (Special Edition)",
@@ -390,6 +753,27 @@
   "enrich_tries": 9,
   "upcoming": false,
   "dup_of": "8d53e214e4111f02"
+ },
+ {
+  "uid": "fb5459d7d3ad769c",
+  "source": "Goldspot: nowe kolekcje",
+  "title": "Midori Stationery",
+  "link": "https://goldspot.com/collections/midori-stationery",
+  "summary": "",
+  "image": "http://goldspot.com/cdn/shop/collections/midori-paintable-stamp-pre-inked-in-clock-238.jpg?v=1794341323",
+  "published": "2026-11-10T15:08:43+00:00",
+  "date_kind": "page",
+  "snippet": "Putting the \"Fun\" in functional, Japanese Midori stationery brings a flavor of excitement to organization, journaling, and creative writing with an expansive variety of notebooks, stamps, and accessories.",
+  "hl": [],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
  },
  {
   "uid": "4db1e6aafa2d73f7",
@@ -607,6 +991,94 @@
   "retailer_src": true,
   "release": true,
   "brands": [],
+  "upcoming": false
+ },
+ {
+  "uid": "2a7db0a6e4fa6e1a",
+  "source": "Goldspot: nowe kolekcje",
+  "title": "Diplomat Rollerball Pens",
+  "link": "https://goldspot.com/collections/diplomat-rollerball-pens",
+  "summary": "",
+  "image": "http://goldspot.com/cdn/shop/collections/diplomat-aero-rollerball-pen-in-evergreen-221.jpg?v=1794210526",
+  "published": "2026-11-09T01:37:36+00:00",
+  "date_kind": "page",
+  "snippet": "Capped, metal-bodied Diplomat rollerball pens across the Aero, Viper, Cobra, Excellence A2, Elox and Traveller lines, most taking a standard rollerball refill.",
+  "hl": [],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Diplomat"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "a19c820f9dea9e8d",
+  "source": "Goldspot: nowe kolekcje",
+  "title": "Faber-Castell Ballpoint Pens",
+  "link": "https://goldspot.com/collections/faber-castell-ballpoint-pen",
+  "summary": "",
+  "image": "http://goldspot.com/cdn/shop/files/Goldspot-walmart-logo.jpg?v=1658258454",
+  "published": "2026-11-09T01:26:55+00:00",
+  "date_kind": "page",
+  "snippet": "Faber-Castell ballpoint pens, from push-button Poly Ball and Grip models to twist-action Ambition, Avori, Hexo and e-motion in resin, aluminum and pearwood.",
+  "hl": [],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Faber-Castell"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "5a52cf8eb3d00b0d",
+  "source": "Goldspot: nowe kolekcje",
+  "title": "German Fountain Pen Ink",
+  "link": "https://goldspot.com/collections/german-fountain-pen-ink",
+  "summary": "",
+  "image": "http://goldspot.com/cdn/shop/files/Goldspot-walmart-logo.jpg?v=1658258454",
+  "published": "2026-11-09T01:25:21+00:00",
+  "date_kind": "page",
+  "snippet": "German fountain pen ink in one place: everyday Pelikan 4001 and Lamy T52 bottles, gemstone-named Edelstein and Crystal colors, and 75ml Graf von Faber-Castell.",
+  "hl": [],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "4f20d2bf00ebc926",
+  "source": "Goldspot: nowe kolekcje",
+  "title": "British Fountain Pen Ink",
+  "link": "https://goldspot.com/collections/british-fountain-pen-ink",
+  "summary": "",
+  "image": "http://goldspot.com/cdn/shop/files/Goldspot-walmart-logo.jpg?v=1658258454",
+  "published": "2026-11-09T01:21:34+00:00",
+  "date_kind": "page",
+  "snippet": "Diamine and Tom's Studio are our British fountain pen ink: Diamine in 30ml and 80ml bottles plus 50ml shimmer and Inkvent editions, Tom's Studio in 50ml bottles.",
+  "hl": [],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
   "upcoming": false
  },
  {
@@ -1847,6 +2319,27 @@
   ]
  },
  {
+  "uid": "7b8d86d71f28a065",
+  "source": "Goldspot: nowe kolekcje",
+  "title": "Midori Nano D-Clips",
+  "link": "https://goldspot.com/collections/midori-nano-d-clips",
+  "summary": "",
+  "image": "http://goldspot.com/cdn/shop/collections/Midori_Nano_D-Clips.jpg?v=1793913486",
+  "published": "2026-11-05T16:18:07+00:00",
+  "date_kind": "page",
+  "snippet": "Add a fun and practical touch to your everyday organization! These tiny clips are perfect for securing papers, organizing notes, and keeping important pages together",
+  "hl": [],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
   "uid": "d119a901433ad736",
   "source": "TTPen: Hongdian",
   "title": "HONGDIAN A24 Year of the Dragon Limited Edition Fountain Pen – 0.5 mm",
@@ -1869,6 +2362,48 @@
   "brands": [
    "HongDian"
   ],
+  "upcoming": false
+ },
+ {
+  "uid": "ef219967f9a6350a",
+  "source": "Goldspot: nowe kolekcje",
+  "title": "Midori Mini Box D-Clips",
+  "link": "https://goldspot.com/collections/midori-mini-box-d-clips",
+  "summary": "",
+  "image": "http://goldspot.com/cdn/shop/collections/mini_d_clips.jpg?v=1793912881",
+  "published": "2026-11-05T16:08:02+00:00",
+  "date_kind": "page",
+  "snippet": "Keep your papers organized with these adorable mini clips! Perfect for securing notes, organizing documents, and bookmarking pages.",
+  "hl": [],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "7b905df77f2320d7",
+  "source": "Goldspot: nowe kolekcje",
+  "title": "Midori Paintable Stamp Pre-Inked",
+  "link": "https://goldspot.com/collections/midori-paintable-stamp-pre-inked",
+  "summary": "",
+  "image": "http://goldspot.com/cdn/shop/collections/pre_inked_stamps.jpg?v=1793912462",
+  "published": "2026-11-05T16:01:02+00:00",
+  "date_kind": "page",
+  "snippet": "Add a creative touch to your projects with the Midori Paintable Stamp Pre-Inked! Perfect for journaling, scrapbooking, card making, and other paper crafts",
+  "hl": [],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
   "upcoming": false
  },
  {
@@ -4893,6 +5428,55 @@
   "upcoming": false
  },
  {
+  "uid": "60caeff5661cb551",
+  "source": "Goldspot: New Releases",
+  "title": "Pelikan Souverän M1000 Fountain Pen in Black - Blue",
+  "link": "https://goldspot.com/products/pelikan-souveran-m1000-fountain-pen-in-black-blue",
+  "summary": "Vendor: Pelikan Pens Type: Fountain Pen Price: 876.00 The Pelikan Souverän M1000 Black & Blue represents the pinnacle of Pelikan’s iconic Souverän collection, combining generations of German craftsmanship with exceptional writing performance and timeless elegance. Renowned for…",
+  "image": "https://cdn.shopify.com/s/files/1/1693/8459/files/8afa172a-899f-4215-a42d-7a18b11677cd.jpg?v=1793378354",
+  "published": "2026-10-30T16:39:15+00:00",
+  "date_kind": "published",
+  "snippet": "Vendor: Pelikan Pens",
+  "hl": [],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Pelikan"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "a2cbd33b06e9f746"
+ },
+ {
+  "uid": "f5ac3d52422c6fea",
+  "source": "Goldspot: New Releases",
+  "title": "Visconti Homo Sapiens Fountain Pen in Carbon Rose - Limited Edition",
+  "link": "https://goldspot.com/products/visconti-homo-sapiens-fountain-pen-in-carbon-rose-limited-edition",
+  "summary": "Vendor: Visconti Pens Type: Fountain Pen Price: 2716.00 The art of fine writing is defined by the perfect balance of material, craftsmanship, and timeless design. With the Homo Sapiens Carbon Rose, Visconti brings together Italian artistry and innovative materials in a…",
+  "image": "https://cdn.shopify.com/s/files/1/1693/8459/files/8fa26d56-65ed-400e-9a02-83e2fe38d50f.jpg?v=1793377506",
+  "published": "2026-10-30T16:25:06+00:00",
+  "date_kind": "published",
+  "snippet": "Edition: Limited edition of 288 pieces worldwide",
+  "hl": [
+   "Limited edition"
+  ],
+  "first_seen": "2026-11-13T06:07:31.073684+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Visconti"
+  ],
+  "upcoming": false,
+  "dup_of": "31f8d81542e97835"
+ },
+ {
   "uid": "cd881d30c68f2a42",
   "source": "Goldspot: Limited Edition Fountain Pens",
   "title": "Sailor Professional Gear Standard Fountain Pen in Iriomote Cat F3 - Overseas Limited Edition",
@@ -6539,8 +7123,16 @@
     "link": "https://www.gouletpens.com/products/pelikan-m1000-fountain-pen-black-blue"
    },
    {
+    "source": "Goldspot: New Releases",
+    "link": "https://goldspot.com/products/pelikan-souveran-m1000-fountain-pen-in-black-blue"
+   },
+   {
     "source": "Goulet: New Arrivals",
     "link": "https://www.gouletpens.com/products/pelikan-m1000-fountain-pen-black-blue"
+   },
+   {
+    "source": "Pen Boutique: New Arrivals",
+    "link": "https://www.penboutique.com/products/pelikan-souveran-fountain-pen-m1000-black-blue"
    }
   ]
  },
@@ -7542,6 +8134,10 @@
    {
     "source": "Goulet: Limited & Special Edition",
     "link": "https://www.gouletpens.com/products/visconti-homo-sapiens-fountain-pen-carbon-rose-limited-edition"
+   },
+   {
+    "source": "Goldspot: New Releases",
+    "link": "https://goldspot.com/products/visconti-homo-sapiens-fountain-pen-in-carbon-rose-limited-edition"
    },
    {
     "source": "Pióromaniak (PL)",
