@@ -1,5 +1,29 @@
 [
  {
+  "uid": "1a4ec28fa84d49e7",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Delta Maki-e Fountain Pen - Nino Marino Signature Parthenope (50th Anniversary Exclusive)",
+  "link": "https://www.penboutique.com/products/delta-maki-e-fountain-pen-nino-marino-signature-parthenope-50th-anniversary-exclusive",
+  "summary": "Vendor: Delta Type: Fountain Price: 7996.00 The Song of Two Seas Immortalized in Japanese Art The Nino Marino Signature Parthenope Maki-e Fountain Pen celebrates the legendary siren of Naples through the extraordinary artistry of traditional Japanese Maki-e. Created in honor of…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Delta_Nino-Marino-Signature-Fountain-Pen-Parthenope-Maki-e-The-Song-of-Two-Seas-Fountain-Delta-Extra-Fine.jpg?v=1794709206",
+  "published": "2026-11-14T09:02:45+00:00",
+  "date_kind": "published",
+  "snippet": "Created in honor of Nino Marino’s 50th anniversary in the world of fine writing instruments, this exclusive masterpiece features a hand-turned natural ebonite body, intricate gold and silver powder decoration, and rare Mediterranean-blue celluloid accents.",
+  "hl": [
+   "anniversary"
+  ],
+  "first_seen": "2026-11-15T12:43:00.493006+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Delta"
+  ],
+  "upcoming": true
+ },
+ {
   "uid": "7189cba907ffa4c4",
   "source": "Pen Boutique: Coming Soon",
   "title": "Consul Elan Fountain Pen - Sage",
@@ -11569,30 +11593,6 @@
   "release": true,
   "brands": [
    "Conklin"
-  ],
-  "upcoming": false
- },
- {
-  "uid": "69c84b652a70c37d",
-  "source": "Cult Pens: Limited Edition Fountain Pens",
-  "title": "Pilot Capless Fountain Pen Limited Edition 2026 Golden Journey",
-  "link": "https://cultpens.com/products/pilot-capless-fountain-pen-limited-edition-2026-golden-journey",
-  "summary": "Vendor: Pilot Type: Fountain Pens Price: 534.00 Pilot's 2026 limited edition Capless fountain pen is the Golden Journey, with just 2,026 pieces available worldwide. We have only a few available to us here at Cult Pens, so don't hesitate if you want one! The Japanese art of…",
-  "image": "https://cdn.shopify.com/s/files/1/0659/6388/4787/files/capless-2026-01.jpg?v=1784290855",
-  "published": "2026-07-17T12:55:25+00:00",
-  "date_kind": "published",
-  "snippet": "Pilot's 2026 limited edition Capless fountain pen is the Golden Journey, with just 2,026 pieces available worldwide. We have only a few available to us here at Cult Pens, so don't hesitate if you want one!",
-  "hl": [
-   "limited edition"
-  ],
-  "first_seen": "2026-10-30T18:29:46.824830+00:00",
-  "tier": "release",
-  "upcoming_own": false,
-  "ttl_days": null,
-  "retailer_src": true,
-  "release": true,
-  "brands": [
-   "Pilot"
   ],
   "upcoming": false
  }
