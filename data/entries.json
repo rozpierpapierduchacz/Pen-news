@@ -1,5 +1,133 @@
 [
  {
+  "uid": "3d41b5d342920e91",
+  "source": "Cult Pens: What's New",
+  "title": "TWSBI Eco Fountain Pen Strawberry Cream with Rose Gold",
+  "link": "https://cultpens.com/products/twsbi-eco-fountain-pen-strawberry-cream-with-rose-gold",
+  "summary": "Vendor: TWSBI Type: Fountain Pens Price: 55.00 Coming Soon! Pre-order from the 2nd of December for dispatch on the 4th of December. Please note: orders containing pre-orders will be shipped when all items on the order are available. The Strawberry Cream TWSBI eco features a…",
+  "image": "https://cdn.shopify.com/s/files/1/0659/6388/4787/files/Untitled-16November2026at10.21.19-3.png?v=1794824834",
+  "published": "2026-11-16T10:30:08+00:00",
+  "date_kind": "published",
+  "snippet": "Pre-order from the 2nd of December for dispatch on the 4th of December.",
+  "hl": [
+   "Pre-order"
+  ],
+  "first_seen": "2026-11-16T13:37:14.591330+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "TWSBI"
+  ],
+  "upcoming": false
+ },
+ {
+  "uid": "757eb48cdd111028",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Delta Duna Fountain Pen - House Under The Lake (188 Limited Edition)",
+  "link": "https://www.penboutique.com/products/delta-duna-fountain-pen-house-under-the-lake-188-limited-edition",
+  "summary": "Vendor: Delta Type: Fountain Price: 220.00 Delta Fountain Pen | Duna - House Under The Lake (Limited Edition) Immerse yourself in the poetic beauty of Italian penmaking with the Delta Duna Fountain Pen in House Under The Lake (Limited Edition) . Limited to just 188 pieces…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Delta_Duna_Fountain_Pen_-_House_Under_The_Lake_188_Limited_Edition_01.jpg?v=1794822853",
+  "published": "2026-11-16T06:06:52+00:00",
+  "date_kind": "published",
+  "snippet": "Delta Fountain Pen | Duna - House Under The Lake (Limited Edition)",
+  "hl": [
+   "Limited Edition"
+  ],
+  "first_seen": "2026-11-16T13:37:14.591330+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Delta"
+  ],
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Pen Boutique: Limited Edition",
+    "link": "https://www.penboutique.com/products/delta-duna-fountain-pen-house-under-the-lake-188-limited-edition"
+   }
+  ]
+ },
+ {
+  "uid": "d2323ab9f902de15",
+  "source": "Pen Boutique: Limited Edition",
+  "title": "Delta Duna Fountain Pen - House Under The Lake (188 Limited Edition)",
+  "link": "https://www.penboutique.com/products/delta-duna-fountain-pen-house-under-the-lake-188-limited-edition",
+  "summary": "Vendor: Delta Type: Fountain Price: 220.00 Delta Fountain Pen | Duna - House Under The Lake (Limited Edition) Immerse yourself in the poetic beauty of Italian penmaking with the Delta Duna Fountain Pen in House Under The Lake (Limited Edition) . Limited to just 188 pieces…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Delta_Duna_Fountain_Pen_-_House_Under_The_Lake_188_Limited_Edition_01.jpg?v=1794822853",
+  "published": "2026-11-16T06:06:52+00:00",
+  "date_kind": "published",
+  "snippet": "Delta Fountain Pen | Duna - House Under The Lake (Limited Edition)",
+  "hl": [
+   "Limited Edition"
+  ],
+  "first_seen": "2026-11-16T13:37:14.591330+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Delta"
+  ],
+  "upcoming": false,
+  "dup_of": "757eb48cdd111028"
+ },
+ {
+  "uid": "ed142b963a035844",
+  "source": "The Gentleman Stationer",
+  "title": "Sunday Reading for November 15, 2026",
+  "link": "https://www.gentlemanstationer.com/blog/2026/11/14/sunday-reading-for-november-15-2026",
+  "summary": "TRAVELER’S Notebook Card Size 20th Anniversary Set (via Pen Addict - Sarah). No product has caused more consternation among retailers and enthusiasts than this release, particularly the decision to apparently not release refills for it other than through special events. I…",
+  "image": "https://images.squarespace-cdn.com/content/v1/5349ba13e4b095a3fb0ba65c/a7974387-f167-453d-9473-7844e839399d/CafeCallyKoreaInk.jpeg?format=1000w",
+  "published": "2026-11-15T23:54:03+00:00",
+  "date_kind": "published",
+  "snippet": "TRAVELER’S Notebook Card Size 20th Anniversary Set (via Pen Addict - Sarah). No product has caused more consternation among retailers and enthusiasts than this release, particularly the decision to apparently not release refills for it other than through special events.",
+  "hl": [
+   "Anniversary"
+  ],
+  "first_seen": "2026-11-16T13:37:14.591330+00:00",
+  "tier": "stock",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": false,
+  "brands": [],
+  "upcoming": false
+ },
+ {
+  "uid": "3004e3ce7116ae9e",
+  "source": "Pen Boutique",
+  "title": "Embracing Change: A Season of Renewal for Sailor and Pilot",
+  "link": "https://www.penboutique.com/blogs/blog/embracing-change-a-season-of-renewal-for-sailor-and-pilot",
+  "summary": "The concept for this article was nebulous in my brain at first. Fall. Changes. Unexpected new releases and retiring pens from some of my favorite brands. They all felt connected, but I couldn't figure out how to put it into words. So I decided to take a walk, and I thought about…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/IMG_3349_d09bc09d-e0d0-43fc-aaaa-02c632fd4dfb.jpg?v=1793936138",
+  "published": "2026-11-15T19:40:47+00:00",
+  "date_kind": "published",
+  "snippet": "But don't worry, they continue to release solid gold nib pens, too, including their gorgeous 21 karat gold nib limited edition 115th Anniversary Commemorative pens made with three different kinds of wood grown near Sailor's home in Hiroshima.",
+  "hl": [
+   "limited edition",
+   "Anniversary",
+   "Commemorative"
+  ],
+  "first_seen": "2026-11-16T13:37:14.591330+00:00",
+  "tier": "stock",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": false,
+  "brands": [
+   "Pilot",
+   "Sailor"
+  ],
+  "upcoming": false
+ },
+ {
   "uid": "1a4ec28fa84d49e7",
   "source": "Pen Boutique: Coming Soon",
   "title": "Delta Maki-e Fountain Pen - Nino Marino Signature Parthenope (50th Anniversary Exclusive)",
