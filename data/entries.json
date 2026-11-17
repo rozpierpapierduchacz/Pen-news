@@ -1,5 +1,274 @@
 [
  {
+  "uid": "c4ffa94278983c2e",
+  "source": "Stilo e Stile (limited edition)",
+  "title": "Visconti Le Petit Prince Fountain Pen Limited Edition",
+  "link": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition/visconti-le-petit-prince-fountain-pen-limited-edition",
+  "summary": "",
+  "image": "https://www.stiloestile.com/71675-large_default/visconti-le-petit-prince-fountain-pen-limited-edition.jpg",
+  "published": "2026-11-17T14:22:01.761080+00:00",
+  "date_kind": "detected",
+  "snippet": "The Visconti Le Petit Prince Limited Edition takes its cue from that way of seeing. A tribute to Antoine de Saint-Exupéry’s story, this fountain pen is limited to 388 numbered pieces .",
+  "hl": [
+   "Limited Edition",
+   "limited to 388"
+  ],
+  "first_seen": "2026-11-17T14:22:01.761080+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Visconti"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "720d81be7cb78b9e",
+  "source": "Stilo e Stile (limited edition)",
+  "title": "Nahvalur Horizon Fountain Pen Candy",
+  "link": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition/nahvalur-horizon-fountain-pen-candy",
+  "summary": "",
+  "image": "https://www.stiloestile.com/71588-large_default/nahvalur-horizon-fountain-pen-candy.jpg",
+  "published": "2026-11-17T14:22:01.761080+00:00",
+  "date_kind": "detected",
+  "snippet": "The Nahvalur Horizon collection reimagines the classic cigar-shaped fountain pen with modern, flowing lines and elegant proportions.",
+  "hl": [
+   "reimagines"
+  ],
+  "first_seen": "2026-11-17T14:22:01.761080+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Nahvalur"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "ecaf144cde849689"
+ },
+ {
+  "uid": "8cafca98d3401175",
+  "source": "Inkstable",
+  "title": "Writing Culture Teams Up with Delta for a Special Edition of the Iconic DolceVita",
+  "link": "https://inkstable.com/writing-culture-teams-up-with-delta-for-a-special-edition-of-the-iconic-dolcevita/",
+  "summary": "Two weeks ago, I was invited to a private event at Writing Culture in Zug, Switzerland, to celebrate the launch of a special edition created in collaboration with historic Italian pen maker Delta. It was a rather intimate gathering, with just a handful of the boutique’s close…",
+  "image": "https://i0.wp.com/inkstable.com/wp-content/uploads/2026/11/IMG_3700_1.jpg?fit=1024%2C768&ssl=1",
+  "published": "2026-11-16T22:01:44+00:00",
+  "date_kind": "published",
+  "snippet": "Two weeks ago, I was invited to a private event at Writing Culture in Zug, Switzerland, to celebrate the launch of a special edition created in collaboration with historic Italian pen maker Delta.",
+  "hl": [
+   "launch",
+   "special edition",
+   "collaboration"
+  ],
+  "first_seen": "2026-11-17T14:22:01.761080+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": false,
+  "release": true,
+  "brands": [
+   "Delta"
+  ],
+  "upcoming": false
+ },
+ {
+  "uid": "ee88bbaafe88a491",
+  "source": "Goulet: New Arrivals",
+  "title": "BENU Euphoria Fountain Pen - Winter Bouquet (Special Edition)",
+  "link": "https://www.gouletpens.com/products/benu-euphoria-fountain-pen-winter-bouquet-special-edition",
+  "summary": "Vendor: BENU Type: Fountain Pens Price: 174.00 This BENU Euphoria fountain pen is part of our Goulet Pens-exclusive, special edition Bouquet collection, all featuring fountain pens inspired by seasonal flower bouquets. Winter Bouquet, our final release in this series, is…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/BENU-Euphoria-WinterBouquet-4.jpg?v=1794604427",
+  "published": "2026-11-16T17:19:49+00:00",
+  "date_kind": "published",
+  "snippet": "This BENU Euphoria fountain pen is part of our Goulet Pens-exclusive, special edition Bouquet collection, all featuring fountain pens inspired by seasonal flower bouquets.",
+  "hl": [
+   "special edition"
+  ],
+  "first_seen": "2026-11-17T14:22:01.761080+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Benu"
+  ],
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Goulet: Limited & Special Edition",
+    "link": "https://www.gouletpens.com/products/benu-euphoria-fountain-pen-winter-bouquet-special-edition"
+   }
+  ]
+ },
+ {
+  "uid": "ee120c68a5c424fb",
+  "source": "Goulet: Limited & Special Edition",
+  "title": "BENU Euphoria Fountain Pen - Winter Bouquet (Special Edition)",
+  "link": "https://www.gouletpens.com/products/benu-euphoria-fountain-pen-winter-bouquet-special-edition",
+  "summary": "Vendor: BENU Type: Fountain Pens Price: 174.00 This BENU Euphoria fountain pen is part of our Goulet Pens-exclusive, special edition Bouquet collection, all featuring fountain pens inspired by seasonal flower bouquets. Winter Bouquet, our final release in this series, is…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/BENU-Euphoria-WinterBouquet-4.jpg?v=1794604427",
+  "published": "2026-11-16T17:19:49+00:00",
+  "date_kind": "published",
+  "snippet": "This BENU Euphoria fountain pen is part of our Goulet Pens-exclusive, special edition Bouquet collection, all featuring fountain pens inspired by seasonal flower bouquets.",
+  "hl": [
+   "special edition"
+  ],
+  "first_seen": "2026-11-17T14:22:01.761080+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Benu"
+  ],
+  "upcoming": false,
+  "dup_of": "ee88bbaafe88a491"
+ },
+ {
+  "uid": "f9fd8b12a2d29cd2",
+  "source": "Goulet: New Arrivals",
+  "title": "Pelikan M800 Fountain Pen - Indian Ocean (Special Edition)",
+  "link": "https://www.gouletpens.com/products/pelikan-m800-fountain-pen-indian-ocean-special-edition",
+  "summary": "Vendor: Pelikan Type: Fountain Pens Price: 1036.00 Inspired by the mesmerising colours and endless movement of the ocean, the Pelikan Souverän M800 Indian Ocean captures the beauty of nature in an extraordinary writing instrument. Deep ocean blue and vibrant golden yellow…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/PelikanM800SouveranIndianOceanStock-7.jpg?v=1793973384",
+  "published": "2026-11-16T17:19:26+00:00",
+  "date_kind": "published",
+  "snippet": "This new series invites you to discover the beauty of the world’s oceans through exceptional writing instruments, each inspired by the distinctive character of a different ocean.",
+  "hl": [
+   "new series"
+  ],
+  "first_seen": "2026-11-17T14:22:01.761080+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Pelikan"
+  ],
+  "upcoming": false,
+  "dup_of": "c4f72089e1a64c7c"
+ },
+ {
+  "uid": "4874e2af13a82e46",
+  "source": "Goulet: New Arrivals",
+  "title": "Tom Hessin Charles 1870 Gherkin Fountain Pen - Sky Blue",
+  "link": "https://www.gouletpens.com/products/tom-hessin-charles-1870-gherkin-fountain-pen-sky-blue",
+  "summary": "Vendor: Tom Hessin Type: Fountain Pens Price: 175.50 Inspired by one of London's most iconic landmarks, Tom Hessin's 1870 Gherkin Sky Blue brings bold British design to your everyday writing. Its distinctive shape, diamond lacquer design and satisfying weight make it just as…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/TomHessinCharles-Gherkin-Blue-stock-1.jpg?v=1790791161",
+  "published": "2026-11-16T17:18:59+00:00",
+  "date_kind": "published",
+  "snippet": "Inspired by one of London's most iconic landmarks, Tom Hessin's 1870 Gherkin Sky Blue brings bold British design to your everyday writing.",
+  "hl": [],
+  "first_seen": "2026-11-17T14:22:01.761080+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "a39d943b8ee57479",
+  "source": "Goulet: New Arrivals",
+  "title": "Tom Hessin Charles 1870 Gherkin Fountain Pen - Monument Grey",
+  "link": "https://www.gouletpens.com/products/tom-hessin-charles-1870-gherkin-fountain-pen-monument-grey",
+  "summary": "Vendor: Tom Hessin Type: Fountain Pens Price: 175.50 Inspired by two of London's most iconic landmarks, Tom Hessin's 1870 Gherkin Monument Grey brings bold British design to your everyday writing. Its distinctive shape, diamond lacquer design and satisfying weight make it just…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/TomHessinCharles-Gherkin-Grey-stock-4.jpg?v=1790782549",
+  "published": "2026-11-16T17:18:59+00:00",
+  "date_kind": "published",
+  "snippet": "Inspired by two of London's most iconic landmarks, Tom Hessin's 1870 Gherkin Monument Grey brings bold British design to your everyday writing.",
+  "hl": [],
+  "first_seen": "2026-11-17T14:22:01.761080+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "69628e57c75d8b69",
+  "source": "Goulet: New Arrivals",
+  "title": "Tom Hessin Charles 1870 Gherkin Fountain Pen - All Black",
+  "link": "https://www.gouletpens.com/products/tom-hessin-charles-1870-gherkin-fountain-pen-all-black",
+  "summary": "Vendor: Tom Hessin Type: Fountain Pens Price: 175.50 - 189.00 (4 variants) Inspired by one of London's most iconic landmarks, Tom Hessin's 1870 Gherkin All Black brings bold British design to your everyday writing. Its distinctive shape, diamond lacquer design and satisfying…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/TomHessinCharles-Gherkin-Black-stock-6.jpg?v=1790779150",
+  "published": "2026-11-16T17:18:58+00:00",
+  "date_kind": "published",
+  "snippet": "Price: 175.50 - 189.00 (4 variants)",
+  "hl": [],
+  "first_seen": "2026-11-17T14:22:01.761080+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "a7625cb7bc8a8f2f",
+  "source": "Goulet: New Arrivals",
+  "title": "Franklin Christoph Model 31 Fountain Pen - 80's Baby (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/franklin-christoph-model-31-fountain-pen-80s-baby-limited-edition",
+  "summary": "Vendor: Franklin-Christoph Type: Fountain Pens Price: 185.00 - 195.00 (6 variants) Introducing our ninth exclusive collaboration with Franklin-Christoph! This limited edition Model 31 style fountain pen features a stunning custom blended resin named \"80's Baby\". The resin has…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/FranklinChristoph-31-80_sBaby-4.jpg?v=1793987117",
+  "published": "2026-11-16T14:38:38+00:00",
+  "date_kind": "published",
+  "snippet": "Introducing our ninth exclusive collaboration with Franklin-Christoph! This limited edition Model 31 style fountain pen features a stunning custom blended resin named \"80's Baby\".",
+  "hl": [
+   "Introducing",
+   "collaboration",
+   "limited edition"
+  ],
+  "first_seen": "2026-11-17T14:22:01.761080+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "dup_of": "a15fd38b5845fdf8"
+ },
+ {
+  "uid": "0742a6aa83e17b48",
+  "source": "Goldspot: Limited Edition Fountain Pens",
+  "title": "Platinum 3776 Century Carnelian Fountain Pen - 14K Gold Nib",
+  "link": "https://goldspot.com/products/platinum-3776-century-carnelian-fountain-pen-14k-gold-nib",
+  "summary": "Vendor: Platinum Pens Type: Fountain Pen Price: 240.00 - 264.00 (5 variants) We have an inkling that this pen will become the gem of your collection. The 2019 North American exclusive Platinum 3776 Century is named after the Carnelian gemstone. The translucent red-orange resin…",
+  "image": "https://cdn.shopify.com/s/files/1/1693/8459/products/platinum-3776-century-carnelian-fountain-pen-14k-gold-nib_758.jpg?v=1759257367",
+  "published": "2026-11-16T13:57:50+00:00",
+  "date_kind": "published",
+  "snippet": "Vendor: Platinum Pens",
+  "hl": [],
+  "first_seen": "2026-11-17T14:22:01.761080+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Platinum"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
   "uid": "3d41b5d342920e91",
   "source": "Cult Pens: What's New",
   "title": "TWSBI Eco Fountain Pen Strawberry Cream with Rose Gold",
@@ -537,6 +806,10 @@
   "also": [
    {
     "source": "Goulet: Limited & Special Edition",
+    "link": "https://www.gouletpens.com/products/franklin-christoph-model-31-fountain-pen-80s-baby-limited-edition"
+   },
+   {
+    "source": "Goulet: New Arrivals",
     "link": "https://www.gouletpens.com/products/franklin-christoph-model-31-fountain-pen-80s-baby-limited-edition"
    }
   ]
@@ -2304,6 +2577,10 @@
    {
     "source": "Pen Boutique: Coming Soon",
     "link": "https://www.penboutique.com/products/nahvalur-horizon-fountain-pen-candy-cane"
+   },
+   {
+    "source": "Stilo e Stile (limited edition)",
+    "link": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition/nahvalur-horizon-fountain-pen-candy"
    }
   ]
  },
@@ -2608,6 +2885,10 @@
    },
    {
     "source": "Goulet: Limited & Special Edition",
+    "link": "https://www.gouletpens.com/products/pelikan-m800-fountain-pen-indian-ocean-special-edition"
+   },
+   {
+    "source": "Goulet: New Arrivals",
     "link": "https://www.gouletpens.com/products/pelikan-m800-fountain-pen-indian-ocean-special-edition"
    }
   ]
