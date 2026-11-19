@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-18T13:55:46.783326+00:00",
+ "last_run": "2026-11-19T14:24:19.890750+00:00",
  "sources": [
   {
    "source": "The Pelikan's Perch (Pelikan)",
@@ -191,7 +191,7 @@
    "source": "Google News: chińskie marki",
    "url": "https://news.google.com/rss/search?q=%28Hongdian+OR+Majohn+OR+Asvine+OR+PenBBS+OR+Jinhao+OR+%22Wing+Sung%22+OR+Moonman%29+%22fountain+pen%22+when%3A14d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "entries_in_feed": 2
+   "entries_in_feed": 1
   },
   {
    "source": "Google News: limited/special edition",
@@ -251,19 +251,19 @@
    "source": "Twoje Pióro: Pelikan limitowane (PL)",
    "url": "https://www.twojepioro.pl/artykuly-pismienne/edycje-limitowane-pior-wiecznych/pelikan",
    "ok": true,
-   "entries_in_feed": 122
+   "entries_in_feed": 121
   },
   {
    "source": "Twoje Pióro: Kaweco limitowane (PL)",
    "url": "https://www.twojepioro.pl/artykuly-pismienne/edycje-limitowane-pior-wiecznych/kaweco",
    "ok": true,
-   "entries_in_feed": 122
+   "entries_in_feed": 121
   },
   {
    "source": "Twoje Pióro: edycje limitowane (PL)",
    "url": "https://www.twojepioro.pl/artykuly-pismienne/edycje-limitowane-pior-wiecznych",
    "ok": true,
-   "entries_in_feed": 148
+   "entries_in_feed": 147
   },
   {
    "source": "Pióroteka: Kaweco (PL)",
@@ -358,8 +358,8 @@
   {
    "source": "Goldspot: nowe kolekcje",
    "url": "https://goldspot.com/collections",
-   "ok": false,
-   "error": "500 Server Error: Internal Server Error for url: https://goldspot.com/collections"
+   "ok": true,
+   "entries_in_feed": 989
   },
   {
    "source": "Goulet: New Arrivals",
