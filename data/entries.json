@@ -1,5 +1,264 @@
 [
  {
+  "uid": "fffe8b5daa2e5ea3",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Consul Origin Fountain Pen - Vesper",
+  "link": "https://www.penboutique.com/products/consul-origin-fountain-pen-vesper",
+  "summary": "Vendor: Consul Type: Fountain Price: 170.00 Soft Hues. Distinctive Character. The Consul Origin Fountain Pen – Vesper brings a graceful interpretation of violet to the writing experience. Its acrylic resin body blends muted lavender, cool lilac, and silvery pearl into a…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Consul-Origin-Fountain-Pen-Vesper-Fountain-Consul-Extra-Fine.png?v=1794617408",
+  "published": "2026-11-21T13:16:29+00:00",
+  "date_kind": "published",
+  "snippet": "Distinctive Character.",
+  "hl": [],
+  "first_seen": "2026-11-21T13:26:58.515569+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": true,
+  "dup_of": "e08bc5d58e26b619"
+ },
+ {
+  "uid": "3d06fe4cf6522d9b",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Consul Elan Fountain Pen - Claret",
+  "link": "https://www.penboutique.com/products/consul-elan-fountain-pen-claret",
+  "summary": "Vendor: Consul Type: Fountain Price: 205.00 A Touch of Colour. A Signature of Elegance. Meet the Consul Elan Fountain Pen in Claret, where rich colour meets timeless writing style. Its pearlescent acrylic resin blends deep claret, plum, and warm bronze tones, creating a…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Consul-Elan-Fountain-Pen-Claret-Fountain-Consul-Extra-Fine.png?v=1794523629",
+  "published": "2026-11-21T11:02:23+00:00",
+  "date_kind": "published",
+  "snippet": "Sailor Fountain Pen - Commemorative - 115th Anniversary Hiroshima Momiji",
+  "hl": [
+   "Commemorative",
+   "Anniversary"
+  ],
+  "first_seen": "2026-11-21T13:26:58.515569+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": true,
+  "dup_of": "a90a0e60f8a86de7"
+ },
+ {
+  "uid": "0b83ce3982bcfd23",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Consul Elan Fountain Pen - Boreal",
+  "link": "https://www.penboutique.com/products/consul-elan-fountain-pen-boreal",
+  "summary": "Vendor: Consul Type: Fountain Price: 205.00 A Northern Glow, Captured in Every Detail. Inspired by the quiet magic of the northern lights, the Consul Elan Boreal brings together shifting colours and timeless fountain pen design. Its pearlescent acrylic resin blends deep inky…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Consul-Elan-Fountain-Pen-Boreal-Fountain-Consul.png?v=1794437220",
+  "published": "2026-11-21T07:11:41+00:00",
+  "date_kind": "published",
+  "snippet": "Sailor Fountain Pen - Commemorative - 115th Anniversary Hiroshima Momiji",
+  "hl": [
+   "Commemorative",
+   "Anniversary"
+  ],
+  "first_seen": "2026-11-21T13:26:58.515569+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": true,
+  "dup_of": "a90a0e60f8a86de7"
+ },
+ {
+  "uid": "ddc7f3666be20629",
+  "source": "Goulet: Coming Soon",
+  "title": "Sailor TUZU Adjust Fountain Pen - Crystal Mint",
+  "link": "https://www.gouletpens.com/products/sailor-tuzu-adjust-fountain-pen-crystal-mint",
+  "summary": "Vendor: Sailor Type: Fountain Pens Price: 39.50 Introducing the Sailor TUZU Adjust fountain pen, designed for all writing styles and habits. With two innovative features, this pen dispels the belief that fountain pens are complex and difficult to use. Experience effortless…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Sailor_TUZU_FP_Glassy_2_Crystal_Mint_posted_Stock.jpg?v=1795190052",
+  "published": "2026-11-20T19:42:05+00:00",
+  "date_kind": "published",
+  "snippet": "Introducing the Sailor TUZU Adjust fountain pen, designed for all writing styles and habits. With two innovative features, this pen dispels the belief that fountain pens are complex and difficult to use.",
+  "hl": [
+   "Introducing"
+  ],
+  "first_seen": "2026-11-21T13:26:58.515569+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Sailor"
+  ],
+  "upcoming": true,
+  "dup_of": "2500c9b13d2e2618"
+ },
+ {
+  "uid": "bf30c90230253d77",
+  "source": "Goulet: Limited & Special Edition",
+  "title": "Sailor TUZU Adjust Fountain Pen - Crystal Mint",
+  "link": "https://www.gouletpens.com/products/sailor-tuzu-adjust-fountain-pen-crystal-mint",
+  "summary": "Vendor: Sailor Type: Fountain Pens Price: 39.50 Introducing the Sailor TUZU Adjust fountain pen, designed for all writing styles and habits. With two innovative features, this pen dispels the belief that fountain pens are complex and difficult to use. Experience effortless…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Sailor_TUZU_FP_Glassy_2_Crystal_Mint_posted_Stock.jpg?v=1795190052",
+  "published": "2026-11-20T19:42:05+00:00",
+  "date_kind": "published",
+  "snippet": "Introducing the Sailor TUZU Adjust fountain pen, designed for all writing styles and habits. With two innovative features, this pen dispels the belief that fountain pens are complex and difficult to use.",
+  "hl": [
+   "Introducing"
+  ],
+  "first_seen": "2026-11-21T13:26:58.515569+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Sailor"
+  ],
+  "upcoming": false,
+  "dup_of": "2500c9b13d2e2618"
+ },
+ {
+  "uid": "4942fbb1570ee424",
+  "source": "Goulet: Coming Soon",
+  "title": "Sailor TUZU Adjust Fountain Pen - Crystal Violet",
+  "link": "https://www.gouletpens.com/products/sailor-tuzu-adjust-fountain-pen-crystal-violet",
+  "summary": "Vendor: Sailor Type: Fountain Pens Price: 39.50 Introducing the Sailor TUZU Adjust fountain pen, designed for all writing styles and habits. With two innovative features, this pen dispels the belief that fountain pens are complex and difficult to use. Experience effortless…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Sailor_TUZU_FP_Glassy_2_Crystal_Violet_posted_Stock.jpg?v=1795189387",
+  "published": "2026-11-20T19:42:04+00:00",
+  "date_kind": "published",
+  "snippet": "Introducing the Sailor TUZU Adjust fountain pen, designed for all writing styles and habits. With two innovative features, this pen dispels the belief that fountain pens are complex and difficult to use.",
+  "hl": [
+   "Introducing"
+  ],
+  "first_seen": "2026-11-21T13:26:58.515569+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Sailor"
+  ],
+  "upcoming": true,
+  "dup_of": "2500c9b13d2e2618"
+ },
+ {
+  "uid": "e5c836bd7f03c700",
+  "source": "Goulet: Limited & Special Edition",
+  "title": "Sailor TUZU Adjust Fountain Pen - Crystal Violet",
+  "link": "https://www.gouletpens.com/products/sailor-tuzu-adjust-fountain-pen-crystal-violet",
+  "summary": "Vendor: Sailor Type: Fountain Pens Price: 39.50 Introducing the Sailor TUZU Adjust fountain pen, designed for all writing styles and habits. With two innovative features, this pen dispels the belief that fountain pens are complex and difficult to use. Experience effortless…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Sailor_TUZU_FP_Glassy_2_Crystal_Violet_posted_Stock.jpg?v=1795189387",
+  "published": "2026-11-20T19:42:04+00:00",
+  "date_kind": "published",
+  "snippet": "Introducing the Sailor TUZU Adjust fountain pen, designed for all writing styles and habits. With two innovative features, this pen dispels the belief that fountain pens are complex and difficult to use.",
+  "hl": [
+   "Introducing"
+  ],
+  "first_seen": "2026-11-21T13:26:58.515569+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Sailor"
+  ],
+  "upcoming": false,
+  "dup_of": "2500c9b13d2e2618"
+ },
+ {
+  "uid": "7ef845985ac9fa20",
+  "source": "Goldspot: nowe kolekcje",
+  "title": "Edison Emerson",
+  "link": "https://goldspot.com/collections/edison-emerson",
+  "summary": "",
+  "image": "http://goldspot.com/cdn/shop/collections/AllUncappedS.jpg?v=1795210207",
+  "published": "2026-11-20T16:30:07+00:00",
+  "date_kind": "page",
+  "snippet": "Made in the USA with stunning acrylic and brilliantly polished clip and cap ring, the Emerson fountain pen has a polished, vintage-inspired style and a premium writing experience.",
+  "hl": [],
+  "first_seen": "2026-11-21T13:26:58.515569+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "1f55640ef7db0d1d",
+  "source": "Goulet: New Arrivals",
+  "title": "Wearingeul A Kidnapped Santa Clause - 30ml Bottled Ink (Special Edition)",
+  "link": "https://www.gouletpens.com/products/wearingeul-a-kidnapped-santa-clause-30ml-bottled-ink-special-edition",
+  "summary": "Vendor: Wearingeul Type: Bottled Ink Price: 28.00 Wearingeul A Kidnapped Santa Clause is a special edition ink only available around the holiday season! It is a red ink that has added gold and green sparkles and comes in a 30ml glass bottle. Wearingeul inks are made in South…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Wearingeul-AKidnappedSantaClause-BS-SwabText.jpg?v=1795125779",
+  "published": "2026-11-20T14:37:56+00:00",
+  "date_kind": "published",
+  "snippet": "Wearingeul A Kidnapped Santa Clause is a special edition ink only available around the holiday season! It is a red ink that has added gold and green sparkles and comes in a 30ml glass bottle.",
+  "hl": [
+   "special edition"
+  ],
+  "first_seen": "2026-11-21T13:26:58.515569+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false
+ },
+ {
+  "uid": "e58e38b3c296d092",
+  "source": "Goulet: New Arrivals",
+  "title": "Wearingeul The Secret Garden - 30ml Bottled Ink",
+  "link": "https://www.gouletpens.com/products/wearingeul-the-secret-garden-30ml-bottled-ink",
+  "summary": "Vendor: Wearingeul Type: Bottled Ink Price: 28.00 Wearingeul The Secret Garden is a green ink that has added rose gold and gold glitter. It comes in a 30ml glass bottle. Wearingeul inks are made in South Korea. They illustrate scenes or the atmosphere of novels and poems. Due to…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Wearingeul-TheSecretGarden-BS-SwabText.jpg?v=1795126107",
+  "published": "2026-11-20T14:37:56+00:00",
+  "date_kind": "published",
+  "snippet": "Wearingeul The Secret Garden is a green ink that has added rose gold and gold glitter. It comes in a 30ml glass bottle.",
+  "hl": [],
+  "first_seen": "2026-11-21T13:26:58.515569+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "79534546a9277e33"
+ },
+ {
+  "uid": "1d56a1bc3204f02a",
+  "source": "Goulet: New Arrivals",
+  "title": "Wearingeul Heidi - 30ml Bottled Ink",
+  "link": "https://www.gouletpens.com/products/wearingeul-heidi-30ml-bottled-ink",
+  "summary": "Vendor: Wearingeul Type: Bottled Ink Price: 28.00 Wearingeul Heidi is a blue ink that has added blue and silver glitter. It comes in a 30ml glass bottle. Wearingeul inks are made in South Korea. They illustrate scenes or the atmosphere of novels and poems. Due to the amount of…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Wearingeul-Heidi-BS-SwabText.jpg?v=1795126363",
+  "published": "2026-11-20T14:37:55+00:00",
+  "date_kind": "published",
+  "snippet": "Wearingeul Heidi is a blue ink that has added blue and silver glitter. It comes in a 30ml glass bottle.",
+  "hl": [],
+  "first_seen": "2026-11-21T13:26:58.515569+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "82b64c145d1bd5ff"
+ },
+ {
   "uid": "e6cbc9eaf190ae1b",
   "source": "Cult Pens: What's New",
   "title": "TWSBI Eco Fountain Pen Plum with Onyx",
@@ -195,6 +454,10 @@
    {
     "source": "Goulet: Limited & Special Edition",
     "link": "https://www.gouletpens.com/products/sailor-tuzu-adjust-fountain-pen-crystal-white-limited-edition"
+   },
+   {
+    "source": "Goulet: Coming Soon",
+    "link": "https://www.gouletpens.com/products/sailor-tuzu-adjust-fountain-pen-crystal-violet"
    }
   ]
  },
@@ -1019,7 +1282,13 @@
   "release": true,
   "brands": [],
   "enrich_tries": 9,
-  "upcoming": true
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Goulet: New Arrivals",
+    "link": "https://www.gouletpens.com/products/wearingeul-heidi-30ml-bottled-ink"
+   }
+  ]
  },
  {
   "uid": "8138e2709cda0101",
@@ -5584,7 +5853,8 @@
   "retailer_src": true,
   "release": true,
   "brands": [],
-  "upcoming": true
+  "upcoming": true,
+  "dup_of": "e08bc5d58e26b619"
  },
  {
   "uid": "723af18b5522f928",
@@ -5606,7 +5876,8 @@
   "retailer_src": true,
   "release": true,
   "brands": [],
-  "upcoming": true
+  "upcoming": true,
+  "dup_of": "e08bc5d58e26b619"
  },
  {
   "uid": "e08bc5d58e26b619",
@@ -5628,7 +5899,13 @@
   "retailer_src": true,
   "release": true,
   "brands": [],
-  "upcoming": true
+  "upcoming": true,
+  "also": [
+   {
+    "source": "Pen Boutique: Coming Soon",
+    "link": "https://www.penboutique.com/products/consul-origin-fountain-pen-vesper"
+   }
+  ]
  },
  {
   "uid": "d02bf3a710510688",
