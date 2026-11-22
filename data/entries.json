@@ -1,5 +1,147 @@
 [
  {
+  "uid": "de8582c880e07aad",
+  "source": "epiora.pl (PL)",
+  "title": "Pióro wieczne Montegrappa Karol Darwin Theory of Evolution edycja limitowana",
+  "link": "https://epiora.pl/pl/p/Pioro-wieczne-Montegrappa-Karol-Darwin-Theory-of-Evolution-edycja-limitowana/4044",
+  "summary": "",
+  "image": "https://epiora.pl/environment/cache/images/productGfx_9258_500_500/Pioro-wieczne-Montegrappa-Karol-Darwin-Theory-of-Evolution-edycja-limitowana.webp",
+  "published": "2026-11-22T13:19:35.192030+00:00",
+  "date_kind": "detected",
+  "snippet": "Pióro wieczne Montegrappa Karol Darwin Theory of Evolution edycja limitowana",
+  "hl": [
+   "edycja limitowana"
+  ],
+  "first_seen": "2026-11-22T13:19:35.192030+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Montegrappa"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "91cf3fec6563c049",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Consul Guardian Fountain Pen - Oyster",
+  "link": "https://www.penboutique.com/products/consul-guardian-fountain-pen-oyster",
+  "summary": "Vendor: Consul Type: Fountain Price: 330.00 A Touch of Nature, A Statement of Elegance. Meet the Consul Guardian Fountain Pen – Oyster, where the quiet beauty of natural oyster shells inspires an eye-catching writing instrument. Its pearlescent acrylic resin blends warm oyster…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Consul-Guardian-Fountain-Pen-Oyster-Fountain-Consul-Extra-Fine.png?v=1794955593",
+  "published": "2026-11-22T12:36:05+00:00",
+  "date_kind": "published",
+  "snippet": "Its pearlescent acrylic resin blends warm oyster tones, smoky taupe, and rich bronze iridescence, creating a finish that reveals subtle depth and movement as it catches the light.",
+  "hl": [
+   "reveals"
+  ],
+  "first_seen": "2026-11-22T13:19:35.192030+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": true,
+  "dup_of": "6d7598d2df0051cf"
+ },
+ {
+  "uid": "f738ba68c9410b96",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Consul Guardian Fountain Pen - Ember",
+  "link": "https://www.penboutique.com/products/consul-guardian-fountain-pen-ember",
+  "summary": "Vendor: Consul Type: Fountain Price: 330.00 A Warm Glow, Captured in Every Stroke. Inspired by the enduring glow of glowing embers, the Consul Guardian Fountain Pen – Ember brings together deep garnet, ember red, and warm bronze tones in a captivating pearlescent finish. Crafted…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Consul-Guardian-Fountain-Pen-Ember-Fountain-Consul-Extra-Fine.png?v=1794955591",
+  "published": "2026-11-22T12:29:23+00:00",
+  "date_kind": "published",
+  "snippet": "Crafted from acrylic resin with gold-plated brass, its handcrafted body reveals subtle shifts in colour and reflection as it catches the light.",
+  "hl": [
+   "reveals"
+  ],
+  "first_seen": "2026-11-22T13:19:35.192030+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": true,
+  "dup_of": "6d7598d2df0051cf"
+ },
+ {
+  "uid": "a0e0033299d30ac2",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Consul Origin Fountain Pen - Alabaster",
+  "link": "https://www.penboutique.com/products/consul-origin-fountain-pen-alabaster",
+  "summary": "Vendor: Consul Type: Fountain Price: 183.00 A touch of golden shimmer, a timeless expression of elegance. The Consul Origin Fountain Pen in Alabaster brings understated elegance to the art of writing. Its luminous pearl-white acrylic resin features warm ivory undertones and a…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/ConsulOriginFountainPen-Alabaster.png?v=1794730434",
+  "published": "2026-11-22T05:52:43+00:00",
+  "date_kind": "published",
+  "snippet": "A touch of golden shimmer, a timeless expression of elegance.",
+  "hl": [],
+  "first_seen": "2026-11-22T13:19:35.192030+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": true,
+  "dup_of": "e08bc5d58e26b619"
+ },
+ {
+  "uid": "692fdb971b99f310",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Consul Origin Fountain Pen - Glacier",
+  "link": "https://www.penboutique.com/products/consul-origin-fountain-pen-glacier",
+  "summary": "Vendor: Consul Type: Fountain Price: 170.00 A Touch of Ice. A World of Expression. Inspired by the quiet beauty of glacial landscapes, the Consul Origin Fountain Pen – Glacier brings together cool colours and refined design. Its pearlescent acrylic resin blends glacier blue,…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Consul-Origin-Fountain-Pen-Glacier-Fountain-Consul-Extra-Fine.png?v=1794696405",
+  "published": "2026-11-22T05:04:50+00:00",
+  "date_kind": "published",
+  "snippet": "Sailor Fountain Pen - Commemorative - 115th Anniversary Hiroshima Momiji",
+  "hl": [
+   "Commemorative",
+   "Anniversary"
+  ],
+  "first_seen": "2026-11-22T13:19:35.192030+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": true,
+  "dup_of": "e08bc5d58e26b619"
+ },
+ {
+  "uid": "c6acbbb2d7d902d5",
+  "source": "Pen Boutique: New Arrivals",
+  "title": "Sailor 1911L Fountain Pen - Limited Edition - 12am - IP Gold Trim - Casual L Nib (North America Exclusive)",
+  "link": "https://www.penboutique.com/products/sailor-1911l-fountain-pen-limited-edition-12am-ip-gold-trim-casual-l-nib-north-america-exclusive",
+  "summary": "Vendor: Sailor Pens Type: Fountain Price: 200.00 Capture the Magic of Midnight, One Stroke at a Time. The Sailor 1911 Casual L Basis Gold Trim Fountain Pen – 12am captures the beauty of a midnight sky with its translucent deep navy blue resin body, delicate shimmering sparkles,…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/8W6A3274_2.jpg?v=1795211808",
+  "published": "2026-11-21T13:57:08+00:00",
+  "date_kind": "published",
+  "snippet": "Whether writing late at night, journaling, or adding to a fountain pen collection, this special edition brings a touch of midnight magic to every writing experience.",
+  "hl": [
+   "special edition"
+  ],
+  "first_seen": "2026-11-22T13:19:35.192030+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Sailor"
+  ],
+  "upcoming": false
+ },
+ {
   "uid": "fffe8b5daa2e5ea3",
   "source": "Pen Boutique: Coming Soon",
   "title": "Consul Origin Fountain Pen - Vesper",
@@ -5500,7 +5642,8 @@
   "retailer_src": true,
   "release": true,
   "brands": [],
-  "upcoming": true
+  "upcoming": true,
+  "dup_of": "6d7598d2df0051cf"
  },
  {
   "uid": "6a76dd91925dfc38",
@@ -5522,7 +5665,8 @@
   "retailer_src": true,
   "release": true,
   "brands": [],
-  "upcoming": true
+  "upcoming": true,
+  "dup_of": "6d7598d2df0051cf"
  },
  {
   "uid": "59af1cb3e272652b",
@@ -5544,7 +5688,8 @@
   "retailer_src": true,
   "release": true,
   "brands": [],
-  "upcoming": true
+  "upcoming": true,
+  "dup_of": "6d7598d2df0051cf"
  },
  {
   "uid": "6d7598d2df0051cf",
@@ -5566,7 +5711,13 @@
   "retailer_src": true,
   "release": true,
   "brands": [],
-  "upcoming": true
+  "upcoming": true,
+  "also": [
+   {
+    "source": "Pen Boutique: Coming Soon",
+    "link": "https://www.penboutique.com/products/consul-guardian-fountain-pen-ember"
+   }
+  ]
  },
  {
   "uid": "b0b27da90c21d999",
