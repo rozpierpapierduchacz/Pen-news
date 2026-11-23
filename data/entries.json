@@ -1,5 +1,403 @@
 [
  {
+  "uid": "ca4ff53cd9699a1c",
+  "source": "Twoje Pióro: edycje limitowane (PL)",
+  "title": "Pióro wieczne Kaweco COLLECTION Sport Marble Ocean - edycja specjalna",
+  "link": "https://www.twojepioro.pl/pl/p/Pioro-wieczne-Kaweco-COLLECTION-Sport-Marble-Ocean-edycja-specjalna/20208",
+  "summary": "",
+  "image": "https://www.twojepioro.pl/environment/cache/images/productGfx_96042_500_500/Pioro-wieczne-Kaweco-COLLECTION-Sport-Marble-Ocean.webp?overlay=1",
+  "published": "2026-11-23T15:56:27.238918+00:00",
+  "date_kind": "detected",
+  "snippet": "",
+  "hl": [],
+  "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Kaweco"
+  ],
+  "enrich_tries": 1,
+  "upcoming": false,
+  "dup_of": "061d1946435259d8"
+ },
+ {
+  "uid": "8ab8d89d64b470ac",
+  "source": "Goulet: Coming Soon",
+  "title": "Edison Emerson Fountain Pen - Sapphire Noir",
+  "link": "https://www.gouletpens.com/products/edison-emerson-fountain-pen-sapphire-noir",
+  "summary": "Vendor: Edison Type: Fountain Pens Price: 169.00 This Edison Emerson pen is made of a stunning blue resin, with a silver-plated clip and centerband, and a JoWo #6 steel nib engraved with the Edison logo. It accepts a standard international converter (included) or short standard…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/EdisonEmersonSapphireNoirFullSStock.jpg?v=1795443493",
+  "published": "2026-11-23T14:43:07+00:00",
+  "date_kind": "published",
+  "snippet": "This Edison Emerson pen is made of a stunning blue resin, with a silver-plated clip and centerband, and a JoWo #6 steel nib engraved with the Edison logo.",
+  "hl": [],
+  "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": true,
+  "dup_of": "7ef845985ac9fa20"
+ },
+ {
+  "uid": "d7b0299fa9a1859e",
+  "source": "Goulet: Coming Soon",
+  "title": "Edison Emerson Fountain Pen - Silverstone",
+  "link": "https://www.gouletpens.com/products/edison-emerson-fountain-pen-silverstone",
+  "summary": "Vendor: Edison Type: Fountain Pens Price: 169.00 This Edison Emerson pen is made of a stunning black and white resin, with a silver-plated clip and centerband, and a JoWo #6 steel nib engraved with the Edison logo. It accepts a standard international converter (included) or…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/EdisonEmersonSilverstoneUncappedStock_50ec231a-1d66-4dd5-919d-0ccc422688ac.jpg?v=1795444543",
+  "published": "2026-11-23T14:41:39+00:00",
+  "date_kind": "published",
+  "snippet": "This Edison Emerson pen is made of a stunning black and white resin, with a silver-plated clip and centerband, and a JoWo #6 steel nib engraved with the Edison logo.",
+  "hl": [],
+  "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": true,
+  "dup_of": "7ef845985ac9fa20"
+ },
+ {
+  "uid": "3b28ab03ad03950c",
+  "source": "Goulet: Coming Soon",
+  "title": "Edison Emerson Fountain Pen - Cordovan Flake",
+  "link": "https://www.gouletpens.com/products/edison-emerson-fountain-pen-cordovan-flake",
+  "summary": "Vendor: Edison Type: Fountain Pens Price: 169.00 This Edison Emerson pen is made of a deep red resin, with a silver-plated clip and centerband, and a JoWo #6 steel nib engraved with the Edison logo. It accepts a standard international converter (included) or short standard…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/EdisonEmersonCordovanFlakeFullSStock.jpg?v=1795443359",
+  "published": "2026-11-23T14:40:07+00:00",
+  "date_kind": "published",
+  "snippet": "This Edison Emerson pen is made of a deep red resin, with a silver-plated clip and centerband, and a JoWo #6 steel nib engraved with the Edison logo.",
+  "hl": [],
+  "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": true,
+  "dup_of": "7ef845985ac9fa20"
+ },
+ {
+  "uid": "26118558ff8cf813",
+  "source": "Goulet: Coming Soon",
+  "title": "Visconti Homo Sapiens Fountain Pen - Crystal Magma",
+  "link": "https://www.gouletpens.com/products/visconti-homo-sapiens-fountain-pen-crystal-magma",
+  "summary": "Vendor: Visconti Type: Fountain Pens Price: 1276.00 Visconti is proud to unveil the latest evolution of its iconic Homo Sapiens collection: the Homo Sapiens Crystal Magma, an exceptional new fountain pen created exclusively for the US market. Combining the striking red accents…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/ViscontiHomoSapiensCrystalMagmastock-1.jpg?v=1795182966",
+  "published": "2026-11-23T14:34:47+00:00",
+  "date_kind": "published",
+  "snippet": "Visconti is proud to unveil the latest evolution of its iconic Homo Sapiens collection: the Homo Sapiens Crystal Magma, an exceptional new fountain pen created exclusively for the US market.",
+  "hl": [
+   "unveil"
+  ],
+  "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Visconti"
+  ],
+  "upcoming": true,
+  "dup_of": "3fc89cff1162d4b5"
+ },
+ {
+  "uid": "3ba993f40afc103a",
+  "source": "Goulet: Limited & Special Edition",
+  "title": "Visconti Homo Sapiens Fountain Pen - Crystal Magma",
+  "link": "https://www.gouletpens.com/products/visconti-homo-sapiens-fountain-pen-crystal-magma",
+  "summary": "Vendor: Visconti Type: Fountain Pens Price: 1276.00 Visconti is proud to unveil the latest evolution of its iconic Homo Sapiens collection: the Homo Sapiens Crystal Magma, an exceptional new fountain pen created exclusively for the US market. Combining the striking red accents…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/ViscontiHomoSapiensCrystalMagmastock-1.jpg?v=1795182966",
+  "published": "2026-11-23T14:34:47+00:00",
+  "date_kind": "published",
+  "snippet": "Visconti is proud to unveil the latest evolution of its iconic Homo Sapiens collection: the Homo Sapiens Crystal Magma, an exceptional new fountain pen created exclusively for the US market.",
+  "hl": [
+   "unveil"
+  ],
+  "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Visconti"
+  ],
+  "upcoming": false,
+  "dup_of": "3fc89cff1162d4b5"
+ },
+ {
+  "uid": "19da8480f5124f6c",
+  "source": "Goulet: Coming Soon",
+  "title": "Private Reserve Run to the Hills (Limited Edition) - 30ml Bottled Ink",
+  "link": "https://www.gouletpens.com/products/private-reserve-run-to-the-hills-limited-edition-30ml-bottled-ink",
+  "summary": "Vendor: Private Reserve Type: Bottled Ink Price: 20.00 30ml glass bottle of Private Reserve Run to the Hills fountain pen ink - a blue ink with bronze shimmer. Limited edition color! All Private Reserve inks are vibrant and rich and suitable for all fountain pens.",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/PrivateReserveRuntotheHillsstock-1.jpg?v=1795182929",
+  "published": "2026-11-23T14:30:02+00:00",
+  "date_kind": "published",
+  "snippet": "Limited edition color!",
+  "hl": [
+   "Limited edition"
+  ],
+  "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": true,
+  "dup_of": "46b7ae6c52b329c9"
+ },
+ {
+  "uid": "47ff007d13ad66c2",
+  "source": "Goulet: Coming Soon",
+  "title": "Visconti Le Petit Prince Fountain Pen (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/visconti-le-petit-prince-fountain-pen-limited-edition",
+  "summary": "Vendor: Visconti Type: Fountain Pens Price: 4245.75 Some stories stay with us long after the final page, awakening a memory, a wish, a way of seeing the world we thought we had forgotten. The Little Prince by Antoine de Saint-Exupéry is one such story. In his words, as in…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/ViscontiLePetitPrinceLimitedEditionstock-3.jpg?v=1795198243",
+  "published": "2026-11-23T14:28:31+00:00",
+  "date_kind": "published",
+  "snippet": "This sensibility gives rise to the Le Petit Prince Limited Edition, through which Visconti celebrates writing as an act that preserves what truly matters: an emotion to remember, a thought to share, words that someone will one day read again.",
+  "hl": [
+   "Limited Edition"
+  ],
+  "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Visconti"
+  ],
+  "upcoming": true,
+  "dup_of": "c4ffa94278983c2e"
+ },
+ {
+  "uid": "f9c193b7dcdc41e8",
+  "source": "Goulet: Limited & Special Edition",
+  "title": "Visconti Le Petit Prince Fountain Pen (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/visconti-le-petit-prince-fountain-pen-limited-edition",
+  "summary": "Vendor: Visconti Type: Fountain Pens Price: 4245.75 Some stories stay with us long after the final page, awakening a memory, a wish, a way of seeing the world we thought we had forgotten. The Little Prince by Antoine de Saint-Exupéry is one such story. In his words, as in…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/ViscontiLePetitPrinceLimitedEditionstock-3.jpg?v=1795198243",
+  "published": "2026-11-23T14:28:31+00:00",
+  "date_kind": "published",
+  "snippet": "This sensibility gives rise to the Le Petit Prince Limited Edition, through which Visconti celebrates writing as an act that preserves what truly matters: an emotion to remember, a thought to share, words that someone will one day read again.",
+  "hl": [
+   "Limited Edition"
+  ],
+  "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Visconti"
+  ],
+  "upcoming": false,
+  "dup_of": "c4ffa94278983c2e"
+ },
+ {
+  "uid": "d5a48785c9a26aae",
+  "source": "Goulet: Coming Soon",
+  "title": "Delta Pharaoh Fountain Pen (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/delta-pharaoh-fountain-pen-limited-edition",
+  "summary": "Vendor: Delta Type: Fountain Pens Price: 476.00 Introducing a new fountain pen from Delta called the Pharaoh! This Goulet-exclusive release has an engraved fan pattern black resin body with a smooth black cap, pearlescent white finials, and an ornate gold-plated decorative…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Delta-Pharaoh-GPC-4.jpg?v=1795198333",
+  "published": "2026-11-23T14:26:27+00:00",
+  "date_kind": "published",
+  "snippet": "Introducing a new fountain pen from Delta called the Pharaoh! This Goulet-exclusive release has an engraved fan pattern black resin body with a smooth black cap, pearlescent white finials, and an ornate gold-plated decorative center band.",
+  "hl": [
+   "Introducing"
+  ],
+  "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Delta"
+  ],
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Goulet: Limited & Special Edition",
+    "link": "https://www.gouletpens.com/products/delta-pharaoh-fountain-pen-limited-edition"
+   }
+  ]
+ },
+ {
+  "uid": "793c7b98a1474dc0",
+  "source": "Goulet: Limited & Special Edition",
+  "title": "Delta Pharaoh Fountain Pen (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/delta-pharaoh-fountain-pen-limited-edition",
+  "summary": "Vendor: Delta Type: Fountain Pens Price: 476.00 Introducing a new fountain pen from Delta called the Pharaoh! This Goulet-exclusive release has an engraved fan pattern black resin body with a smooth black cap, pearlescent white finials, and an ornate gold-plated decorative…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Delta-Pharaoh-GPC-4.jpg?v=1795198333",
+  "published": "2026-11-23T14:26:27+00:00",
+  "date_kind": "published",
+  "snippet": "Introducing a new fountain pen from Delta called the Pharaoh! This Goulet-exclusive release has an engraved fan pattern black resin body with a smooth black cap, pearlescent white finials, and an ornate gold-plated decorative center band.",
+  "hl": [
+   "Introducing"
+  ],
+  "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Delta"
+  ],
+  "upcoming": false,
+  "dup_of": "d5a48785c9a26aae"
+ },
+ {
+  "uid": "3fc89cff1162d4b5",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Visconti Homo Sapiens Fountain Pen - Crystal Magma - 14kt Nib",
+  "link": "https://www.penboutique.com/products/visconti-homo-sapiens-fountain-pen-crystal-magma-18k-nib",
+  "summary": "Vendor: Visconti Pens Type: Fountain Price: 1276.00 Fire, transparency, and fine craftsmanship in one striking writing instrument. The Visconti Homo Sapiens Crystal Magma Fountain Pen brings together the unmistakable character of volcanic lava, vivid red accents, and innovative…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Visconti-Homo-Sapiens-Fountain-Pen-Crystal-Magma-14kt-Nib-Fountain-Visconti-Pens.png?v=1795128399",
+  "published": "2026-11-23T05:10:35+00:00",
+  "date_kind": "published",
+  "snippet": "Crafted from volcanic lava rock and smoky acrylic resin, the Crystal Magma reveals a fresh perspective on the iconic Homo Sapiens design.",
+  "hl": [
+   "reveals"
+  ],
+  "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Visconti"
+  ],
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Pen Boutique: Limited Edition",
+    "link": "https://www.penboutique.com/products/visconti-homo-sapiens-fountain-pen-crystal-magma-18k-nib"
+   },
+   {
+    "source": "Goulet: Coming Soon",
+    "link": "https://www.gouletpens.com/products/visconti-homo-sapiens-fountain-pen-crystal-magma"
+   },
+   {
+    "source": "Goulet: Limited & Special Edition",
+    "link": "https://www.gouletpens.com/products/visconti-homo-sapiens-fountain-pen-crystal-magma"
+   }
+  ]
+ },
+ {
+  "uid": "dadeadadacd68edc",
+  "source": "Pen Boutique: Limited Edition",
+  "title": "Visconti Homo Sapiens Fountain Pen - Crystal Magma - 14kt Nib",
+  "link": "https://www.penboutique.com/products/visconti-homo-sapiens-fountain-pen-crystal-magma-18k-nib",
+  "summary": "Vendor: Visconti Pens Type: Fountain Price: 1276.00 Fire, transparency, and fine craftsmanship in one striking writing instrument. The Visconti Homo Sapiens Crystal Magma Fountain Pen brings together the unmistakable character of volcanic lava, vivid red accents, and innovative…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Visconti-Homo-Sapiens-Fountain-Pen-Crystal-Magma-14kt-Nib-Fountain-Visconti-Pens.png?v=1795128399",
+  "published": "2026-11-23T05:10:35+00:00",
+  "date_kind": "published",
+  "snippet": "Crafted from volcanic lava rock and smoky acrylic resin, the Crystal Magma reveals a fresh perspective on the iconic Homo Sapiens design.",
+  "hl": [
+   "reveals"
+  ],
+  "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Visconti"
+  ],
+  "upcoming": false,
+  "dup_of": "3fc89cff1162d4b5"
+ },
+ {
+  "uid": "37ab3e1823907c1f",
+  "source": "Goldspot: New Releases",
+  "title": "Edison Emerson Fountain Pen in Silverstone",
+  "link": "https://goldspot.com/products/edison-emerson-fountain-pen-in-silverstone",
+  "summary": "Vendor: Edison Type: Fountain Pen Price: 169.00 Crafted from a solid rod of swirling, metallic-toned Silverstone acrylic, the Edison Emerson fountain pen combines refined craftsmanship with familiar handling. Built on the exact same overall design and specifications as the…",
+  "image": "https://cdn.shopify.com/s/files/1/1693/8459/files/2bbdcb44-f07d-4106-a333-7a0bdff1c505.jpg?v=1795436933",
+  "published": "2026-11-23T05:00:05+00:00",
+  "date_kind": "published",
+  "snippet": "Built on the exact same overall design and specifications as the classic Edison Menlo, the Emerson introduces an updated cap with a thicker, non-captured band at the base.",
+  "hl": [
+   "introduces"
+  ],
+  "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "dup_of": "7ef845985ac9fa20"
+ },
+ {
+  "uid": "5450e42829f89f61",
+  "source": "Goldspot: New Releases",
+  "title": "Edison Emerson Fountain Pen in Cordovan Flake",
+  "link": "https://goldspot.com/products/edison-emerson-fountain-pen-in-cordovan-flake",
+  "summary": "Vendor: Edison Type: Fountain Pen Price: 169.00 Machined from a solid rod of warm, marbled red Cordovan Flake acrylic, the Edison Emerson fountain pen delivers timeless style and everyday performance. While retaining the exact proportions and specifications of the classic Edison…",
+  "image": "https://cdn.shopify.com/s/files/1/1693/8459/files/21915657-1d03-44a3-a000-ecaee65df92d.jpg?v=1795436806",
+  "published": "2026-11-23T05:00:04+00:00",
+  "date_kind": "published",
+  "snippet": "Machined from a solid rod of warm, marbled red Cordovan Flake acrylic, the Edison Emerson fountain pen delivers timeless style and everyday performance.",
+  "hl": [],
+  "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "7ef845985ac9fa20"
+ },
+ {
+  "uid": "5f997c29780129bf",
+  "source": "Goldspot: New Releases",
+  "title": "Edison Emerson Fountain Pen in Sapphire Noir",
+  "link": "https://goldspot.com/products/edison-emerson-fountain-pen-in-sapphire-noir",
+  "summary": "Vendor: Edison Type: Fountain Pen Price: 169.00 Turned from a solid rod of deep blue and black Sapphire Noir acrylic, the Edison Emerson fountain pen brings a subtle update to a classic silhouette. The Emerson shares the exact dimensions, weight, and specifications of the…",
+  "image": "https://cdn.shopify.com/s/files/1/1693/8459/files/eb16b90b-d670-4511-b6c6-4891b9dfbb39.jpg?v=1795436880",
+  "published": "2026-11-23T05:00:04+00:00",
+  "date_kind": "published",
+  "snippet": "Turned from a solid rod of deep blue and black Sapphire Noir acrylic, the Edison Emerson fountain pen brings a subtle update to a classic silhouette.",
+  "hl": [],
+  "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "7ef845985ac9fa20"
+ },
+ {
   "uid": "de8582c880e07aad",
   "source": "epiora.pl (PL)",
   "title": "Pióro wieczne Montegrappa Karol Darwin Theory of Evolution edycja limitowana",
@@ -332,7 +730,17 @@
   "release": true,
   "brands": [],
   "enrich_tries": 9,
-  "upcoming": false
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Goldspot: New Releases",
+    "link": "https://goldspot.com/products/edison-emerson-fountain-pen-in-cordovan-flake"
+   },
+   {
+    "source": "Goulet: Coming Soon",
+    "link": "https://www.gouletpens.com/products/edison-emerson-fountain-pen-cordovan-flake"
+   }
+  ]
  },
  {
   "uid": "1f55640ef7db0d1d",
@@ -958,6 +1366,14 @@
    {
     "source": "Pen Boutique: Coming Soon",
     "link": "https://www.penboutique.com/products/visconti-limited-edition-fountain-pen-le-petit-prince-18k-gold-nib"
+   },
+   {
+    "source": "Goulet: Coming Soon",
+    "link": "https://www.gouletpens.com/products/visconti-le-petit-prince-fountain-pen-limited-edition"
+   },
+   {
+    "source": "Goulet: Limited & Special Edition",
+    "link": "https://www.gouletpens.com/products/visconti-le-petit-prince-fountain-pen-limited-edition"
    }
   ]
  },
@@ -2172,7 +2588,13 @@
    "Kaweco"
   ],
   "enrich_tries": 9,
-  "upcoming": false
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Twoje Pióro: edycje limitowane (PL)",
+    "link": "https://www.twojepioro.pl/pl/p/Pioro-wieczne-Kaweco-COLLECTION-Sport-Marble-Ocean-edycja-specjalna/20208"
+   }
+  ]
  },
  {
   "uid": "a066773aaf937e2d",
@@ -6577,6 +6999,10 @@
    {
     "source": "Pen Boutique: New Arrivals",
     "link": "https://www.penboutique.com/products/private-reserve-ink-bottle-run-to-the-hills-30ml-limited-edition"
+   },
+   {
+    "source": "Goulet: Coming Soon",
+    "link": "https://www.gouletpens.com/products/private-reserve-run-to-the-hills-limited-edition-30ml-bottled-ink"
    }
   ]
  },
