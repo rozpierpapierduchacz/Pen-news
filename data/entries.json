@@ -1,5 +1,354 @@
 [
  {
+  "uid": "720b7c6ad52bc94f",
+  "source": "Stilo e Stile (limited edition)",
+  "title": "Leonardo x Stilo&Stile Momento Zero Fountain Pen Black Kintsugi & Ruthenium",
+  "link": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition/leonardo-x-stilostile-momento-zero-fountain-pen-black-kintsugi-ruthenium",
+  "summary": "",
+  "image": "https://www.stiloestile.com/71769-large_default/leonardo-x-stilostile-momento-zero-fountain-pen-black-kintsugi-ruthenium.jpg",
+  "published": "2026-11-24T15:51:27.708720+00:00",
+  "date_kind": "detected",
+  "snippet": "After Kintsugi and Kintsugi Blue, a new chapter in our collaboration with Leonardo Officina Italiana is about to be revealed.",
+  "hl": [
+   "collaboration",
+   "revealed"
+  ],
+  "first_seen": "2026-11-24T15:51:27.708720+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Leonardo"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "also": []
+ },
+ {
+  "uid": "76f0ec99acbf933b",
+  "source": "Stilo e Stile (limited edition)",
+  "title": "Leonardo x Stilo&Stile Momento Zero Fountain Pen Black Kintsugi & Gold",
+  "link": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition/leonardo-x-stilostile-momento-zero-fountain-pen-black-kintsugi-gold",
+  "summary": "",
+  "image": "https://www.stiloestile.com/71775-large_default/leonardo-x-stilostile-momento-zero-fountain-pen-black-kintsugi-gold.jpg",
+  "published": "2026-11-24T15:51:27.708720+00:00",
+  "date_kind": "detected",
+  "snippet": "After Kintsugi and Kintsugi Blue, a new chapter in our collaboration with Leonardo Officina Italiana is about to be revealed.",
+  "hl": [
+   "collaboration",
+   "revealed"
+  ],
+  "first_seen": "2026-11-24T15:51:27.708720+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Leonardo"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "also": []
+ },
+ {
+  "uid": "68e0e0d99fc920ac",
+  "source": "Stilo e Stile (limited edition)",
+  "title": "Leonardo x Stilo&Stile Momento Zero Fountain Pen Black Kintsugi & Gold 14k",
+  "link": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition/leonardo-x-stilostile-momento-zero-fountain-pen-black-kintsugi-gold-14k",
+  "summary": "",
+  "image": "https://www.stiloestile.com/71773-large_default/leonardo-x-stilostile-momento-zero-fountain-pen-black-kintsugi-gold-14k.jpg",
+  "published": "2026-11-24T15:51:27.708720+00:00",
+  "date_kind": "detected",
+  "snippet": "After Kintsugi and Kintsugi Blue, a new chapter in our collaboration with Leonardo Officina Italiana is about to be revealed.",
+  "hl": [
+   "collaboration",
+   "revealed"
+  ],
+  "first_seen": "2026-11-24T15:51:27.708720+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Leonardo"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "76f0ec99acbf933b"
+ },
+ {
+  "uid": "3d6cc93fbb3132cd",
+  "source": "Stilo e Stile (limited edition)",
+  "title": "Leonardo x Stilo&Stile Momento Zero Fountain Pen Black Kintsugi & Ruthenium 14k",
+  "link": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition/leonardo-x-stilostile-momento-zero-fountain-pen-black-kintsugi-ruthenium-14k",
+  "summary": "",
+  "image": "https://www.stiloestile.com/71771-large_default/leonardo-x-stilostile-momento-zero-fountain-pen-black-kintsugi-ruthenium-14k.jpg",
+  "published": "2026-11-24T15:51:27.708720+00:00",
+  "date_kind": "detected",
+  "snippet": "After Kintsugi and Kintsugi Blue, a new chapter in our collaboration with Leonardo Officina Italiana is about to be revealed.",
+  "hl": [
+   "collaboration",
+   "revealed"
+  ],
+  "first_seen": "2026-11-24T15:51:27.708720+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Leonardo"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "720b7c6ad52bc94f"
+ },
+ {
+  "uid": "27120ac5c117fcd4",
+  "source": "Stilo e Stile (limited edition)",
+  "title": "Leonardo x Stilo&Stile Momento Zero Fountain Pen Kintsugi",
+  "link": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition/leonardo-x-stilostile-momento-zero-fountain-pen-kintsugi",
+  "summary": "",
+  "image": "https://www.stiloestile.com/51379-large_default/leonardo-x-stilostile-momento-zero-fountain-pen-kintsugi.jpg",
+  "published": "2026-11-24T15:51:27.708720+00:00",
+  "date_kind": "detected",
+  "snippet": "Leonardo Momento Zero Kintsugi is a fountain pen where the transparency of the body symbolizes the beauty of fragility. While the gold leaf inside the material evokes the philosophy of kintsugi, which transforms imperfections into a sign of refinement and strength.",
+  "hl": [],
+  "first_seen": "2026-11-24T15:51:27.708720+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Leonardo"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "6dbfab2ef777dbb3",
+  "source": "Twoje Pióro: edycje limitowane (PL)",
+  "title": "Pióro wieczne Kaweco STERLING SPORT 14k - Edycja Specjalna",
+  "link": "https://www.twojepioro.pl/pl/p/Pioro-wieczne-Kaweco-STERLING-SPORT-14k-Edycja-Specjalna/14506",
+  "summary": "",
+  "image": "https://www.twojepioro.pl/environment/cache/images/productGfx_92697_500_500/Kaweco_STERLING_SPORT_14k_Edycja_Specjalna.webp?overlay=1",
+  "published": "2026-11-24T15:51:27.708720+00:00",
+  "date_kind": "detected",
+  "snippet": "Pióro wieczne z serii Sport Sterling 14k Edycja Specjalna",
+  "hl": [
+   "Edycja Specjalna"
+  ],
+  "first_seen": "2026-11-24T15:51:27.708720+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Kaweco"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "51a9db19c30fdcce",
+  "source": "Goulet: New Arrivals",
+  "title": "Private Reserve Black Cherry Reduction w/ Bronze - 30ml Bottled Ink (Special Edition)",
+  "link": "https://www.gouletpens.com/products/private-reserve-black-cherry-reduction-w-bronze-30ml-bottled-ink-special-edition",
+  "summary": "Vendor: Private Reserve Type: Bottled Ink Price: 13.00 A fountain pen ink designed by YOU! This 30ml glass bottle of Private Reserve Black Cherry Reduction w/ Bronze shimmer is a burgundy fountain pen ink was voted on by our Goulet Pens fans across social media. Grab a bottle of…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/PrivateReserveInk-BlackCherryReduction-Bronze-BS-SwabText.jpg?v=1795449629",
+  "published": "2026-11-24T14:56:05+00:00",
+  "date_kind": "published",
+  "snippet": "Grab a bottle of this special edition ink to add to your collection today!",
+  "hl": [
+   "special edition"
+  ],
+  "first_seen": "2026-11-24T15:51:27.708720+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "dup_of": "ee6a3cf8eb97078d"
+ },
+ {
+  "uid": "5fa642f2883070ec",
+  "source": "Goulet: New Arrivals",
+  "title": "Private Reserve Black Cherry Reduction - 30ml Bottled Ink (Special Edition)",
+  "link": "https://www.gouletpens.com/products/private-reserve-black-cherry-reduction-30ml-special-edition",
+  "summary": "Vendor: Private Reserve Type: Bottled Ink Price: 13.00 A fountain pen ink designed by YOU! This 30ml glass bottle of Private Reserve Black Cherry Reduction burgundy fountain pen ink was voted on by our Goulet Pens fans across social media. Grab a bottle of this special edition…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/PrivateReserveInk-BlackCherryReduction-BS-SwabText.jpg?v=1795449773",
+  "published": "2026-11-24T14:56:04+00:00",
+  "date_kind": "published",
+  "snippet": "Grab a bottle of this special edition ink to add to your collection today!",
+  "hl": [
+   "special edition"
+  ],
+  "first_seen": "2026-11-24T15:51:27.708720+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "dup_of": "ee6a3cf8eb97078d"
+ },
+ {
+  "uid": "9908f4c5efd6230a",
+  "source": "Goulet: New Arrivals",
+  "title": "Private Reserve Black Cherry Reduction w/ Bronze - Ink Sample (Special Edition)",
+  "link": "https://www.gouletpens.com/products/private-reserve-black-cherry-reduction-w-bronze-ink-sample-special-edition",
+  "summary": "Vendor: Private Reserve Type: Ink Samples Price: 2.50 2ml sample of Private Reserve Black Cherry Reduction w/ Bronze shimmer fountain pen ink, in a labeled plastic vial. This burgundy color with added bronze shimmer was voted on by you - our Goulet Pens fans on social media!…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/PrivateReserveInk-BlackCherryReduction-Bronze-SwabText_9b0a2f94-62c3-454b-a7b5-03855862963c.jpg?v=1795462497",
+  "published": "2026-11-24T14:55:32+00:00",
+  "date_kind": "published",
+  "snippet": "Don't miss out on grabbing a sample of this special edition ink.",
+  "hl": [
+   "special edition"
+  ],
+  "first_seen": "2026-11-24T15:51:27.708720+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "dup_of": "cbafbbe35152e19d"
+ },
+ {
+  "uid": "cbafbbe35152e19d",
+  "source": "Goulet: New Arrivals",
+  "title": "Private Reserve Black Cherry Reduction - Ink Sample (Special Edition)",
+  "link": "https://www.gouletpens.com/products/private-reserve-black-cherry-reduction-ink-sample-special-edition",
+  "summary": "Vendor: Private Reserve Type: Ink Samples Price: 2.50 2ml sample of Private Reserve Black Cherry Reduction fountain pen ink, in a labeled plastic vial. This burgundy color was voted on by you - our Goulet Pens fans on social media! Don't miss out on grabbing a sample of this…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/PrivateReserveInk-BlackCherryReduction-SwabText.jpg?v=1795449773",
+  "published": "2026-11-24T14:55:31+00:00",
+  "date_kind": "published",
+  "snippet": "Don't miss out on grabbing a sample of this special edition ink.",
+  "hl": [
+   "special edition"
+  ],
+  "first_seen": "2026-11-24T15:51:27.708720+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "also": []
+ },
+ {
+  "uid": "a43efad93aa5cc33",
+  "source": "Goldspot: New Releases",
+  "title": "Edison Newark Fountain Pen in Mystic Mountain LE",
+  "link": "https://goldspot.com/products/edison-newark-fountain-pen-in-mystic-mountain-le",
+  "summary": "Vendor: Edison Type: Fountain Pen Price: 199.00 You can aspire to climb the tallest mountain, reach for the stars. This pen sets your sights even higher. Mont Blanc's paltry 4,810-meter summit pales in comparison to the Carina Nebula's \"Mystic Mountain\" and it's 3-light-year…",
+  "image": "https://cdn.shopify.com/s/files/1/1693/8459/files/6dde0a5a-f904-43de-bfea-dc51548e2ef3.jpg?v=1795453887",
+  "published": "2026-11-24T05:00:04+00:00",
+  "date_kind": "published",
+  "snippet": "Every limited edition Mystic Mountain is individually numbered (out of 88 pens total) on the barrel with a gold-filled mountain graphic on the cap.",
+  "hl": [
+   "limited edition"
+  ],
+  "first_seen": "2026-11-24T15:51:27.708720+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Goldspot: Exclusives",
+    "link": "https://goldspot.com/products/edison-newark-fountain-pen-in-mystic-mountain-le"
+   }
+  ]
+ },
+ {
+  "uid": "f008a4bdd23c110a",
+  "source": "Goldspot: Exclusives",
+  "title": "Edison Newark Fountain Pen in Mystic Mountain LE",
+  "link": "https://goldspot.com/products/edison-newark-fountain-pen-in-mystic-mountain-le",
+  "summary": "Vendor: Edison Type: Fountain Pen Price: 199.00 You can aspire to climb the tallest mountain, reach for the stars. This pen sets your sights even higher. Mont Blanc's paltry 4,810-meter summit pales in comparison to the Carina Nebula's \"Mystic Mountain\" and it's 3-light-year…",
+  "image": "https://cdn.shopify.com/s/files/1/1693/8459/files/6dde0a5a-f904-43de-bfea-dc51548e2ef3.jpg?v=1795453887",
+  "published": "2026-11-24T05:00:04+00:00",
+  "date_kind": "published",
+  "snippet": "Every limited edition Mystic Mountain is individually numbered (out of 88 pens total) on the barrel with a gold-filled mountain graphic on the cap.",
+  "hl": [
+   "limited edition"
+  ],
+  "first_seen": "2026-11-24T15:51:27.708720+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": false,
+  "dup_of": "a43efad93aa5cc33"
+ },
+ {
+  "uid": "8887f6ebb4fec6d1",
+  "source": "Goulet: New Arrivals",
+  "title": "Monteverde Innova Formula M Fountain Pen - Flame (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/monteverde-innova-formula-m-fountain-pen-flame-limited-edition",
+  "summary": "Vendor: Monteverde Type: Fountain Pens Price: 80.00 The Monteverde Innova™ Formula M is an extraordinary writing instrument collection that combines unique materials and cutting edge designs that will entice not only pen aficionados, but anyone who dreams of life in the fast…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Monteverde-Innova-Formula-M-FP-2.jpg?v=1795209779",
+  "published": "2026-11-23T19:10:55+00:00",
+  "date_kind": "published",
+  "snippet": "This limited edition release is only available at Goulet Pens and will be limited to 525 pens! Each pen is individually numbered on the bottom finial of the pen body.",
+  "hl": [
+   "limited edition",
+   "limited to 525"
+  ],
+  "first_seen": "2026-11-24T15:51:27.708720+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Monteverde"
+  ],
+  "upcoming": false
+ },
+ {
+  "uid": "5138f8014f38da4a",
+  "source": "Goulet: New Arrivals",
+  "title": "Delta Pharaoh Fountain Pen (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/delta-pharaoh-fountain-pen-limited-edition",
+  "summary": "Vendor: Delta Type: Fountain Pens Price: 476.00 Introducing a new fountain pen from Delta called the Pharaoh! This Goulet-exclusive release has an engraved fan pattern black resin body with a smooth black cap, pearlescent white finials, and an ornate gold-plated decorative…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Delta-Pharaoh-GPC-4.jpg?v=1795198333",
+  "published": "2026-11-23T18:30:55+00:00",
+  "date_kind": "published",
+  "snippet": "Introducing a new fountain pen from Delta called the Pharaoh! This Goulet-exclusive release has an engraved fan pattern black resin body with a smooth black cap, pearlescent white finials, and an ornate gold-plated decorative center band.",
+  "hl": [
+   "Introducing"
+  ],
+  "first_seen": "2026-11-24T15:51:27.708720+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Delta"
+  ],
+  "upcoming": false,
+  "dup_of": "d5a48785c9a26aae"
+ },
+ {
   "uid": "ca4ff53cd9699a1c",
   "source": "Twoje Pióro: edycje limitowane (PL)",
   "title": "Pióro wieczne Kaweco COLLECTION Sport Marble Ocean - edycja specjalna",
@@ -19,7 +368,7 @@
   "brands": [
    "Kaweco"
   ],
-  "enrich_tries": 1,
+  "enrich_tries": 2,
   "upcoming": false,
   "dup_of": "061d1946435259d8"
  },
@@ -239,6 +588,10 @@
    {
     "source": "Goulet: Limited & Special Edition",
     "link": "https://www.gouletpens.com/products/delta-pharaoh-fountain-pen-limited-edition"
+   },
+   {
+    "source": "Goulet: New Arrivals",
+    "link": "https://www.gouletpens.com/products/delta-pharaoh-fountain-pen-limited-edition"
    }
   ]
  },
@@ -266,6 +619,27 @@
   ],
   "upcoming": false,
   "dup_of": "d5a48785c9a26aae"
+ },
+ {
+  "uid": "c078eb42974e8d5e",
+  "source": "Goldspot: nowe kolekcje",
+  "title": "Jacques Herbin Accessories",
+  "link": "https://goldspot.com/collections/jacques-herbin-accessories",
+  "summary": "",
+  "image": "http://goldspot.com/cdn/shop/collections/Screen_Shot_2026-11-23_at_2.00.12_PM.png?v=1795460452",
+  "published": "2026-11-23T13:52:47+00:00",
+  "date_kind": "page",
+  "snippet": "Explore Jacques Herbin’s collection of writing accessories, including blotter paper, pen cleaning solutions, and other essentials designed to care for and complement your fine writing instruments.",
+  "hl": [],
+  "first_seen": "2026-11-24T15:51:27.708720+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
  },
  {
   "uid": "3fc89cff1162d4b5",
@@ -2743,6 +3117,31 @@
   "upcoming": false
  },
  {
+  "uid": "efe2115a5396e46e",
+  "source": "Goldspot: New Releases",
+  "title": "Pelikan Souveran M800 Fountain Pen Ocean Series in Indian Ocean - Special Edition",
+  "link": "https://goldspot.com/products/pelikan-souveran-m800-fountain-pen-ocean-series-in-indian-ocean-special-edition",
+  "summary": "Vendor: Pelikan Pens Type: Fountain Pen Price: 1036.00 Inspired by the captivating beauty of the world's oceans, the Pelikan Souverän M800 Indian Ocean Fountain Pen marks the first edition of the new Oceans Series. Deep ocean blue and vibrant golden yellow flow together in a…",
+  "image": "https://cdn.shopify.com/s/files/1/1693/8459/files/a5cd7441-41df-4777-a083-b035924884fa.png?v=1794330827",
+  "published": "2026-11-10T17:13:43+00:00",
+  "date_kind": "published",
+  "snippet": "This special edition celebrates the natural beauty of the Indian Ocean while preserving the timeless elegance of Pelikan's iconic Souverän collection.",
+  "hl": [
+   "special edition"
+  ],
+  "first_seen": "2026-11-24T15:51:27.708720+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Pelikan"
+  ],
+  "upcoming": false,
+  "dup_of": "c4f72089e1a64c7c"
+ },
+ {
   "uid": "ffbd889bb5f51c94",
   "source": "Goulet: New Arrivals",
   "title": "Pilot Custom Enju Fountain Pen - Wood",
@@ -4321,6 +4720,10 @@
     "link": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition/pelikan-souveran-m800-fountain-pen-indian-ocean-special-edition"
    },
    {
+    "source": "Goldspot: New Releases",
+    "link": "https://goldspot.com/products/pelikan-souveran-m800-fountain-pen-ocean-series-in-indian-ocean-special-edition"
+   },
+   {
     "source": "Pen Boutique: Coming Soon",
     "link": "https://www.penboutique.com/products/pelikan-souveran-m800-indian-ocean-fountain-pen"
    },
@@ -5808,7 +6211,13 @@
   "release": true,
   "brands": [],
   "enrich_tries": 9,
-  "upcoming": true
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Goulet: New Arrivals",
+    "link": "https://www.gouletpens.com/products/private-reserve-black-cherry-reduction-30ml-special-edition"
+   }
+  ]
  },
  {
   "uid": "c951dedcccbfaf4c",

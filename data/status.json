@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-23T15:56:27.238918+00:00",
+ "last_run": "2026-11-24T15:51:27.708720+00:00",
  "sources": [
   {
    "source": "The Pelikan's Perch (Pelikan)",
@@ -143,7 +143,7 @@
    "source": "Stilo e Stile (limited edition)",
    "url": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition",
    "ok": true,
-   "entries_in_feed": 20
+   "entries_in_feed": 21
   },
   {
    "source": "JetPens: Kaweco Collection Sport",
@@ -197,7 +197,7 @@
    "source": "Google News: limited/special edition",
    "url": "https://news.google.com/rss/search?q=%22fountain+pen%22+%28%22limited+edition%22+OR+%22special+edition%22+OR+%22new+colorway%22+OR+%22new+colors%22%29+when%3A14d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "entries_in_feed": 5
+   "entries_in_feed": 6
   },
   {
    "source": "YouTube: Asvine Pen",
@@ -280,8 +280,8 @@
   {
    "source": "epiora.pl (PL)",
    "url": "https://epiora.pl/",
-   "ok": true,
-   "entries_in_feed": 59
+   "ok": false,
+   "error": "403 Client Error: Forbidden for url: https://epiora.pl/"
   },
   {
    "source": "Scryba: Kaweco (PL)",
@@ -299,7 +299,7 @@
    "source": "Noteka: nowości (PL)",
    "url": "https://noteka.pl/pl/new",
    "ok": true,
-   "entries_in_feed": 127
+   "entries_in_feed": 128
   },
   {
    "source": "Noteka: marki piór (PL)",
