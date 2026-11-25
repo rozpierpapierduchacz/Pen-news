@@ -1,5 +1,168 @@
 [
  {
+  "uid": "b69703618040265f",
+  "source": "Cult Pens: What's New",
+  "title": "LAMY Safari Fountain Pen Meteora Special Edition",
+  "link": "https://cultpens.com/products/lamy-safari-fountain-pen-meteora-special-edition",
+  "summary": "Vendor: LAMY Type: Fountain Pens Price: 21.00 A new addition to the LAMY safari range. The Meteorite is an impressive looking deep purple model, with a bit of a twist on the standard format - the grip sections and the flat side-panels feature a fine diamond-pattern texture.",
+  "image": "https://cdn.shopify.com/s/files/1/0659/6388/4787/files/LM00221-01.jpg?v=1781184393",
+  "published": "2026-11-25T15:26:20+00:00",
+  "date_kind": "published",
+  "snippet": "A new addition to the LAMY safari range. The Meteorite is an impressive looking deep purple model, with a bit of a twist on the standard format - the grip sections and the flat side-panels feature a fine diamond-pattern texture.",
+  "hl": [],
+  "first_seen": "2026-11-25T15:34:47.996639+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Lamy"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "f87a606234cc9fc0",
+  "source": "Goulet: New Arrivals",
+  "title": "Edison Emerson Fountain Pen - Cordovan Flake",
+  "link": "https://www.gouletpens.com/products/edison-emerson-fountain-pen-cordovan-flake",
+  "summary": "Vendor: Edison Type: Fountain Pens Price: 169.00 This Edison Emerson pen is made of a deep red resin, with a silver-plated clip and centerband, and a JoWo #6 steel nib engraved with the Edison logo. It accepts a standard international converter (included) or short standard…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/EdisonEmersonCordovanFlakeFullSStock.jpg?v=1795443359",
+  "published": "2026-11-25T14:33:20+00:00",
+  "date_kind": "published",
+  "snippet": "This Edison Emerson pen is made of a deep red resin, with a silver-plated clip and centerband, and a JoWo #6 steel nib engraved with the Edison logo.",
+  "hl": [],
+  "first_seen": "2026-11-25T15:34:47.996639+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "7ef845985ac9fa20"
+ },
+ {
+  "uid": "ef88f7d5d9e3b457",
+  "source": "Goulet: New Arrivals",
+  "title": "Edison Emerson Fountain Pen - Silverstone",
+  "link": "https://www.gouletpens.com/products/edison-emerson-fountain-pen-silverstone",
+  "summary": "Vendor: Edison Type: Fountain Pens Price: 169.00 This Edison Emerson pen is made of a stunning black and white resin, with a silver-plated clip and centerband, and a JoWo #6 steel nib engraved with the Edison logo. It accepts a standard international converter (included) or…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/EdisonEmersonSilverstoneUncappedStock_50ec231a-1d66-4dd5-919d-0ccc422688ac.jpg?v=1795444543",
+  "published": "2026-11-25T14:33:20+00:00",
+  "date_kind": "published",
+  "snippet": "This Edison Emerson pen is made of a stunning black and white resin, with a silver-plated clip and centerband, and a JoWo #6 steel nib engraved with the Edison logo.",
+  "hl": [],
+  "first_seen": "2026-11-25T15:34:47.996639+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "7ef845985ac9fa20"
+ },
+ {
+  "uid": "6603ced958e45723",
+  "source": "Goulet: New Arrivals",
+  "title": "Edison Emerson Fountain Pen - Sapphire Noir",
+  "link": "https://www.gouletpens.com/products/edison-emerson-fountain-pen-sapphire-noir",
+  "summary": "Vendor: Edison Type: Fountain Pens Price: 169.00 This Edison Emerson pen is made of a stunning blue resin, with a silver-plated clip and centerband, and a JoWo #6 steel nib engraved with the Edison logo. It accepts a standard international converter (included) or short standard…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/EdisonEmersonSapphireNoirFullSStock.jpg?v=1795443493",
+  "published": "2026-11-25T14:33:20+00:00",
+  "date_kind": "published",
+  "snippet": "This Edison Emerson pen is made of a stunning blue resin, with a silver-plated clip and centerband, and a JoWo #6 steel nib engraved with the Edison logo.",
+  "hl": [],
+  "first_seen": "2026-11-25T15:34:47.996639+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "7ef845985ac9fa20"
+ },
+ {
+  "uid": "ae9e49baa6889a50",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Sailor Ebonite Fountain Pen - King of Pens - Tenacious Tabby (North America Exclusive)",
+  "link": "https://www.penboutique.com/products/sailor-ebonite-king-of-pen-tenacious-tabby-fountain-pen",
+  "summary": "Vendor: Sailor Pens Type: Fountain Price: 1900.00 Unleash Your Writing Instinct with Timeless Japanese Craftsmanship Discover the bold elegance of the Sailor Ebonite King of Pen – Tenacious Tabby , a North America Exclusive that celebrates individuality and exceptional Japanese…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Sailor-Ebonite-Fountain-Pen-King-of-Pens-Tenacious-Tabby-North-America-Exclusive-Fountain-Sailor-Pens.png?v=1795560446",
+  "published": "2026-11-25T02:43:35+00:00",
+  "date_kind": "published",
+  "snippet": "Sailor Fountain Pen - Commemorative - 115th Anniversary Hiroshima Momiji",
+  "hl": [
+   "Commemorative",
+   "Anniversary"
+  ],
+  "first_seen": "2026-11-25T15:34:47.996639+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Sailor"
+  ],
+  "enrich_tries": 9,
+  "upcoming": true
+ },
+ {
+  "uid": "36f61befc133830a",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Edison Emerson Fountain Pen - Sapphire Noir",
+  "link": "https://www.penboutique.com/products/edison-emerson-fountain-pen-sapphire-noir",
+  "summary": "Vendor: Edison Pens Type: Fountain Price: 169.00 Edison Fountain Pen | Emerson - Sapphire Noir Experience the next evolution of American penmaking with the Edison Emerson Fountain Pen in Sapphire Noir . Introduced to Edison’s Production Line as the successor to the beloved…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Edison-Emerson-Fountain-Pen-Sapphire-Noir-Fountain-Edison-Pens-Fine.jpg?v=1795560414",
+  "published": "2026-11-24T17:31:52+00:00",
+  "date_kind": "published",
+  "snippet": "Introduced to Edison’s Production Line as the successor to the beloved Menlo, the Emerson retains the classic, comfortable silhouette fans adore while featuring an upgraded cap design—highlighted by a substantial, non-captured cap band mounted cleanly at the base of the cap.",
+  "hl": [
+   "Introduced"
+  ],
+  "first_seen": "2026-11-25T15:34:47.996639+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": true,
+  "dup_of": "7ef845985ac9fa20"
+ },
+ {
+  "uid": "f70123f8db6f1a73",
+  "source": "Goulet: Coming Soon",
+  "title": "Delta Duna Fountain Pen - House Under The Lake (Limited Edition)",
+  "link": "https://www.gouletpens.com/products/delta-duna-fountain-pen-house-under-the-lake-limited-edition",
+  "summary": "Vendor: Delta Type: Fountain Pens Price: 220.00 Delta, the renowned Italian pen brand revived by co-founder Nino Marino, continues its legacy of distinctive Italian writing instruments with the Duna. Combining a vintage-inspired silhouette with modern functionality, the Duna…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/DeltaDunaHouseUndertheLakestock-1.jpg?v=1795446372",
+  "published": "2026-11-24T17:02:27+00:00",
+  "date_kind": "published",
+  "snippet": "The House Under The Lake Limited Edition brings a unique character to the Duna through a custom resin created by renowned resin artist Kristen Brooks of Fountain Telling Company.",
+  "hl": [
+   "Limited Edition"
+  ],
+  "first_seen": "2026-11-25T15:34:47.996639+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Delta"
+  ],
+  "upcoming": true,
+  "dup_of": "757eb48cdd111028"
+ },
+ {
   "uid": "720b7c6ad52bc94f",
   "source": "Stilo e Stile (limited edition)",
   "title": "Leonardo x Stilo&Stile Momento Zero Fountain Pen Black Kintsugi & Ruthenium",
@@ -670,6 +833,10 @@
     "link": "https://www.penboutique.com/products/visconti-homo-sapiens-fountain-pen-crystal-magma-18k-nib"
    },
    {
+    "source": "Pen Boutique: New Arrivals",
+    "link": "https://www.penboutique.com/products/visconti-homo-sapiens-fountain-pen-crystal-magma-18k-nib"
+   },
+   {
     "source": "Goulet: Coming Soon",
     "link": "https://www.gouletpens.com/products/visconti-homo-sapiens-fountain-pen-crystal-magma"
    },
@@ -693,6 +860,31 @@
    "reveals"
   ],
   "first_seen": "2026-11-23T15:56:27.238918+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Visconti"
+  ],
+  "upcoming": false,
+  "dup_of": "3fc89cff1162d4b5"
+ },
+ {
+  "uid": "e42cd25a6beb9193",
+  "source": "Pen Boutique: New Arrivals",
+  "title": "Visconti Homo Sapiens Fountain Pen - Crystal Magma - 14kt Nib",
+  "link": "https://www.penboutique.com/products/visconti-homo-sapiens-fountain-pen-crystal-magma-18k-nib",
+  "summary": "Vendor: Visconti Pens Type: Fountain Price: 1276.00 Fire, transparency, and fine craftsmanship in one striking writing instrument. The Visconti Homo Sapiens Crystal Magma Fountain Pen brings together the unmistakable character of volcanic lava, vivid red accents, and innovative…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Visconti-Homo-Sapiens-Fountain-Pen-Crystal-Magma-14kt-Nib-Fountain-Visconti-Pens.png?v=1795467558",
+  "published": "2026-11-23T05:10:35+00:00",
+  "date_kind": "published",
+  "snippet": "Crafted from volcanic lava rock and smoky acrylic resin, the Crystal Magma reveals a fresh perspective on the iconic Homo Sapiens design.",
+  "hl": [
+   "reveals"
+  ],
+  "first_seen": "2026-11-25T15:34:47.996639+00:00",
   "tier": "release",
   "upcoming_own": false,
   "ttl_days": null,
@@ -1113,6 +1305,14 @@
    {
     "source": "Goulet: Coming Soon",
     "link": "https://www.gouletpens.com/products/edison-emerson-fountain-pen-cordovan-flake"
+   },
+   {
+    "source": "Pen Boutique: Coming Soon",
+    "link": "https://www.penboutique.com/products/edison-emerson-fountain-pen-sapphire-noir"
+   },
+   {
+    "source": "Goulet: New Arrivals",
+    "link": "https://www.gouletpens.com/products/edison-emerson-fountain-pen-cordovan-flake"
    }
   ]
  },
@@ -1459,6 +1659,31 @@
   "dup_of": "6cbd2d5b581fd0be"
  },
  {
+  "uid": "fd3bcccc62fe92b5",
+  "source": "Pen Boutique: New Arrivals",
+  "title": "Conklin Duragraph Nights Fountain Pen - Primary Manipulation 4.0 - Chrome Trim (Limited Edition)",
+  "link": "https://www.penboutique.com/products/conklin-duragraph-nights-primary-manipulation-4-fountain-pen",
+  "summary": "Vendor: Conklin-Pens Type: Fountain Price: 116.00 Vintage Heritage Uniquely Marbled Exceptionally Crafted Celebrate timeless design and contemporary artistry with the Conklin Duragraph Nights Fountain Pen – Primary Manipulation 4.0, Chrome Trim (Limited Edition) . Inspired by…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Conklin-Duragraph-Nights-Fountain-Pen-Primary-Manipulation-4_0-Chrome-Trim-Limited-Edition-Fountain-Conklin-Pens.png?v=1795085048",
+  "published": "2026-11-18T20:28:46+00:00",
+  "date_kind": "published",
+  "snippet": "Celebrate timeless design and contemporary artistry with the Conklin Duragraph Nights Fountain Pen – Primary Manipulation 4.0, Chrome Trim (Limited Edition) .",
+  "hl": [
+   "Limited Edition"
+  ],
+  "first_seen": "2026-11-25T15:34:47.996639+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Conklin"
+  ],
+  "upcoming": false,
+  "dup_of": "6cbd2d5b581fd0be"
+ },
+ {
   "uid": "354e7afaa9e0da11",
   "source": "Pen Boutique: New Arrivals",
   "title": "Nahvalur Original Fountain Pen - Burgundy Wine",
@@ -1615,6 +1840,10 @@
   "also": [
    {
     "source": "Pen Boutique: Coming Soon",
+    "link": "https://www.penboutique.com/products/conklin-duragraph-nights-primary-manipulation-4-fountain-pen"
+   },
+   {
+    "source": "Pen Boutique: New Arrivals",
     "link": "https://www.penboutique.com/products/conklin-duragraph-nights-primary-manipulation-4-fountain-pen"
    },
    {
@@ -2051,6 +2280,14 @@
    {
     "source": "Pen Boutique: Limited Edition",
     "link": "https://www.penboutique.com/products/delta-duna-fountain-pen-house-under-the-lake-188-limited-edition"
+   },
+   {
+    "source": "Pen Boutique: New Arrivals",
+    "link": "https://www.penboutique.com/products/delta-duna-fountain-pen-house-under-the-lake-188-limited-edition"
+   },
+   {
+    "source": "Goulet: Coming Soon",
+    "link": "https://www.gouletpens.com/products/delta-duna-fountain-pen-house-under-the-lake-limited-edition"
    }
   ]
  },
@@ -2068,6 +2305,31 @@
    "Limited Edition"
   ],
   "first_seen": "2026-11-16T13:37:14.591330+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Delta"
+  ],
+  "upcoming": false,
+  "dup_of": "757eb48cdd111028"
+ },
+ {
+  "uid": "4d2153b794892727",
+  "source": "Pen Boutique: New Arrivals",
+  "title": "Delta Duna Fountain Pen - House Under The Lake (188 Limited Edition)",
+  "link": "https://www.penboutique.com/products/delta-duna-fountain-pen-house-under-the-lake-188-limited-edition",
+  "summary": "Vendor: Delta Type: Fountain Price: 220.00 Delta Fountain Pen | Duna - House Under The Lake (Limited Edition) Immerse yourself in the poetic beauty of Italian penmaking with the Delta Duna Fountain Pen in House Under The Lake (Limited Edition) . Limited to just 188 pieces…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/8W6A3295_2.jpg?v=1795560127",
+  "published": "2026-11-16T06:06:52+00:00",
+  "date_kind": "published",
+  "snippet": "Delta Fountain Pen | Duna - House Under The Lake (Limited Edition)",
+  "hl": [
+   "Limited Edition"
+  ],
+  "first_seen": "2026-11-25T15:34:47.996639+00:00",
   "tier": "release",
   "upcoming_own": false,
   "ttl_days": null,
@@ -13144,6 +13406,29 @@
    "Faber-Castell",
    "Graf von Faber-Castell"
   ],
+  "upcoming": false
+ },
+ {
+  "uid": "2143b65968f9676a",
+  "source": "Everything Calligraphy (PH): Moonman/Majohn",
+  "title": "Majohn (Moonman) #35 Fountain Pen Nib",
+  "link": "https://www.everythingcalligraphy.com/products/majohn-moonman-35-nib",
+  "summary": "Vendor: Moonman Type: Stationery Price: 199.00 - 249.00 (11 variants) This #35 Fountain Pen Replacement Nib works with M6, M8, M600S, T1, T2, T5, M800 (Majohn Nib), and C1.",
+  "image": "https://cdn.shopify.com/s/files/1/0905/3760/files/Majohn_Moonman_35FountainPenNib.png?v=1789719984",
+  "published": "2026-09-21T00:28:14+00:00",
+  "date_kind": "published",
+  "snippet": "Price: 199.00 - 249.00 (11 variants)",
+  "hl": [],
+  "first_seen": "2026-11-25T15:34:47.996639+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Majohn"
+  ],
+  "enrich_tries": 9,
   "upcoming": false
  },
  {
