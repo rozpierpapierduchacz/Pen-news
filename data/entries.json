@@ -1,5 +1,323 @@
 [
  {
+  "uid": "c58de4878d7b6a7a",
+  "source": "Twoje Pióro: Pelikan limitowane (PL)",
+  "title": "Pióro wieczne Pelikan M820 Indian Ocean 18k - edycja specjalna",
+  "link": "https://www.twojepioro.pl/pl/p/Pioro-wieczne-Pelikan-M820-Indian-Ocean-18k-edycja-specjalna-/20847",
+  "summary": "",
+  "image": "https://www.twojepioro.pl/environment/cache/images/productGfx_100193_500_500/Pioro-wieczne-Pelikan-M800-Indian-Ocean.webp?overlay=1",
+  "published": "2026-11-26T15:11:08.383838+00:00",
+  "date_kind": "detected",
+  "snippet": "",
+  "hl": [],
+  "first_seen": "2026-11-26T15:11:08.383838+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Pelikan"
+  ],
+  "enrich_tries": 1,
+  "upcoming": false
+ },
+ {
+  "uid": "35148306ad912eba",
+  "source": "Noteka: nowości (PL)",
+  "title": "Ołówki Blackwing Eras - Edycja limitowana 2026 noteka.jpg",
+  "link": "https://noteka.pl/pl/p/Olowki-Blackwing-Eras-Edycja-limitowana-2026/9575",
+  "summary": "",
+  "image": "https://noteka.pl/environment/cache/images/productGfx_62397_300_300/Olowki-Blackwing-Eras---Edycja-limitowana-2026-noteka.jpg",
+  "published": "2026-11-26T15:11:08.383838+00:00",
+  "date_kind": "detected",
+  "snippet": "Blackwing Eras 2026 to limitowana edycja ołówków inspirowana historycznymi modelami marki.",
+  "hl": [
+   "limitowana edycja"
+  ],
+  "first_seen": "2026-11-26T15:11:08.383838+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "57b20fdd86b122e9",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Edison Emerson Fountain Pen - Cordovan Flake",
+  "link": "https://www.penboutique.com/products/edison-emerson-fountain-pen-cordovan-flake",
+  "summary": "Vendor: Edison Pens Type: Fountain Price: 169.00 Edison Fountain Pen | Emerson - Cordovan Flake Experience the next evolution of American penmaking with the Edison Emerson Fountain Pen in Cordovan Flake . Introduced to Edison’s Production Line as the successor to the beloved…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Edison_Emerson_Fountain_Pen_-_Cordovan_Flake_01.jpg?v=1795705166",
+  "published": "2026-11-26T15:10:12+00:00",
+  "date_kind": "published",
+  "snippet": "Introduced to Edison’s Production Line as the successor to the beloved Menlo, the Emerson preserves the classic, comfortable silhouette enthusiasts admire while introducing an upgraded cap design—highlighted by a substantial, non-captured cap band mounted cleanly at the base of the cap.",
+  "hl": [
+   "Introduced",
+   "introducing"
+  ],
+  "first_seen": "2026-11-26T15:11:08.383838+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": true,
+  "dup_of": "7ef845985ac9fa20"
+ },
+ {
+  "uid": "d9670739444063bd",
+  "source": "Cult Pens: What's New",
+  "title": "Kilk Celestial Fountain Pen Purple & Cream",
+  "link": "https://cultpens.com/products/kilk-celestial-fountain-pen-purple-cream",
+  "summary": "Vendor: Kilk Type: Fountain Pens Price: 245.00 Kilk, whose roots go back to a small workshop in Istanbul, offer a range of writing instruments designed with the concepts of aesthetics, ergonomics and durability strongly in mind. The Celestial features a traditional Charkifelek…",
+  "image": "https://cdn.shopify.com/s/files/1/0659/6388/4787/products/KI00002-ZZZ_Kilk-Celestial-Fountain-Pen-Purple-Cream_P1_123c7b9e-9c6e-4ee6-a899-65ec2fcb6987.jpg?v=1678188431",
+  "published": "2026-11-26T11:41:39+00:00",
+  "date_kind": "published",
+  "snippet": "Kilk, whose roots go back to a small workshop in Istanbul, offer a range of writing instruments designed with the concepts of aesthetics, ergonomics and durability strongly in mind.",
+  "hl": [],
+  "first_seen": "2026-11-26T15:11:08.383838+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "80addc274c1a376f",
+  "source": "Cult Pens: What's New",
+  "title": "Ferris Wheel Press Everyday Fountain Pen Ink 10ml Highland Smoke",
+  "link": "https://cultpens.com/products/ferris-wheel-press-everyday-fountain-pen-ink-10ml-highland-smoke",
+  "summary": "Vendor: Ferris Wheel Press Type: Fountain Pen Ink Price: 8.00 10ml glass bottle. Perfect for testing and sampling. Ferris Wheel press is a multi-award winning design and stationery company based in Ontario, Canada. Their name is inspired by an amalgamation of the printing press…",
+  "image": "https://cdn.shopify.com/s/files/1/0659/6388/4787/files/FWP-HighlandSmoke-10ml_1064x1064_1815209a-cbf2-473a-b08f-0e8e5166b47a.webp?v=1747914473",
+  "published": "2026-11-26T11:40:51+00:00",
+  "date_kind": "published",
+  "snippet": "Vendor: Ferris Wheel Press",
+  "hl": [],
+  "first_seen": "2026-11-26T15:11:08.383838+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Ferris Wheel Press"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "ff6aefa2fbc9c3ac",
+  "source": "Cult Pens: What's New",
+  "title": "Diplomat Aero Midnight Blue Fountain Pen 14ct Nib",
+  "link": "https://cultpens.com/products/diplomat-aero-midnight-blue-fountain-pen-14ct-nib",
+  "summary": "Vendor: Diplomat Type: Fountain Pens Price: 315.00 The Diplomat Aero fountain pen features a sculpted anodized aluminium body inspired by the legendary Zeppelin airship of 1900. The recessions in the barrel reduce the overall weight of the pen whilst allowing it to keep its…",
+  "image": "https://cdn.shopify.com/s/files/1/0659/6388/4787/files/DP00054-1.jpg?v=1710346268",
+  "published": "2026-11-26T11:33:16+00:00",
+  "date_kind": "published",
+  "snippet": "The Diplomat Aero fountain pen features a sculpted anodized aluminium body inspired by the legendary Zeppelin airship of 1900.",
+  "hl": [],
+  "first_seen": "2026-11-26T15:11:08.383838+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Diplomat"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "76cff5e13bdc37f9",
+  "source": "Cult Pens: What's New",
+  "title": "Ferris Wheel Press Ferritales Fountain Pen Ink 10ml Starlit Stories",
+  "link": "https://cultpens.com/products/ferris-wheel-press-ferritales-fountain-pen-ink-10ml-starlit-sea",
+  "summary": "Vendor: Ferris Wheel Press Type: Fountain Pen Ink Price: 8.00 Ferris Wheel press is a multi-award winning design and stationery company based in Ontario, Canada. Their name is inspired by an amalgamation of the printing press and the nostalgia of the carnival and their aim is…",
+  "image": "https://cdn.shopify.com/s/files/1/0659/6388/4787/files/FWP-StarlitStories-10ml_1064x1064_5a894aa1-634a-4344-abdc-2d9acaa2b533.webp?v=1750176116",
+  "published": "2026-11-26T11:07:49+00:00",
+  "date_kind": "published",
+  "snippet": "Vendor: Ferris Wheel Press",
+  "hl": [],
+  "first_seen": "2026-11-26T15:11:08.383838+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Ferris Wheel Press"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "3436e8697690366e",
+  "source": "Cult Pens: What's New",
+  "title": "Ferris Wheel Press Fountain Pen Ink 38ml Bluebell Brushstrokes",
+  "link": "https://cultpens.com/products/ferris-wheel-press-fountain-pen-ink-38ml-bluebell-brushstrokes",
+  "summary": "Vendor: Ferris Wheel Press Type: Fountain Pen Ink Price: 25.00 Ink deserves to be inspiring. From the moment you receive it, to when you draw it into your pen, it should remind you of the magic of writing. A sheening medium blue with versatile, sophisticated and vintage…",
+  "image": "https://cdn.shopify.com/s/files/1/0659/6388/4787/files/FW00002-BBS_Ferris-Wheel-Press-Fountain-Pen-Ink-38ml-Bluebell-Brushstrokes.jpg?v=1736162634",
+  "published": "2026-11-26T11:07:34+00:00",
+  "date_kind": "published",
+  "snippet": "Vendor: Ferris Wheel Press",
+  "hl": [],
+  "first_seen": "2026-11-26T15:11:08.383838+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Ferris Wheel Press"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "1f621fe7f39f92a7",
+  "source": "Cult Pens: What's New",
+  "title": "Pelikan Griffix Ink Pen",
+  "link": "https://cultpens.com/products/pelikan-griffix-ink-pen",
+  "summary": "Vendor: Pelikan Type: Pens Price: 7.00 Pelikan Griffix ink pen for children. Features a chunky, rubberised grip area and includes 2 ink pen cartridges. Available in a range of colours and in both left- and right-handed models.",
+  "image": "https://cdn.shopify.com/s/files/1/0659/6388/4787/files/PK00135_Pelikan-Graffix-Ink-Pen-Left-Handed-Berry.jpg?v=1733834661",
+  "published": "2026-11-26T11:07:26+00:00",
+  "date_kind": "published",
+  "snippet": "Pelikan Griffix ink pen for children. Features a chunky, rubberised grip area and includes 2 ink pen cartridges.",
+  "hl": [],
+  "first_seen": "2026-11-26T15:11:08.383838+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Pelikan"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "753678444db45417",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Tono & Lims Ink Bottle - DEEEP FIELD - Fast Radio Burst - 30ml",
+  "link": "https://www.penboutique.com/products/tono-lims-ink-bottle-deeep-field-fast-radio-burst-30ml",
+  "summary": "Vendor: Tono & Lims Type: Refill - Bottled Ink Price: 25.00 A fleeting burst of cosmic color, brought to life on paper. Inspired by Fast Radio Bursts, powerful radio signals that travel through space and last only milliseconds, Tono & Lims DEEEP FIELD Fast Radio Burst ink…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Tono-Lims-Ink-Bottle-DEEEP-FIELD-Fast-Radio-Burst-30ml-Refill-Bottled-Ink-Tono-Lims.png?v=1795663446",
+  "published": "2026-11-25T22:03:01+00:00",
+  "date_kind": "published",
+  "snippet": "Paper-Dependent Results: Some papers reveal an immediate color transformation, while others maintain a consistent appearance through drying.",
+  "hl": [
+   "reveal"
+  ],
+  "first_seen": "2026-11-26T15:11:08.383838+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": true
+ },
+ {
+  "uid": "016165ac9abd99df",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Tono & Lims Ink Bottle - DEEEP FIELD - Little Red Dots - 30ml",
+  "link": "https://www.penboutique.com/products/tono-lims-ink-bottle-deeep-field-little-red-dots-30ml",
+  "summary": "Vendor: Tono & Lims Type: Refill - Bottled Ink Price: 25.00 A Universe of Color in Every Stroke. Inspired by the mysterious little red dots observed through the James Webb Space Telescope, Tono & Lims Little Red Dots brings a fascinating cosmic phenomenon to the world of…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Tono-Lims-Ink-Bottle-DEEEP-FIELD-Little-Red-Dots-30ml-Refill-Bottled-Ink-Tono-Lims.png?v=1795663447",
+  "published": "2026-11-25T22:02:57+00:00",
+  "date_kind": "published",
+  "snippet": "Part of the DEEEP FIELD collection, this distinctive ink features an innovative color-separating effect that reveals an intriguing combination of colors on paper.",
+  "hl": [
+   "reveals"
+  ],
+  "first_seen": "2026-11-26T15:11:08.383838+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": true
+ },
+ {
+  "uid": "ea42fc77dcbe8c1c",
+  "source": "Pióromaniak (PL)",
+  "title": "Conklin Duragraph Raden – Rose Gold – edycja limitowana PL",
+  "link": "https://www.pioromaniak.pl/produkt/conklin-duragraph-raden-edycja-limitowana-pl/",
+  "summary": "",
+  "image": "https://www.pioromaniak.pl/wp-content/uploads/2025/10/Conklin-Duragraph-Raden.jpg",
+  "published": "2026-11-25T19:00:50+00:00",
+  "date_kind": "page",
+  "snippet": "PiÃ³ro wieczne Conklin Duragarph Raden. Wygodne, sÅusznych rozmiarÃ³w piÃ³ro napeÅniane za pomocÄ tÅoczka lub naboi uniwersalnych.",
+  "hl": [],
+  "first_seen": "2026-11-26T15:11:08.383838+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "378f5dd4667b438c",
+  "source": "Goulet: Coming Soon",
+  "title": "Esterbrook Estie Fountain Pen - Amber Tortoise",
+  "link": "https://www.gouletpens.com/products/esterbrook-estie-fountain-pen-amber-tortoise",
+  "summary": "Vendor: Esterbrook Type: Fountain Pens Price: 175.50 - 229.50 (8 variants) This comfortably balanced Esterbrook Estie Amber Tortoise is offered in a fountain pen with gold-plated trim. The tones of homey amber and deep brown in the material is made of blended and turned acrylic…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/EsterbrookEstieAmberTortoisestock-4.jpg?v=1795548933",
+  "published": "2026-11-25T15:46:29+00:00",
+  "date_kind": "published",
+  "snippet": "Price: 175.50 - 229.50 (8 variants)",
+  "hl": [],
+  "first_seen": "2026-11-26T15:11:08.383838+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Esterbrook"
+  ],
+  "enrich_tries": 9,
+  "upcoming": true,
+  "dup_of": "1c3647dec41cadc0"
+ },
+ {
+  "uid": "fc630b7bd6599c53",
+  "source": "Goulet: Coming Soon",
+  "title": "Sailor 1911 Casual L Basis Fountain Pen - 12am",
+  "link": "https://www.gouletpens.com/products/sailor-1911-casual-l-basis-fountain-pen-12am",
+  "summary": "Vendor: Sailor Type: Fountain Pens Price: 200.00 We’ve all been there—staring at the clock at 12am, wondering where the day went or realizing our brain has finally decided to wake up. That exact feeling is the inspiration behind Sailor's newest release: the Sailor Casual L Basis…",
+  "image": "https://cdn.shopify.com/s/files/1/2603/2528/files/Sailor_1911L_Casual_-_12am_stock-3.jpg?v=1795551728",
+  "published": "2026-11-25T15:45:01+00:00",
+  "date_kind": "published",
+  "snippet": "We’ve all been there—staring at the clock at 12am, wondering where the day went or realizing our brain has finally decided to wake up.",
+  "hl": [],
+  "first_seen": "2026-11-26T15:11:08.383838+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Sailor"
+  ],
+  "enrich_tries": 9,
+  "upcoming": true
+ },
+ {
   "uid": "b69703618040265f",
   "source": "Cult Pens: What's New",
   "title": "LAMY Safari Fountain Pen Meteora Special Edition",
@@ -1475,7 +1793,13 @@
   "brands": [
    "Esterbrook"
   ],
-  "upcoming": false
+  "upcoming": false,
+  "also": [
+   {
+    "source": "Goulet: Coming Soon",
+    "link": "https://www.gouletpens.com/products/esterbrook-estie-fountain-pen-amber-tortoise"
+   }
+  ]
  },
  {
   "uid": "89242a43ff7cd615",
@@ -1839,6 +2163,10 @@
   "upcoming": false,
   "also": [
    {
+    "source": "Goldspot: New Releases",
+    "link": "https://goldspot.com/products/conklin-duragraph-nights-fountain-pen-in-primary-manipulation-4-0-with-chrome-trim-limited-edition"
+   },
+   {
     "source": "Pen Boutique: Coming Soon",
     "link": "https://www.penboutique.com/products/conklin-duragraph-nights-primary-manipulation-4-fountain-pen"
    },
@@ -1851,6 +2179,31 @@
     "link": "https://www.gouletpens.com/products/conklin-duragraph-fountain-pen-primary-manipulation-4-0-nights-limited-edition"
    }
   ]
+ },
+ {
+  "uid": "242f2c08c534c47e",
+  "source": "Goldspot: New Releases",
+  "title": "Conklin Duragraph Nights Fountain Pen in Primary Manipulation 4.0 with Chrome Trim - Limited Edition",
+  "link": "https://goldspot.com/products/conklin-duragraph-nights-fountain-pen-in-primary-manipulation-4-0-with-chrome-trim-limited-edition",
+  "summary": "Vendor: Conklin Pens Type: Fountain Pen Price: 116.00 The Conklin Duragraph Nights Primary Manipulation 4.0 brings together the timeless elegance of Conklin’s classic fountain pen design and the vibrant resin artistry of renowned artisan Jonathan Brooks. Inspired by Conklin’s…",
+  "image": "https://cdn.shopify.com/s/files/1/1693/8459/files/4b1205dd-1784-4884-b525-cc15b9655e23.jpg?v=1794940021",
+  "published": "2026-11-17T18:27:02+00:00",
+  "date_kind": "published",
+  "snippet": "This special limited edition features Brooks’ signature Primary Manipulation 4.0 resin, showcasing an eye-catching combination of colors and intricate patterns.",
+  "hl": [
+   "limited edition"
+  ],
+  "first_seen": "2026-11-26T15:11:08.383838+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Conklin"
+  ],
+  "upcoming": false,
+  "dup_of": "6cbd2d5b581fd0be"
  },
  {
   "uid": "b43926c7719b9979",
