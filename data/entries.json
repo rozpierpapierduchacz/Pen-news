@@ -1,5 +1,142 @@
 [
  {
+  "uid": "1da2438aa51b7e05",
+  "source": "Stilo e Stile (limited edition)",
+  "title": "Opus 88 Mini Pocket Fountain Pen Autumn Fairy Tale",
+  "link": "https://www.stiloestile.com/en/fountain-pens/special-limited-edition/opus-88-mini-pocket-fountain-pen-autumn-fairy-tale",
+  "summary": "",
+  "image": "https://www.stiloestile.com/71851-large_default/opus-88-mini-pocket-fountain-pen-autumn-fairy-tale.jpg",
+  "published": "2026-11-27T15:03:00.432357+00:00",
+  "date_kind": "detected",
+  "snippet": "Opus 88 Mini Pocket Fountain Pen Summer Strike Special Edition",
+  "hl": [
+   "Special Edition"
+  ],
+  "first_seen": "2026-11-27T15:03:00.432357+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Opus 88"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "d5698b42e49f008c",
+  "source": "epiora.pl (PL)",
+  "title": "Pióro wieczne Pelikan Souverän M600 Art Collection Georg Tippel edycja specjalna",
+  "link": "https://epiora.pl/pl/p/Pioro-wieczne-Pelikan-Souveran-M600-Art-Collection-Georg-Tippel-edycja-specjalna-/5866",
+  "summary": "",
+  "image": "https://epiora.pl/environment/cache/images/productGfx_15437_300_300/Pioro-wieczne-Pelikan-Souveran-M600-Art-Collection-Georg-Tippel-edycja-specjalna.webp?overlay=1",
+  "published": "2026-11-27T15:03:00.432357+00:00",
+  "date_kind": "detected",
+  "snippet": "Pióro wieczne Pelikan Souverän M600 Art Collection Georg Tippel edycja specjalna",
+  "hl": [
+   "edycja specjalna"
+  ],
+  "first_seen": "2026-11-27T15:03:00.432357+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Pelikan"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false
+ },
+ {
+  "uid": "701bb1fac124aa7c",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Zek Pens Nazende Fountain Pen - Purple",
+  "link": "https://www.penboutique.com/products/zek-pens-nazende-fountain-pen-purple",
+  "summary": "Vendor: Zek Pens Type: Fountain Price: 340.00 Zek Pens Fountain Pen | Nazende - Purple Elevate your daily writing ritual with the Zek Pens Nazende Fountain Pen in Purple . Blending sculptural metalwork with regal artistry, this straight, cylindrical writing instrument showcases…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/8W6A2682_2.jpg?v=1795550850",
+  "published": "2026-11-26T16:11:54+00:00",
+  "date_kind": "published",
+  "snippet": "Zek Pens Fountain Pen | Nazende - Purple",
+  "hl": [],
+  "first_seen": "2026-11-27T15:03:00.432357+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": true
+ },
+ {
+  "uid": "7c6de0fcaf4c0c1c",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Zek Pens Nazende Fountain Pen - Black",
+  "link": "https://www.penboutique.com/products/zek-pens-nazende-fountain-pen-black",
+  "summary": "Vendor: Zek Pens Type: Fountain Price: 340.00 Zek Pens Fountain Pen | Nazende - Black Elevate your daily writing ritual with the Zek Pens Nazende Fountain Pen in Black . Blending sculptural metalwork with understated monochrome drama, this straight, cylindrical writing…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/8W6A2649_2.jpg?v=1795551028",
+  "published": "2026-11-26T16:11:52+00:00",
+  "date_kind": "published",
+  "snippet": "Zek Pens Fountain Pen | Nazende - Black",
+  "hl": [],
+  "first_seen": "2026-11-27T15:03:00.432357+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": true
+ },
+ {
+  "uid": "9ae5face1c2005bc",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Zek Pens Nazende Fountain Pen - Verdigris",
+  "link": "https://www.penboutique.com/products/zek-pens-nazende-fountain-pen-verdigris",
+  "summary": "Vendor: Zek Pens Type: Fountain Price: 340.00 Zek Pens Fountain Pen | Nazende - Verdigris Elevate your daily writing ritual with the Zek Pens Nazende Fountain Pen in Verdigris . Blending sculptural artistry with timeless elegance, this cylindrical writing instrument showcases a…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/8W6A2662_2.jpg?v=1795551134",
+  "published": "2026-11-26T16:11:50+00:00",
+  "date_kind": "published",
+  "snippet": "Zek Pens Fountain Pen | Nazende - Verdigris",
+  "hl": [],
+  "first_seen": "2026-11-27T15:03:00.432357+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "enrich_tries": 9,
+  "upcoming": true
+ },
+ {
+  "uid": "f103e828e71c06c8",
+  "source": "Pen Boutique: Coming Soon",
+  "title": "Edison Emerson Fountain Pen - Silverstone",
+  "link": "https://www.penboutique.com/products/edison-emerson-fountain-pen-silverstone",
+  "summary": "Vendor: Edison Pens Type: Fountain Price: 169.00 Edison Fountain Pen | Emerson - Silverstone Experience the next evolution of American penmaking with the Edison Emerson Fountain Pen in Silverstone . Introduced to Edison’s Production Line as the successor to the beloved Menlo,…",
+  "image": "https://cdn.shopify.com/s/files/1/0046/3421/4518/files/Edison-Emerson-Fountain-Pen-Silverstone-Fountain-Edison-Pens-Fine.jpg?v=1795734066",
+  "published": "2026-11-26T15:25:18+00:00",
+  "date_kind": "published",
+  "snippet": "Introduced to Edison’s Production Line as the successor to the beloved Menlo, the Emerson preserves the classic, comfortable silhouette enthusiasts admire while introducing an upgraded cap design—highlighted by a substantial, non-captured cap band mounted cleanly at the base of the cap.",
+  "hl": [
+   "Introduced",
+   "introducing"
+  ],
+  "first_seen": "2026-11-27T15:03:00.432357+00:00",
+  "tier": "release",
+  "upcoming_own": true,
+  "ttl_days": 75,
+  "retailer_src": true,
+  "release": true,
+  "brands": [],
+  "upcoming": true,
+  "dup_of": "7ef845985ac9fa20"
+ },
+ {
   "uid": "c58de4878d7b6a7a",
   "source": "Twoje Pióro: Pelikan limitowane (PL)",
   "title": "Pióro wieczne Pelikan M820 Indian Ocean 18k - edycja specjalna",
@@ -8,7 +145,7 @@
   "image": "https://www.twojepioro.pl/environment/cache/images/productGfx_100193_500_500/Pioro-wieczne-Pelikan-M800-Indian-Ocean.webp?overlay=1",
   "published": "2026-11-26T15:11:08.383838+00:00",
   "date_kind": "detected",
-  "snippet": "",
+  "snippet": "Pióro wieczne Pelikan M820",
   "hl": [],
   "first_seen": "2026-11-26T15:11:08.383838+00:00",
   "tier": "release",
@@ -19,7 +156,7 @@
   "brands": [
    "Pelikan"
   ],
-  "enrich_tries": 1,
+  "enrich_tries": 9,
   "upcoming": false
  },
  {
@@ -248,6 +385,30 @@
   "release": true,
   "brands": [],
   "upcoming": true
+ },
+ {
+  "uid": "ca1691643b121797",
+  "source": "Goldspot: New Releases",
+  "title": "Esterbrook Estie Fountain Pen in Amber Tortoise with Gold Trim",
+  "link": "https://goldspot.com/products/esterbrook-estie-fountain-pen-in-amber-tortoise-gold-trim",
+  "summary": "Vendor: Esterbrook Pens Type: Fountain Pen Price: 229.50 Inspired by the timeless beauty of classic tortoiseshell patterns, the Esterbrook Estie Fountain Pen in Amber Tortoise with Gold Trim combines vintage elegance with modern craftsmanship. Featuring a rich blend of warm…",
+  "image": "https://cdn.shopify.com/s/files/1/1693/8459/files/7b768340-d3f4-4286-bb39-17abc786cf6c.jpg?v=1795641799",
+  "published": "2026-11-25T21:23:22+00:00",
+  "date_kind": "published",
+  "snippet": "Vendor: Esterbrook Pens",
+  "hl": [],
+  "first_seen": "2026-11-27T15:03:00.432357+00:00",
+  "tier": "release",
+  "upcoming_own": false,
+  "ttl_days": null,
+  "retailer_src": true,
+  "release": true,
+  "brands": [
+   "Esterbrook"
+  ],
+  "enrich_tries": 9,
+  "upcoming": false,
+  "dup_of": "1c3647dec41cadc0"
  },
  {
   "uid": "ea42fc77dcbe8c1c",
@@ -1798,6 +1959,10 @@
    {
     "source": "Goulet: Coming Soon",
     "link": "https://www.gouletpens.com/products/esterbrook-estie-fountain-pen-amber-tortoise"
+   },
+   {
+    "source": "Goldspot: New Releases",
+    "link": "https://goldspot.com/products/esterbrook-estie-fountain-pen-in-amber-tortoise-gold-trim"
    }
   ]
  },
@@ -14482,30 +14647,6 @@
   "release": true,
   "brands": [
    "Conklin"
-  ],
-  "upcoming": false
- },
- {
-  "uid": "88494893dbc45e18",
-  "source": "Cult Pens: Limited Edition Fountain Pens",
-  "title": "Esterbrook Estie Fountain Pen Sakura Street Limited Edition",
-  "link": "https://cultpens.com/products/esterbrook-estie-fountain-pen-sakura-street-limited-edition",
-  "summary": "Vendor: Esterbrook Type: Fountain Pens Price: 315.00 Esterbrook is one of the greatest names in American pen history. Founded in 1858, by their peak they were making 216 million pens a year. Unfortunately, as the market changed, Esterbrook went out of business in 1971. Now…",
-  "image": "https://cdn.shopify.com/s/files/1/0659/6388/4787/files/esterbrook-sakura-p1.jpg?v=1785424399",
-  "published": "2026-07-30T13:10:08+00:00",
-  "date_kind": "published",
-  "snippet": "Now they're back, though, with the name brought back and the designs reinvented by Kenro Industries, who have plenty of experience of bringing back or continuing famous pen brands.",
-  "hl": [
-   "reinvented"
-  ],
-  "first_seen": "2026-10-30T18:29:46.824830+00:00",
-  "tier": "release",
-  "upcoming_own": false,
-  "ttl_days": null,
-  "retailer_src": true,
-  "release": true,
-  "brands": [
-   "Esterbrook"
   ],
   "upcoming": false
  }
